@@ -1,12 +1,12 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import HomePage from 'views/Pages/SubscribersSection/HomePage/HomePage';
+import TestPage from 'views/Pages/TestPage/TestPageContainer';
 
 const routes = [
   {
     path: '/',
     exact: true,
-    component: HomePage,
+    component: TestPage,
   },
 ];
 
