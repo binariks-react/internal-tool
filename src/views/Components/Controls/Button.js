@@ -8,7 +8,9 @@ const getColor = (props) => {
       return props.theme.colors.text;
     }
     return props.theme.colors.white;
-  } else if (props.fill === 'outline') {
+  }
+
+  if (props.fill === 'outline') {
     if (props.color === 'white') {
       return props.theme.colors.text;
     }
@@ -18,7 +20,9 @@ const getColor = (props) => {
 
 const getHoverColor = (props) => {
   if (props.fill === 'fill') return getColor(props);
-  else if (props.fill === 'outline') {
+
+
+  if (props.fill === 'outline') {
     if (props.color === 'white') {
       return props.theme.colors.text;
     }
@@ -29,7 +33,9 @@ const getHoverColor = (props) => {
 const getBackgroundColor = (props) => {
   if (props.fill === 'fill') {
     return props.theme.colors[props.color];
-  } else if (props.fill === 'outline') {
+  }
+
+  if (props.fill === 'outline') {
     return props.theme.colors.white;
   }
 };
@@ -40,7 +46,9 @@ const getBorderColor = (props) => {
       return props.theme.colors.border;
     }
     return props.theme.colors[props.color];
-  } else if (props.fill === 'outline') {
+  }
+
+  if (props.fill === 'outline') {
     if (props.color === 'white') {
       return 'transparent';
     }
@@ -54,7 +62,9 @@ const getHoverBorderColor = (props) => {
       return props.theme.colors.border;
     }
     return props.theme.colors.hoverColors[props.color];
-  } else if (props.fill === 'outline') {
+  }
+
+  if (props.fill === 'outline') {
     if (props.color === 'white') {
       return 'transparent';
     }
@@ -114,13 +124,14 @@ const Button = ({ onClick, preventDefault, stopPropagation, ...props }) => (
 
 const defaultProps = {
   fill: 'fill',
-  preventDefault: false,
-  stopPropagation: false,
+  onClick: () => {},
+  preventDefault: true,
+  stopPropagation: true,
 };
 
 const propTypes = {
   fill: PropTypes.oneOf(['fill', 'outline']),
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func,
   preventDefault: PropTypes.bool,
   stopPropagation: PropTypes.bool,
 };

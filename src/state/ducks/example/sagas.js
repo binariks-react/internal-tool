@@ -1,9 +1,12 @@
 import types from './types';
-import { takeEvery, all } from 'redux-saga/effects';
+import actions from './actions';
+import { takeEvery, all, put } from 'redux-saga/effects';
 
 
 export const exampleSagaAction = function*() {
-  // do smthing
+  const res1 = yield Promise.resolve(12);
+  const res2 = yield Promise.resolve(13);
+  yield put(actions.exampleAction2(res1, res2));
 };
 
 export const watchExampleAction = function*() {

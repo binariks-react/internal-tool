@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot 1`] = `
+<div
+  className="App"
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "colors": Object {
+          "activeColors": Object {
+            "danger": "#97122e",
+            "dark": "#0a0c0d",
+            "info": "#008da5",
+            "java": "#15ad80",
+            "primary": "#0062cc",
+            "royalBlue": "#3f20e7",
+            "salmon": "#ff0e41",
+            "secondary": "#42484e",
+            "success": "#129857",
+            "warning": "#cc9000",
+            "white": "#007bff",
+          },
+          "border": "#e1e5eb",
+          "danger": "#c4183c",
+          "dark": "#212529",
+          "hoverColors": Object {
+            "danger": "#ad1535",
+            "dark": "#16181b",
+            "info": "#00a2bf",
+            "java": "#17c491",
+            "primary": "#006fe6",
+            "royalBlue": "#5337ea",
+            "salmon": "#ff2855",
+            "secondary": "#4e545b",
+            "success": "#14af64",
+            "warning": "#e6a200",
+            "white": "#ffffff",
+          },
+          "info": "#00b8d8",
+          "java": "#1adba2",
+          "primary": "#007bff",
+          "royalBlue": "#674eec",
+          "salmon": "#ff4169",
+          "secondary": "#5a6169",
+          "success": "#17c671",
+          "text": "#5a6169",
+          "warning": "#ffb400",
+          "white": "#ffffff",
+        },
+        "shadows": Object {
+          "danger": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(196,24,60,.25)",
+          "dark": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(33,37,41,.25)",
+          "info": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(0,184,216,.25)",
+          "inset": "inset 0 3px 5px rgba(0,0,0,.125)!important",
+          "java": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(26,219,162,.25)",
+          "primary": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(0,123,255,.25)",
+          "royalBlue": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(103,78,236,.25)",
+          "salmon": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(255,65,105,.25)",
+          "secondary": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(90,97,105,.25)",
+          "success": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(23,198,113,.25)",
+          "warning": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(255,180,0,.25)",
+          "white": "0 0.125rem 0.625rem rgba(129,142,163,.2), 0 0.0625rem 0.125rem rgba(129,142,164,.3)",
+        },
+      }
+    }
+  >
+    <Routes />
+  </ThemeProvider>
+</div>
+`;
