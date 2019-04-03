@@ -12,6 +12,7 @@
     "react-redux": "^6.0.1",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
+    "react-test-renderer": "^16.8.6",
     "redux": "^4.0.1",
     "redux-saga": "^1.0.2",
     "styled-components": "^4.2.0",
@@ -42,6 +43,9 @@
     }
   },
   "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!<rootDir>/node_modules/",

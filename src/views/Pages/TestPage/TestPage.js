@@ -1,9 +1,19 @@
 import React from 'react';
+import styled from 'styled-components';
 import Button from 'views/Components/Controls/Button';
+
+const Wrapper = styled.div`
+  button + button {
+    margin-left: 20px;
+  }
+  div + div {
+    margin-top: 20px;
+  }
+`;
 
 const TestPage = () => (
   <div>
-    <div>
+    <Wrapper>
       <Button color="primary">Hello</Button>
       <Button color="secondary">Hello</Button>
       <Button color="success">Hello</Button>
@@ -15,8 +25,8 @@ const TestPage = () => (
       <Button color="royalBlue">Hello</Button>
       <Button color="java">Hello</Button>
       <Button color="salmon">Hello</Button>
-    </div>
-    <div>
+    </Wrapper>
+    <Wrapper>
       <Button fill="outline" color="primary">Hello</Button>
       <Button fill="outline" color="secondary">Hello</Button>
       <Button fill="outline" color="success">Hello</Button>
@@ -28,8 +38,8 @@ const TestPage = () => (
       <Button fill="outline" color="royalBlue">Hello</Button>
       <Button fill="outline" color="java">Hello</Button>
       <Button fill="outline" color="salmon">Hello</Button>
-    </div>
-    <div>
+    </Wrapper>
+    <Wrapper>
       <Button small color="primary">Hello</Button>
       <Button small color="secondary">Hello</Button>
       <Button small color="success">Hello</Button>
@@ -41,8 +51,8 @@ const TestPage = () => (
       <Button small color="royalBlue">Hello</Button>
       <Button small color="java">Hello</Button>
       <Button small color="salmon">Hello</Button>
-    </div>
-    <div>
+    </Wrapper>
+    <Wrapper>
       <Button fill="outline" small color="primary">Hello</Button>
       <Button fill="outline" small color="secondary">Hello</Button>
       <Button fill="outline" small color="success">Hello</Button>
@@ -54,7 +64,7 @@ const TestPage = () => (
       <Button fill="outline" small color="royalBlue">Hello</Button>
       <Button fill="outline" small color="java">Hello</Button>
       <Button fill="outline" small color="salmon">Hello</Button>
-    </div>
+    </Wrapper>
   </div>
 );
 

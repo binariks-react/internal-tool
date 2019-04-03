@@ -1,18 +1,17 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { mount } from 'enzyme';
-import toJson from 'enzyme-to-json';
+import render from 'react-test-renderer';
 import theme from 'views/App/theme';
 import TestPageContainer from 'views/Pages/TestPage/TestPageContainer';
 import 'jest-styled-components';
 
-describe('TestPage', () => {
+describe('TestPageContainer', () => {
   it('snapshot', () => {
-    const testPage = mount(
+    const testPage = render.create(
       <ThemeProvider theme={theme}>
         <TestPageContainer />
       </ThemeProvider>
     );
-    expect(toJson(testPage)).toMatchSnapshot();
+    expect(testPage.toJSON()).toMatchSnapshot();
   });
 });

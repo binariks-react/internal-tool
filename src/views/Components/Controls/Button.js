@@ -98,15 +98,19 @@ const ButtonWrapper = styled.button`
   &:hover {
     background-color: ${props => props.theme.colors.hoverColors[props.color]};
     border-color: ${getHoverBorderColor};
-    box-shadow: ${props => props.theme.shadows[props.color]};
+    box-shadow: ${props => props.theme.shadows.hover[props.color]};
     color: ${getHoverColor}
   }
 
   &:active {
     background-color: ${getActiveBackgroundColor};
     border-color: ${props => props.theme.colors.activeColors[props.color]};
-    box-shadow: ${props => props.theme.shadows.inset};
+    box-shadow: ${props => props.theme.shadows.hover.inset};
     color: ${props => props.theme.colors.white};
+  }
+
+  &:focus {
+    box-shadow: ${props => props.theme.shadows.focus[props.color]};
   }
 `;
 

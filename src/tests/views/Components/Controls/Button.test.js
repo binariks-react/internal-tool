@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { mount } from 'enzyme';
-import toJson from 'enzyme-to-json';
+import render from 'react-test-renderer';
 import theme from 'views/App/theme';
 import Button from 'views/Components/Controls/Button';
 import 'jest-styled-components';
@@ -16,88 +16,88 @@ describe('Button', () => {
 
   describe('snapshot', () => {
     it('primary', () => {
-      const button = mount(
+      const button = render.create(
         <ThemeProvider theme={theme}>
           <Button color="primary">button</Button>
         </ThemeProvider>
       );
-      expect(toJson(button)).toMatchSnapshot();
+      expect(button.toJSON()).toMatchSnapshot();
     });
 
     it('primary small ', () => {
-      const button = mount(
+      const button = render.create(
         <ThemeProvider theme={theme}>
           <Button small color="primary">button</Button>
         </ThemeProvider>
       );
-      expect(toJson(button)).toMatchSnapshot();
+      expect(button.toJSON()).toMatchSnapshot();
     });
 
     it('white ', () => {
-      const button = mount(
+      const button = render.create(
         <ThemeProvider theme={theme}>
           <Button color="white">button</Button>
         </ThemeProvider>
       );
-      expect(toJson(button)).toMatchSnapshot();
+      expect(button.toJSON()).toMatchSnapshot();
     });
 
     it('white small', () => {
-      const button = mount(
+      const button = render.create(
         <ThemeProvider theme={theme}>
           <Button small color="white">button</Button>
         </ThemeProvider>
       );
-      expect(toJson(button)).toMatchSnapshot();
+      expect(button.toJSON()).toMatchSnapshot();
     });
 
     it('primary outline', () => {
-      const button = mount(
+      const button = render.create(
         <ThemeProvider theme={theme}>
           <Button fill="outline" color="primary">button</Button>
         </ThemeProvider>
       );
-      expect(toJson(button)).toMatchSnapshot();
+      expect(button.toJSON()).toMatchSnapshot();
     });
 
     it('primary small outline', () => {
-      const button = mount(
+      const button = render.create(
         <ThemeProvider theme={theme}>
           <Button fill="outline" small color="primary">button</Button>
         </ThemeProvider>
       );
-      expect(toJson(button)).toMatchSnapshot();
+      expect(button.toJSON()).toMatchSnapshot();
     });
 
     it('white outline', () => {
-      const button = mount(
+      const button = render.create(
         <ThemeProvider theme={theme}>
           <Button fill="outline" color="white">button</Button>
         </ThemeProvider>
       );
-      expect(toJson(button)).toMatchSnapshot();
+      expect(button.toJSON()).toMatchSnapshot();
     });
 
     it('white small outline', () => {
-      const button = mount(
+      const button = render.create(
         <ThemeProvider theme={theme}>
           <Button fill="outline" small color="white">button</Button>
         </ThemeProvider>
       );
-      expect(toJson(button)).toMatchSnapshot();
+      expect(button.toJSON()).toMatchSnapshot();
     });
 
     it('wrong fill prop', () => {
       const cle = console.error; // hide react error 'wrong prop type'
       console.error = jest.fn();
-      const button = mount(
+      const button = render.create(
         <ThemeProvider theme={theme}>
           <Button fill="wrong">button</Button>
         </ThemeProvider>
       );
       expect(console.error).toHaveBeenCalledTimes(1);
       console.error = cle; // return back console.error
-      expect(toJson(button)).toMatchSnapshot();
+      expect(button.toJSON()).toMatchSnapshot();
     });
   });
 
