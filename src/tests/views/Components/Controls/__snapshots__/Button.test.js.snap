@@ -35,10 +35,9 @@ exports[`Button snapshot primary 1`] = `
 }
 
 <button
-  className="c0"
+  class="c0"
   color="primary"
   fill="fill"
-  onClick={[Function]}
   type="button"
 >
   button
@@ -79,10 +78,9 @@ exports[`Button snapshot primary outline 1`] = `
 }
 
 <button
-  className="c0"
+  class="c0"
   color="primary"
   fill="outline"
-  onClick={[Function]}
   type="button"
 >
   button
@@ -124,10 +122,9 @@ exports[`Button snapshot primary small  1`] = `
 }
 
 <button
-  className="c0"
+  class="c0"
   color="primary"
   fill="fill"
-  onClick={[Function]}
   type="button"
 >
   button
@@ -168,10 +165,9 @@ exports[`Button snapshot primary small outline 1`] = `
 }
 
 <button
-  className="c0"
+  class="c0"
   color="primary"
   fill="outline"
-  onClick={[Function]}
   type="button"
 >
   button
@@ -213,10 +209,9 @@ exports[`Button snapshot white  1`] = `
 }
 
 <button
-  className="c0"
+  class="c0"
   color="white"
   fill="fill"
-  onClick={[Function]}
   type="button"
 >
   button
@@ -257,10 +252,9 @@ exports[`Button snapshot white outline 1`] = `
 }
 
 <button
-  className="c0"
+  class="c0"
   color="white"
   fill="outline"
-  onClick={[Function]}
   type="button"
 >
   button
@@ -302,10 +296,9 @@ exports[`Button snapshot white small 1`] = `
 }
 
 <button
-  className="c0"
+  class="c0"
   color="white"
   fill="fill"
-  onClick={[Function]}
   type="button"
 >
   button
@@ -346,10 +339,9 @@ exports[`Button snapshot white small outline 1`] = `
 }
 
 <button
-  className="c0"
+  class="c0"
   color="white"
   fill="outline"
-  onClick={[Function]}
   type="button"
 >
   button
@@ -375,9 +367,8 @@ exports[`Button snapshot wrong fill prop 1`] = `
 }
 
 <button
-  className="c0"
+  class="c0"
   fill="wrong"
-  onClick={[Function]}
   type="button"
 >
   button

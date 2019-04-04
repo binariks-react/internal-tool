@@ -1441,412 +1441,368 @@ exports[`TestPageContainer snapshot 1`] = `
 
 <div>
   <div
-    className="c0"
+    class="c0"
   >
     <button
-      className="c1"
+      class="c1"
       color="primary"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c2"
+      class="c2"
       color="secondary"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c3"
+      class="c3"
       color="success"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c4"
+      class="c4"
       color="info"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c5"
+      class="c5"
       color="danger"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c6"
+      class="c6"
       color="warning"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c7"
+      class="c7"
       color="dark"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c8"
+      class="c8"
       color="white"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c9"
+      class="c9"
       color="royalBlue"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c10"
+      class="c10"
       color="java"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c11"
+      class="c11"
       color="salmon"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
   </div>
   <div
-    className="c0"
+    class="c0"
   >
     <button
-      className="c12"
+      class="c12"
       color="primary"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c13"
+      class="c13"
       color="secondary"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c14"
+      class="c14"
       color="success"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c15"
+      class="c15"
       color="info"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c16"
+      class="c16"
       color="danger"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c17"
+      class="c17"
       color="warning"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c18"
+      class="c18"
       color="dark"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c19"
+      class="c19"
       color="white"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c20"
+      class="c20"
       color="royalBlue"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c21"
+      class="c21"
       color="java"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c22"
+      class="c22"
       color="salmon"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
   </div>
   <div
-    className="c0"
+    class="c0"
   >
     <button
-      className="c23"
+      class="c23"
       color="primary"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c24"
+      class="c24"
       color="secondary"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c25"
+      class="c25"
       color="success"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c26"
+      class="c26"
       color="info"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c27"
+      class="c27"
       color="danger"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c28"
+      class="c28"
       color="warning"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c29"
+      class="c29"
       color="dark"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c30"
+      class="c30"
       color="white"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c31"
+      class="c31"
       color="royalBlue"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c32"
+      class="c32"
       color="java"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c33"
+      class="c33"
       color="salmon"
       fill="fill"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
   </div>
   <div
-    className="c0"
+    class="c0"
   >
     <button
-      className="c34"
+      class="c34"
       color="primary"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c35"
+      class="c35"
       color="secondary"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c36"
+      class="c36"
       color="success"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c37"
+      class="c37"
       color="info"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c38"
+      class="c38"
       color="danger"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c39"
+      class="c39"
       color="warning"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c40"
+      class="c40"
       color="dark"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c41"
+      class="c41"
       color="white"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c42"
+      class="c42"
       color="royalBlue"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c43"
+      class="c43"
       color="java"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
     </button>
     <button
-      className="c44"
+      class="c44"
       color="salmon"
       fill="outline"
-      onClick={[Function]}
       type="button"
     >
       Hello
