@@ -118,8 +118,8 @@ const Button = ({ onClick, preventDefault, stopPropagation, ...props }) => (
   <ButtonWrapper
     type="button"
     onClick={(e) => {
-      preventDefault && e.preventDefault();
-      stopPropagation && e.stopPropagation();
+      if (preventDefault) e.preventDefault();
+      if (stopPropagation) e.stopPropagation();
       onClick(e);
     }}
     {...props}
