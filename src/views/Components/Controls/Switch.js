@@ -15,10 +15,16 @@ const getColorBackGround = (props) => {
   return props.theme.colors.white;
 };
 
+const getColorBackGroundDisabled = (props) => {
+  if (props.disable) {
+    return props.theme.colors.lightGrey;
+  }
+};
+
 const getColorSwitcher = (props) => {
   if (props.disable) {
     if (props.checked) {
-      return props.theme.colors.text;
+      return props.theme.colors.darkGrey;
     }
     return props.theme.colors.border;
   }
@@ -39,11 +45,32 @@ const getColorBorder = (props) => {
   return props.theme.colors.border;
 };
 
+const getLeftToSwitcher = (props) => {
+  if (props.disable) {
+    if (props.checked) {
+      return 1.25;
+    }
+    return 0.1875;
+  }
+  if (props.checked) {
+    return 1;
+  }
+  return 0.1875;
+};
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   cursor: ${props => props.disable ? 'not-allowed' : 'pointer'};
+  &:active > div > div {
+    width: ${props => props.disable ? 0.75 : 1}rem;
+    left: ${getLeftToSwitcher}rem;
+  }
+  &:active > div {
+    box-shadow: none;
+    background-color: ${getColorBackGroundDisabled};
+  }
 `;
 
 const SwitchWrapper = styled.div`
@@ -57,6 +84,8 @@ const SwitchWrapper = styled.div`
   align-items: center;
   margin-right: 5px;
   transition: 0.3s;
+  outline: none;
+  box-shadow: ${props => !props.disable ? props.theme.shadows.focus.switch : 'none'};
 `;
 
 const Switcher = styled.div`
@@ -78,19 +107,22 @@ const Label = styled.label`
 `;
 
 
-const Switch = ({ preventDefault, stopPropagation, ...props }) => (
+const Switch = ({ preventDefault, stopPropagation, onClick, disable, checked, title, ...props }) => (
   <Wrapper
-    {...props} onClick={
+    {...props}
+    disable={disable}
+    checked={checked}
+    onClick={
       (e) => {
         if (preventDefault) e.preventDefault();
         if (stopPropagation) e.stopPropagation();
-        if (!props.disable) props.onClick(!props.checked);
+        if (!disable) onClick(!checked);
       }}
   >
-    <SwitchWrapper {...props}>
-      <Switcher {...props} />
+    <SwitchWrapper checked={checked} disable={disable}>
+      <Switcher checked={checked} disable={disable} />
     </SwitchWrapper>
-    {!!props.title && <Label {...props}>{props.title}</Label>}
+    {!!title && <Label checked={checked} disable={disable}>{title}</Label>}
   </Wrapper>
 );
 

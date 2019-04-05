@@ -1515,7 +1515,40 @@ exports[`TestPageContainer snapshot 1`] = `
   cursor: pointer;
 }
 
-.c58 {
+.c52:active > div > div {
+  width: 1rem;
+  left: 0.1875rem;
+}
+
+.c52:active > div {
+  box-shadow: none;
+}
+
+.c56 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c56:active > div > div {
+  width: 1rem;
+  left: 1rem;
+}
+
+.c56:active > div {
+  box-shadow: none;
+}
+
+.c59 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1528,6 +1561,41 @@ exports[`TestPageContainer snapshot 1`] = `
   -ms-flex-align: center;
   align-items: center;
   cursor: not-allowed;
+}
+
+.c59:active > div > div {
+  width: 0.75rem;
+  left: 0.1875rem;
+}
+
+.c59:active > div {
+  box-shadow: none;
+  background-color: #e9ecef;
+}
+
+.c62 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c62:active > div > div {
+  width: 0.75rem;
+  left: 1.25rem;
+}
+
+.c62:active > div {
+  box-shadow: none;
+  background-color: #e9ecef;
 }
 
 .c53 {
@@ -1548,9 +1616,11 @@ exports[`TestPageContainer snapshot 1`] = `
   margin-right: 5px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  outline: none;
+  box-shadow: 0 3px 8px 1px rgba(0,0,0,.2);
 }
 
-.c56 {
+.c57 {
   background-color: #17c671;
   border-radius: 100px;
   border: .0625rem solid #17c671;
@@ -1568,9 +1638,33 @@ exports[`TestPageContainer snapshot 1`] = `
   margin-right: 5px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  outline: none;
+  box-shadow: 0 3px 8px 1px rgba(0,0,0,.2);
 }
 
 .c60 {
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: .0625rem solid #e1e5eb;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  box-shadow: none;
+}
+
+.c63 {
   background-color: #e1e5eb;
   border-radius: 100px;
   border: .0625rem solid #e1e5eb;
@@ -1588,6 +1682,8 @@ exports[`TestPageContainer snapshot 1`] = `
   margin-right: 5px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  outline: none;
+  box-shadow: none;
 }
 
 .c54 {
@@ -1602,7 +1698,7 @@ exports[`TestPageContainer snapshot 1`] = `
   transition: 0.2s ease-in-out;
 }
 
-.c57 {
+.c58 {
   content: '';
   position: absolute;
   left: 1.25rem;
@@ -1614,13 +1710,13 @@ exports[`TestPageContainer snapshot 1`] = `
   transition: 0.2s ease-in-out;
 }
 
-.c61 {
+.c64 {
   content: '';
   position: absolute;
   left: 1.25rem;
   width: .75rem;
   height: .75rem;
-  background-color: #5a6169;
+  background-color: #becad6;
   border-radius: 6.25rem;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -1633,7 +1729,7 @@ exports[`TestPageContainer snapshot 1`] = `
   font-size: 15px;
 }
 
-.c59 {
+.c61 {
   cursor: not-allowed;
   line-height: 15px;
   color: #5a6169;
@@ -2106,81 +2202,66 @@ exports[`TestPageContainer snapshot 1`] = `
   <div>
     <div
       class="c52"
-      title="test"
     >
       <div
         class="c53"
-        title="test"
       >
         <div
           class="c54"
-          title="test"
         />
       </div>
       <label
         class="c55"
-        title="test"
       >
         test
       </label>
     </div>
     <div
       checked=""
-      class="c52"
-      title=""
+      class="c56"
     >
       <div
         checked=""
-        class="c56"
-        title=""
+        class="c57"
       >
         <div
           checked=""
-          class="c57"
-          title=""
+          class="c58"
         />
       </div>
     </div>
     <div
-      class="c58"
-      title="disabled"
+      class="c59"
     >
       <div
-        class="c53"
-        title="disabled"
+        class="c60"
       >
         <div
           class="c54"
-          title="disabled"
         />
       </div>
       <label
-        class="c59"
-        title="disabled"
+        class="c61"
       >
         disabled
       </label>
     </div>
     <div
       checked=""
-      class="c58"
-      title="disabled"
+      class="c62"
     >
       <div
         checked=""
-        class="c60"
-        title="disabled"
+        class="c63"
       >
         <div
           checked=""
-          class="c61"
-          title="disabled"
+          class="c64"
         />
       </div>
       <label
         checked=""
-        class="c59"
-        title="disabled"
+        class="c61"
       >
         disabled
       </label>

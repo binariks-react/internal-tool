@@ -1,6 +1,8 @@
 export default {
   colors: {
     text: '#5a6169',
+    lightGrey: '#e9ecef',
+    darkGrey: '#becad6',
     border: '#e1e5eb',
     primary: '#007bff',
     secondary: '#5a6169',
@@ -67,6 +69,7 @@ export default {
       royalBlue: '0 0 0 3px rgba(103,78,236,.15),0 3px 15px rgba(103,78,236,.2),0 2px 5px rgba(0,0,0,.1)',
       java: '0 0 0 3px rgba(26,219,162,.15),0 3px 15px rgba(26,219,162,.2),0 2px 5px rgba(0,0,0,.1)',
       salmon: '0 0 0 3px rgba(255,65,105,.15),0 3px 15px rgba(255,65,105,.2),0 2px 5px rgba(0,0,0,.1)',
+      switch: '0 3px 8px 1px rgba(0,0,0,.2)',
     },
   },
 };
