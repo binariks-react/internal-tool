@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Button from 'views/Components/Controls/Button';
 import ProgressBar from 'views/Components/Controls/ProgressBar';
 import Switch from 'views/Components/Controls/Switch';
+import Checkbox from '../../Components/Controls/Checkbox';
 
 const Wrapper = styled.div`
   button + button {
@@ -85,6 +86,12 @@ const TestPage = () => {
         <Switch checked={check1} onClick={setCheck1} />
         <Switch checked={check2} onClick={setCheck2} disable title="disabled" />
         <Switch checked={check3} onClick={setCheck3} disable title="disabled" />
+      </div>
+      <div>
+        <Checkbox label="label text" defaultChecked />
+        <Checkbox label="label text" />
+        <Checkbox label="label text" disabled />
+        <Checkbox label="label text" defaultChecked disabled />
       </div>
     </Wrapper>
   );
