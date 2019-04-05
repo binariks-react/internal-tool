@@ -1500,6 +1500,148 @@ exports[`TestPageContainer snapshot 1`] = `
   transition: width .6s ease;
 }
 
+.c52 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c58 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c53 {
+  background-color: #fff;
+  border-radius: 100px;
+  border: .0625rem solid #e1e5eb;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.c56 {
+  background-color: #17c671;
+  border-radius: 100px;
+  border: .0625rem solid #17c671;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.c60 {
+  background-color: #e1e5eb;
+  border-radius: 100px;
+  border: .0625rem solid #e1e5eb;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.c54 {
+  content: '';
+  position: absolute;
+  left: 0.1875rem;
+  width: .75rem;
+  height: .75rem;
+  background-color: #e1e5eb;
+  border-radius: 6.25rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.c57 {
+  content: '';
+  position: absolute;
+  left: 1.25rem;
+  width: .75rem;
+  height: .75rem;
+  background-color: #fff;
+  border-radius: 6.25rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.c61 {
+  content: '';
+  position: absolute;
+  left: 1.25rem;
+  width: .75rem;
+  height: .75rem;
+  background-color: #becad6;
+  border-radius: 6.25rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.c55 {
+  cursor: pointer;
+  line-height: 15px;
+  color: #5a6169;
+  font-size: 15px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.c59 {
+  cursor: not-allowed;
+  line-height: 15px;
+  color: #5a6169;
+  font-size: 15px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
 .c0 button + button {
   margin-left: 20px;
 }
@@ -1961,6 +2103,89 @@ exports[`TestPageContainer snapshot 1`] = `
         min="250"
         value="175"
       />
+    </div>
+  </div>
+  <div>
+    <div
+      class="c52"
+      title="test"
+    >
+      <div
+        class="c53"
+        title="test"
+      >
+        <div
+          class="c54"
+          title="test"
+        />
+      </div>
+      <label
+        class="c55"
+        title="test"
+      >
+        test
+      </label>
+    </div>
+    <div
+      checked=""
+      class="c52"
+      title=""
+    >
+      <div
+        checked=""
+        class="c56"
+        title=""
+      >
+        <div
+          checked=""
+          class="c57"
+          title=""
+        />
+      </div>
+    </div>
+    <div
+      class="c58"
+      title="disabled"
+    >
+      <div
+        class="c53"
+        title="disabled"
+      >
+        <div
+          class="c54"
+          title="disabled"
+        />
+      </div>
+      <label
+        class="c59"
+        title="disabled"
+      >
+        disabled
+      </label>
+    </div>
+    <div
+      checked=""
+      class="c58"
+      title="disabled"
+    >
+      <div
+        checked=""
+        class="c60"
+        title="disabled"
+      >
+        <div
+          checked=""
+          class="c61"
+          title="disabled"
+        />
+      </div>
+      <label
+        checked=""
+        class="c59"
+        title="disabled"
+      >
+        disabled
+      </label>
     </div>
   </div>
 </div>
