@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Button from 'views/Components/Controls/Button';
 import ProgressBar from '../../Components/Controls/ProgressBar';
+import Checkbox from '../../Components/Controls/Checkbox';
 
 const Wrapper = styled.div`
   button + button {
@@ -73,6 +74,12 @@ const TestPage = () => (
       <ProgressBar color="danger" min={5} max={25} value={30} />
       <ProgressBar color="warning" min={5} max={25} value={4} />
       <ProgressBar color="info" min={250} max={150} value={175} />
+    </div>
+    <div>
+      <Checkbox label="label text" defaultChecked />
+      <Checkbox label="label text" />
+      <Checkbox label="label text" disabled />
+      <Checkbox label="label text" defaultChecked disabled />
     </div>
   </Wrapper>
 );

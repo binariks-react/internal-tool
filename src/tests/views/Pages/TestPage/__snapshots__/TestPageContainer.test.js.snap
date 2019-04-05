@@ -1500,6 +1500,93 @@ exports[`TestPageContainer snapshot 1`] = `
   transition: width .6s ease;
 }
 
+.c52 {
+  position: relative;
+  line-height: 1.5rem;
+  min-height: 1.5rem;
+}
+
+.c54 {
+  box-sizing: border-box;
+  padding: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.c53 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c58 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c57 {
+  margin-left: 8px;
+  font-size: 1rem;
+  color: #5a6169;
+  opacity: 1;
+}
+
+.c59 {
+  margin-left: 8px;
+  font-size: 1rem;
+  color: #5a6169;
+  opacity: 0.7;
+}
+
+.c56 {
+  fill: none;
+  stroke: transparent;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  stroke-width: 3px;
+  width: 16px;
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
+  -webkit-transition: transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+.c55 {
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 1px solid #e1e5eb;
+  border-radius: 2px;
+  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  box-shadow: none;
+  background-color: white;
+  text-align: center;
+}
+
+input:checked + .c55 svg {
+  stroke: white;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
 .c0 button + button {
   margin-left: 20px;
 }
@@ -1961,6 +2048,156 @@ exports[`TestPageContainer snapshot 1`] = `
         min="250"
         value="175"
       />
+    </div>
+  </div>
+  <div>
+    <div
+      class="c52"
+      label="label text"
+    >
+      <label
+        class="c53"
+        label="label text"
+      >
+        <input
+          checked=""
+          class="c54"
+          label="label text"
+          type="checkbox"
+        />
+        <div
+          class="c55"
+          label="label text"
+        >
+          <svg
+            class="c56"
+            viewBox="0 0 24 24"
+          >
+            <polyline
+              points="20 6 9 17 4 12"
+            />
+          </svg>
+        </div>
+        <span
+          class="c57"
+          label="label text"
+        >
+          label text
+        </span>
+      </label>
+    </div>
+    <div
+      class="c52"
+      label="label text"
+    >
+      <label
+        class="c53"
+        label="label text"
+      >
+        <input
+          class="c54"
+          label="label text"
+          type="checkbox"
+        />
+        <div
+          class="c55"
+          label="label text"
+        >
+          <svg
+            class="c56"
+            viewBox="0 0 24 24"
+          >
+            <polyline
+              points="20 6 9 17 4 12"
+            />
+          </svg>
+        </div>
+        <span
+          class="c57"
+          label="label text"
+        >
+          label text
+        </span>
+      </label>
+    </div>
+    <div
+      class="c52"
+      disabled=""
+      label="label text"
+    >
+      <label
+        class="c58"
+        disabled=""
+        label="label text"
+      >
+        <input
+          class="c54"
+          disabled=""
+          label="label text"
+          type="checkbox"
+        />
+        <div
+          class="c55"
+          disabled=""
+          label="label text"
+        >
+          <svg
+            class="c56"
+            viewBox="0 0 24 24"
+          >
+            <polyline
+              points="20 6 9 17 4 12"
+            />
+          </svg>
+        </div>
+        <span
+          class="c59"
+          disabled=""
+          label="label text"
+        >
+          label text
+        </span>
+      </label>
+    </div>
+    <div
+      class="c52"
+      disabled=""
+      label="label text"
+    >
+      <label
+        class="c58"
+        disabled=""
+        label="label text"
+      >
+        <input
+          checked=""
+          class="c54"
+          disabled=""
+          label="label text"
+          type="checkbox"
+        />
+        <div
+          class="c55"
+          disabled=""
+          label="label text"
+        >
+          <svg
+            class="c56"
+            viewBox="0 0 24 24"
+          >
+            <polyline
+              points="20 6 9 17 4 12"
+            />
+          </svg>
+        </div>
+        <span
+          class="c59"
+          disabled=""
+          label="label text"
+        >
+          label text
+        </span>
+      </label>
     </div>
   </div>
 </div>
