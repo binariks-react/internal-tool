@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from 'views/Components/Controls/Button';
 import ProgressBar from 'views/Components/Controls/ProgressBar';
 import Switch from 'views/Components/Controls/Switch';
-import Checkbox from '../../Components/Controls/Checkbox';
+import Checkbox from 'views/Components/Controls/Checkbox';
 
 const Wrapper = styled.div`
   button + button {
