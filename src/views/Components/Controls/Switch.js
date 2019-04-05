@@ -84,7 +84,7 @@ const Switch = ({ preventDefault, stopPropagation, ...props }) => (
       (e) => {
         if (preventDefault) e.preventDefault();
         if (stopPropagation) e.stopPropagation();
-        props.onClick(!props.checked);
+        if (!props.disable) props.onClick(!props.checked);
       }}
   >
     <SwitchWrapper {...props}>
@@ -101,6 +101,7 @@ const propTypes = {
   title: PropTypes.string,
   preventDefault: PropTypes.bool,
   stopPropagation: PropTypes.bool,
+  disable: PropTypes.bool
 };
 
 const defaultProps = {
@@ -110,6 +111,7 @@ const defaultProps = {
   title: '',
   preventDefault: true,
   stopPropagation: true,
+  disable: false
 };
 
 Switch.propTypes = propTypes;
