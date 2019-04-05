@@ -1500,6 +1500,242 @@ exports[`TestPageContainer snapshot 1`] = `
   transition: width .6s ease;
 }
 
+.c52 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c52:active > div > div {
+  width: 1rem;
+  left: 0.1875rem;
+}
+
+.c52:active > div {
+  box-shadow: none;
+}
+
+.c56 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c56:active > div > div {
+  width: 1rem;
+  left: 1rem;
+}
+
+.c56:active > div {
+  box-shadow: none;
+}
+
+.c59 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c59:active > div > div {
+  width: 0.75rem;
+  left: 0.1875rem;
+}
+
+.c59:active > div {
+  box-shadow: none;
+  background-color: #e9ecef;
+}
+
+.c62 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c62:active > div > div {
+  width: 0.75rem;
+  left: 1.25rem;
+}
+
+.c62:active > div {
+  box-shadow: none;
+  background-color: #e9ecef;
+}
+
+.c53 {
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: .0625rem solid #e1e5eb;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  box-shadow: 0 3px 8px 1px rgba(0,0,0,.2);
+}
+
+.c57 {
+  background-color: #17c671;
+  border-radius: 100px;
+  border: .0625rem solid #17c671;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  box-shadow: 0 3px 8px 1px rgba(0,0,0,.2);
+}
+
+.c60 {
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: .0625rem solid #e1e5eb;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  box-shadow: none;
+}
+
+.c63 {
+  background-color: #e1e5eb;
+  border-radius: 100px;
+  border: .0625rem solid #e1e5eb;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  box-shadow: none;
+}
+
+.c54 {
+  content: '';
+  position: absolute;
+  left: 0.1875rem;
+  width: .75rem;
+  height: .75rem;
+  background-color: #e1e5eb;
+  border-radius: 6.25rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.c58 {
+  content: '';
+  position: absolute;
+  left: 1.25rem;
+  width: .75rem;
+  height: .75rem;
+  background-color: #ffffff;
+  border-radius: 6.25rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.c64 {
+  content: '';
+  position: absolute;
+  left: 1.25rem;
+  width: .75rem;
+  height: .75rem;
+  background-color: #becad6;
+  border-radius: 6.25rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.c55 {
+  cursor: pointer;
+  line-height: 15px;
+  color: #5a6169;
+  font-size: 15px;
+}
+
+.c61 {
+  cursor: not-allowed;
+  line-height: 15px;
+  color: #5a6169;
+  font-size: 15px;
+}
+
 .c0 button + button {
   margin-left: 20px;
 }
@@ -1961,6 +2197,74 @@ exports[`TestPageContainer snapshot 1`] = `
         min="250"
         value="175"
       />
+    </div>
+  </div>
+  <div>
+    <div
+      class="c52"
+    >
+      <div
+        class="c53"
+      >
+        <div
+          class="c54"
+        />
+      </div>
+      <label
+        class="c55"
+      >
+        test
+      </label>
+    </div>
+    <div
+      checked=""
+      class="c56"
+    >
+      <div
+        checked=""
+        class="c57"
+      >
+        <div
+          checked=""
+          class="c58"
+        />
+      </div>
+    </div>
+    <div
+      class="c59"
+    >
+      <div
+        class="c60"
+      >
+        <div
+          class="c54"
+        />
+      </div>
+      <label
+        class="c61"
+      >
+        disabled
+      </label>
+    </div>
+    <div
+      checked=""
+      class="c62"
+    >
+      <div
+        checked=""
+        class="c63"
+      >
+        <div
+          checked=""
+          class="c64"
+        />
+      </div>
+      <label
+        checked=""
+        class="c61"
+      >
+        disabled
+      </label>
     </div>
   </div>
 </div>
