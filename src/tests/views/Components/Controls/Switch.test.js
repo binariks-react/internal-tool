@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { mount, render } from 'enzyme';
 import theme from 'views/App/theme';
 import 'jest-styled-components';
-import Switch from '../../../../views/Components/Controls/Switch';
+import Switch from 'views/Components/Controls/Switch';
 
 describe('Switch', () => {
   const preventDefault = jest.fn();

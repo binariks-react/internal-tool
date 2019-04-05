@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Button from 'views/Components/Controls/Button';
-import ProgressBar from '../../Components/Controls/ProgressBar';
-import Switch from '../../Components/Controls/Switch';
+import ProgressBar from 'views/Components/Controls/ProgressBar';
+import Switch from 'views/Components/Controls/Switch';
 
 const Wrapper = styled.div`
   button + button {
