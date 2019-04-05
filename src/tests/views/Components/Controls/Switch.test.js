@@ -13,14 +13,6 @@ describe('Switch', () => {
     stopPropagation.mockClear();
   });
   describe('snapshot', () => {
-    // it('primary', () => {
-    //   const button = render(
-    //     <ThemeProvider theme={theme}>
-    //       <Switch />
-    //     </ThemeProvider>
-    //   );
-    //   expect(button).toMatchSnapshot();
-    // });
     it('onClick', () => {
       const onClick = jest.fn();
       const button = mount(
