@@ -41,7 +41,6 @@ exports[`Checkbox as checked 1`] = `
   -ms-transform: scale(0);
   transform: scale(0);
   stroke-width: 3px;
-  width: 16px;
   -webkit-transition: -webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
   -webkit-transition: transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
   transition: transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
@@ -60,6 +59,10 @@ exports[`Checkbox as checked 1`] = `
   box-shadow: none;
   background-color: white;
   text-align: center;
+}
+
+input:checked + .c3 {
+  background-color: #5a6169;
 }
 
 input:checked + .c3 svg {
@@ -145,7 +148,6 @@ exports[`Checkbox common 1`] = `
   -ms-transform: scale(0);
   transform: scale(0);
   stroke-width: 3px;
-  width: 16px;
   -webkit-transition: -webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
   -webkit-transition: transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
   transition: transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
@@ -164,6 +166,10 @@ exports[`Checkbox common 1`] = `
   box-shadow: none;
   background-color: white;
   text-align: center;
+}
+
+input:checked + .c3 {
+  background-color: #5a6169;
 }
 
 input:checked + .c3 svg {
@@ -248,7 +254,6 @@ exports[`Checkbox with disabled 1`] = `
   -ms-transform: scale(0);
   transform: scale(0);
   stroke-width: 3px;
-  width: 16px;
   -webkit-transition: -webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
   -webkit-transition: transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
   transition: transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
@@ -267,6 +272,10 @@ exports[`Checkbox with disabled 1`] = `
   box-shadow: none;
   background-color: white;
   text-align: center;
+}
+
+input:checked + .c3 {
+  background-color: #5a6169;
 }
 
 input:checked + .c3 svg {

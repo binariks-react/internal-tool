@@ -35,7 +35,6 @@ const Icon = styled.svg`
     stroke: transparent;
     transform: scale(0);
     stroke-width: 3px;
-    width: 16px;
     transition: transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
     transition-delay: .1s;
 `;
@@ -52,6 +51,7 @@ const CustomCheckbox = styled.div`
     text-align: center;
     
     input:checked + & {
+      background-color: ${({ theme }) => theme.colors.secondary};
     
       svg {
         stroke: white;
@@ -59,7 +59,6 @@ const CustomCheckbox = styled.div`
       } 
     }
 `;
-
 
 const Checkbox = props => (
   <CheckboxWrapper {...props}>
