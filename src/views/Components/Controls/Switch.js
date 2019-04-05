@@ -5,38 +5,38 @@ import PropTypes from 'prop-types';
 const getColorBackGround = (props) => {
   if (props.disable) {
     if (props.checked) {
-      return '#e1e5eb';
+      return props.theme.colors.border;
     }
-    return '#fff';
+    return props.theme.colors.white;
   }
   if (props.checked) {
-    return '#17c671';
+    return props.theme.colors.success;
   }
-  return '#fff';
+  return props.theme.colors.white;
 };
 
 const getColorSwitcher = (props) => {
   if (props.disable) {
     if (props.checked) {
-      return '#becad6';
+      return props.theme.colors.text;
     }
-    return '#e1e5eb';
+    return props.theme.colors.border;
   }
   if (props.checked) {
-    return '#fff';
+    return props.theme.colors.white;
   }
-  return '#e1e5eb';
+  return props.theme.colors.border;
 };
 
 
 const getColorBorder = (props) => {
   if (props.disable) {
-    return '#e1e5eb';
+    return props.theme.colors.border;
   }
   if (props.checked) {
-    return '#17c671';
+    return props.theme.colors.success;
   }
-  return '#e1e5eb';
+  return props.theme.colors.border;
 };
 
 const Wrapper = styled.div`
@@ -63,8 +63,6 @@ const Switcher = styled.div`
   content: '';
   position: absolute;
   left: ${props => props.checked ? 1.25 : 0.1875}rem;
-  //left: .1875rem;
-  //left: 1.25rem;
   width: .75rem;
   height: .75rem;
   background-color: ${getColorSwitcher};
@@ -75,9 +73,8 @@ const Switcher = styled.div`
 const Label = styled.label`
   cursor: ${props => props.disable ? 'not-allowed' : 'pointer'};
   line-height: 15px;
-  color: #5a6169;
+  color: ${props => props.theme.colors.text};
   font-size: 15px;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 `;
 
 
@@ -108,7 +105,8 @@ const propTypes = {
 
 const defaultProps = {
   checked: false,
-  onClick: () => {},
+  onClick: () => {
+  },
   title: '',
   preventDefault: true,
   stopPropagation: true,
