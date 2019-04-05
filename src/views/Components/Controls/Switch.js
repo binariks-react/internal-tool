@@ -101,7 +101,7 @@ const propTypes = {
   title: PropTypes.string,
   preventDefault: PropTypes.bool,
   stopPropagation: PropTypes.bool,
-  disable: PropTypes.bool
+  disable: PropTypes.bool,
 };
 
 const defaultProps = {
@@ -111,7 +111,7 @@ const defaultProps = {
   title: '',
   preventDefault: true,
   stopPropagation: true,
-  disable: false
+  disable: false,
 };
 
 Switch.propTypes = propTypes;
