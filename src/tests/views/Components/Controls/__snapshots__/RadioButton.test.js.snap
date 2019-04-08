@@ -25,11 +25,11 @@ exports[`RadioButton default 1`] = `
 .c2 {
   display: inline-block;
   box-sizing: border-box;
-  color: #818994;
+  color: #5a6169;
   width: 1.125rem;
   border-radius: 50%;
   height: 1.125rem;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #e1e5eb;
   -webkit-transition: all 250ms cubic-bezier(0.27,0.01,0.38,1.06);
   transition: all 250ms cubic-bezier(0.27,0.01,0.38,1.06);
@@ -40,8 +40,8 @@ input:checked + .c2 {
   border: 5px solid #007bff;
 }
 
-input[type='radio'][|checked][disabled] + .c2 {
-  background-color: #818994;
+input[type='radio'][checked][disabled] + .c2 {
+  background-color: #5a6169;
   border: 5px solid #e9ecef;
 }
 
@@ -55,7 +55,8 @@ input:disabled + .c2 {
 }
 
 input:disabled ~ .c3 {
-  color: #818994;
+  opacity: 0.7;
+  color: #5a6169;
 }
 
 <label
@@ -71,7 +72,7 @@ input:disabled ~ .c3 {
   <span
     class="c3"
   >
-    radio
+    title
   </span>
 </label>
 `;
@@ -101,11 +102,11 @@ exports[`RadioButton defaultChecked 1`] = `
 .c2 {
   display: inline-block;
   box-sizing: border-box;
-  color: #818994;
+  color: #5a6169;
   width: 1.125rem;
   border-radius: 50%;
   height: 1.125rem;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #e1e5eb;
   -webkit-transition: all 250ms cubic-bezier(0.27,0.01,0.38,1.06);
   transition: all 250ms cubic-bezier(0.27,0.01,0.38,1.06);
@@ -116,8 +117,8 @@ input:checked + .c2 {
   border: 5px solid #007bff;
 }
 
-input[type='radio'][|checked][disabled] + .c2 {
-  background-color: #818994;
+input[type='radio'][checked][disabled] + .c2 {
+  background-color: #5a6169;
   border: 5px solid #e9ecef;
 }
 
@@ -131,7 +132,8 @@ input:disabled + .c2 {
 }
 
 input:disabled ~ .c3 {
-  color: #818994;
+  opacity: 0.7;
+  color: #5a6169;
 }
 
 <label
@@ -148,7 +150,7 @@ input:disabled ~ .c3 {
   <span
     class="c3"
   >
-    radio
+    title
   </span>
 </label>
 `;
@@ -178,11 +180,11 @@ exports[`RadioButton disabled 1`] = `
 .c2 {
   display: inline-block;
   box-sizing: border-box;
-  color: #818994;
+  color: #5a6169;
   width: 1.125rem;
   border-radius: 50%;
   height: 1.125rem;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #e1e5eb;
   -webkit-transition: all 250ms cubic-bezier(0.27,0.01,0.38,1.06);
   transition: all 250ms cubic-bezier(0.27,0.01,0.38,1.06);
@@ -193,8 +195,8 @@ input:checked + .c2 {
   border: 5px solid #007bff;
 }
 
-input[type='radio'][|checked][disabled] + .c2 {
-  background-color: #818994;
+input[type='radio'][checked][disabled] + .c2 {
+  background-color: #5a6169;
   border: 5px solid #e9ecef;
 }
 
@@ -208,7 +210,8 @@ input:disabled + .c2 {
 }
 
 input:disabled ~ .c3 {
-  color: #818994;
+  opacity: 0.7;
+  color: #5a6169;
 }
 
 <label
@@ -226,7 +229,7 @@ input:disabled ~ .c3 {
   <span
     class="c3"
   >
-    radio
+    title
   </span>
 </label>
 `;
@@ -256,11 +259,11 @@ exports[`RadioButton disabled defaultChecked 1`] = `
 .c2 {
   display: inline-block;
   box-sizing: border-box;
-  color: #818994;
+  color: #5a6169;
   width: 1.125rem;
   border-radius: 50%;
   height: 1.125rem;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #e1e5eb;
   -webkit-transition: all 250ms cubic-bezier(0.27,0.01,0.38,1.06);
   transition: all 250ms cubic-bezier(0.27,0.01,0.38,1.06);
@@ -271,8 +274,8 @@ input:checked + .c2 {
   border: 5px solid #007bff;
 }
 
-input[type='radio'][|checked][disabled] + .c2 {
-  background-color: #818994;
+input[type='radio'][checked][disabled] + .c2 {
+  background-color: #5a6169;
   border: 5px solid #e9ecef;
 }
 
@@ -286,7 +289,8 @@ input:disabled + .c2 {
 }
 
 input:disabled ~ .c3 {
-  color: #818994;
+  opacity: 0.7;
+  color: #5a6169;
 }
 
 <label
@@ -305,7 +309,7 @@ input:disabled ~ .c3 {
   <span
     class="c3"
   >
-    radio
+    title
   </span>
 </label>
 `;
