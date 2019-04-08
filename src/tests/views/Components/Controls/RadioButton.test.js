@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { mount, render } from 'enzyme';
+import { render } from 'enzyme';
 import theme from 'views/App/theme';
 import RadioButton from 'views/Components/Controls/RadioButton';
 import 'jest-styled-components';
