@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Button from 'views/Components/Controls/Button';
+import RadioButton from 'views/Components/Controls/RadioButton';
 
 const Wrapper = styled.div`
   button + button {
@@ -64,6 +65,12 @@ const TestPage = () => (
       <Button fill="outline" small color="royalBlue">Hello</Button>
       <Button fill="outline" small color="java">Hello</Button>
       <Button fill="outline" small color="salmon">Hello</Button>
+    </Wrapper>
+    <Wrapper>
+      <RadioButton title="Default" />
+      <RadioButton title="Checked" defaultChecked />
+      <RadioButton title="Disabled" disabled />
+      <RadioButton title="Disabled Checked" disabled defaultChecked />
     </Wrapper>
   </div>
 );
