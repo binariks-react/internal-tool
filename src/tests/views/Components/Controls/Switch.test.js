@@ -12,13 +12,47 @@ describe('Switch', () => {
     preventDefault.mockClear();
     stopPropagation.mockClear();
   });
-  it('snapshot', () => {
-    const button = render(
-      <ThemeProvider theme={theme}>
-        <Switch />
-      </ThemeProvider>
-    );
-    expect(button).toMatchSnapshot();
+  describe('snapshot', () => {
+    it('clear', () => {
+      const button = render(
+        <ThemeProvider theme={theme}>
+          <Switch />
+        </ThemeProvider>
+      );
+      expect(button).toMatchSnapshot();
+    });
+    it('checked - true', () => {
+      const button = render(
+        <ThemeProvider theme={theme}>
+          <Switch checked />
+        </ThemeProvider>
+      );
+      expect(button).toMatchSnapshot();
+    });
+    it('disable - false', () => {
+      const button = render(
+        <ThemeProvider theme={theme}>
+          <Switch disable={false} title="test" />
+        </ThemeProvider>
+      );
+      expect(button).toMatchSnapshot();
+    });
+    it('checked  and disable - true', () => {
+      const button = render(
+        <ThemeProvider theme={theme}>
+          <Switch checked disable />
+        </ThemeProvider>
+      );
+      expect(button).toMatchSnapshot();
+    });
+    it('title', () => {
+      const button = render(
+        <ThemeProvider theme={theme}>
+          <Switch disable title="test" />
+        </ThemeProvider>
+      );
+      expect(button).toMatchSnapshot();
+    });
   });
   it('onClick', () => {
     const onClick = jest.fn();
