@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Button from 'views/Components/Controls/Button';
+import RadioButton from 'views/Components/Controls/RadioButton';
 import ProgressBar from 'views/Components/Controls/ProgressBar';
 import Switch from 'views/Components/Controls/Switch';
 import Checkbox from '../../Components/Controls/Checkbox';
@@ -92,6 +93,12 @@ const TestPage = () => {
         <Checkbox label="label text" />
         <Checkbox label="label text" disabled />
         <Checkbox label="label text" defaultChecked disabled />
+      </div>
+      <div>
+        <RadioButton title="Default" />
+        <RadioButton title="Checked" defaultChecked />
+        <RadioButton title="Disabled" disabled />
+        <RadioButton title="Disabled Checked" disabled defaultChecked />
       </div>
     </Wrapper>
   );
