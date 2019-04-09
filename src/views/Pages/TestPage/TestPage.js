@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import Button from 'views/Components/Controls/Button';
+import Input from 'views/Components/Controls/Input';
+import Select from 'views/Components/Controls/Select';
+import FormGroup from 'views/Components/Controls/FormGroup';
 import ProgressBar from '../../Components/Controls/ProgressBar';
 
 const Wrapper = styled.div`
@@ -11,6 +14,21 @@ const Wrapper = styled.div`
     margin-top: 20px;
   }
 `;
+
+const options = [
+  {
+    value: 1,
+    label: 'First',
+  },
+  {
+    value: 2,
+    label: 'Second',
+  },
+  {
+    value: 3,
+    label: 'Third',
+  },
+];
 
 const TestPage = () => (
   <Wrapper>
@@ -73,6 +91,16 @@ const TestPage = () => (
       <ProgressBar color="danger" min={5} max={25} value={30} />
       <ProgressBar color="warning" min={5} max={25} value={4} />
       <ProgressBar color="info" min={250} max={150} value={175} />
+    </div>
+    <div>
+      <FormGroup>
+        <Input type="text" placeholder="Text" />
+        <Input type="password" placeholder="Password" />
+        <Input type="text" placeholder="Input w/ icon" icon="@" />
+        <Input type="text" placeholder="Input w/ true condition" condition message="Condition is correct" />
+        <Input type="text" placeholder="Input w/ false condition" condition={false} message="Condition is incorrect" />
+        <Select onChangeOption={option => {}} options={options} />
+      </FormGroup>
     </div>
   </Wrapper>
 );

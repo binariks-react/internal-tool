@@ -1,6 +1,7 @@
 export default {
   colors: {
     text: '#5a6169',
+    icon: '#abb6bf',
     border: '#e1e5eb',
     primary: '#007bff',
     secondary: '#5a6169',
@@ -25,6 +26,7 @@ export default {
       royalBlue: '#5337ea',
       java: '#17c491',
       salmon: '#ff2855',
+      border: '#b3bdcc',
     },
     activeColors: {
       primary: '#0062cc',
