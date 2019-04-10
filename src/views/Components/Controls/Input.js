@@ -8,25 +8,22 @@ const selectWrapperConditionStyle = ({ condition, theme: { colors: { success, da
     border-color: ${success};
     box-shadow: 0 5px 11.5px rgba(23,198,113,.1);
     `;
-  }
-  else if (condition === false) {
+  } else if (condition === false) {
     return `
     border-color: ${danger};
     box-shadow: 0 5px 11.5px rgba(196,24,60,.1);
     `;
   }
-  else {
-    return;
-  }
+
+  return;
 };
 
 const messageWrapperConditionStyle = ({ condition, theme: { colors: { success, danger } } }) => {
   if (condition === true) {
     return `color: ${success}`;
   }
-  else {
-    return `color: ${danger}`;
-  }
+
+  return `color: ${danger}`;
 };
 
 const Wrapper = styled.div`
