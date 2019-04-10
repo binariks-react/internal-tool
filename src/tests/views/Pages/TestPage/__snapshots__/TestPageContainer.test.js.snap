@@ -1431,6 +1431,220 @@ exports[`TestPageContainer snapshot 1`] = `
   box-shadow: 0 0 0 3px rgba(255,65,105,.15),0 3px 15px rgba(255,65,105,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
+.c79 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c80 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  min-width: 7.5rem;
+}
+
+.c81 {
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+}
+
+.c81:hover {
+  border-color: #b3bdcc;
+}
+
+.c81:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+.c84 {
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.c84:hover {
+  border-color: #b3bdcc;
+}
+
+.c84:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+.c85 {
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  border-color: #17c671;
+  box-shadow: 0 5px 11.5px rgba(23,198,113,.1);
+}
+
+.c85:hover {
+  border-color: #b3bdcc;
+}
+
+.c85:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+.c87 {
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  border-color: #c4183c;
+  box-shadow: 0 5px 11.5px rgba(196,24,60,.1);
+}
+
+.c87:hover {
+  border-color: #b3bdcc;
+}
+
+.c87:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+.c86 {
+  display: block;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #17c671;
+}
+
+.c88 {
+  display: block;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #c4183c;
+}
+
+.c82 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c83 {
+  font-size: .8125rem;
+  padding: .375rem .75rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #abb6bf;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  border-radius: .25rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -1px;
+}
+
+.c89 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c90 {
+  width: 100%;
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+}
+
+.c90:hover {
+  border-color: #b3bdcc;
+}
+
+.c90:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+.c78 {
+  margin-bottom: 1rem;
+  width: 250px;
+}
+
 .c73 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2648,6 +2862,133 @@ input:checked + .c68 svg {
         title
       </span>
     </label>
+  </div>
+  <div>
+    <div
+      class="c78"
+      width="250"
+    >
+      <div
+        class="c79"
+      >
+        <div
+          class="c80"
+        >
+          <input
+            class="c81"
+            placeholder="Text"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="c79"
+      >
+        <div
+          class="c80"
+        >
+          <input
+            class="c81"
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+      </div>
+      <div
+        class="c79"
+      >
+        <div
+          class="c80"
+        >
+          <div
+            class="c82"
+          >
+            <span
+              class="c83"
+            >
+              @
+            </span>
+          </div>
+          <input
+            class="c84"
+            placeholder="Input w/ icon"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="c79"
+      >
+        <div
+          class="c80"
+        >
+          <input
+            class="c85"
+            placeholder="Input w/ true condition"
+            type="text"
+          />
+        </div>
+        <div
+          class="c86"
+          placeholder="Input w/ true condition"
+          type="text"
+        >
+          Condition is correct
+        </div>
+      </div>
+      <div
+        class="c79"
+      >
+        <div
+          class="c80"
+        >
+          <input
+            class="c87"
+            placeholder="Input w/ false condition"
+            type="text"
+          />
+        </div>
+        <div
+          class="c88"
+          placeholder="Input w/ false condition"
+          type="text"
+        >
+          Condition is incorrect
+        </div>
+      </div>
+      <div
+        class="c89"
+      >
+        <select
+          class="c90"
+          placeholder="Select option"
+        >
+          <option
+            disabled=""
+            hidden=""
+            selected=""
+            value="-1"
+          >
+            Select option
+          </option>
+          <option
+            value="1"
+          >
+            First
+          </option>
+          <option
+            value="2"
+          >
+            Second
+          </option>
+          <option
+            value="3"
+          >
+            Third
+          </option>
+        </select>
+      </div>
+    </div>
   </div>
 </div>
 `;
