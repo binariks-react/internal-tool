@@ -25,6 +25,7 @@ exports[`App snapshot 1`] = `
           "danger": "#c4183c",
           "dark": "#212529",
           "hoverColors": Object {
+            "border": "#b3bdcc",
             "danger": "#ad1535",
             "dark": "#16181b",
             "info": "#00a2bf",
@@ -37,6 +38,7 @@ exports[`App snapshot 1`] = `
             "warning": "#e6a200",
             "white": "#ffffff",
           },
+          "icon": "#abb6bf",
           "info": "#00b8d8",
           "java": "#1adba2",
           "primary": "#007bff",

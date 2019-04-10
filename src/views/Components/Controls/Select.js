@@ -33,16 +33,16 @@ const SelectWrapper = styled.select`
   }
 `;
 
-const Select = (props) => {
+const Select = ({onChangeOption, ...props}) => {
   const changeOption = (e) => {
     const option = props.options.find(op => parseInt(op.value) === parseInt(e.target.value));
-    props.onChangeOption && props.onChangeOption(option);
+    onChangeOption && onChangeOption(option);
   };
 
   return (
     <Wrapper>
-      <SelectWrapper {...props} onChange={changeOption}>
-        <option value={-1} disabled selected hidden>{props.placeholder}</option>
+      <SelectWrapper {...props} defaultValue={-1} onChange={changeOption}>
+        <option value={-1} disabled hidden>{props.placeholder}</option>
         {props.options && props.options.length > 0 && props.options.map(option => (
           <option key={option.value} value={option.value}>{option.label}</option>
         ))}
