@@ -33,7 +33,7 @@ const SelectWrapper = styled.select`
   }
 `;
 
-const Select = ({onChangeOption, ...props}) => {
+const Select = ({ onChangeOption, ...props }) => {
   const changeOption = (e) => {
     const option = props.options.find(op => parseInt(op.value) === parseInt(e.target.value));
     onChangeOption && onChangeOption(option);

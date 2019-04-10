@@ -99,7 +99,7 @@ const TestPage = () => (
         <Input type="text" placeholder="Input w/ icon" icon="@" />
         <Input type="text" placeholder="Input w/ true condition" condition message="Condition is correct" />
         <Input type="text" placeholder="Input w/ false condition" condition={false} message="Condition is incorrect" />
-        <Select onChangeOption={option => {}} options={options} />
+        <Select onChangeOption={(option) => {}} options={options} />
       </FormGroup>
     </div>
   </Wrapper>
