@@ -24,6 +24,7 @@ exports[`App snapshot 1`] = `
           "border": "#e1e5eb",
           "danger": "#c4183c",
           "dark": "#212529",
+          "darkGrey": "#becad6",
           "hoverColors": Object {
             "border": "#b3bdcc",
             "danger": "#ad1535",
@@ -41,6 +42,7 @@ exports[`App snapshot 1`] = `
           "icon": "#abb6bf",
           "info": "#00b8d8",
           "java": "#1adba2",
+          "lightGrey": "#e9ecef",
           "primary": "#007bff",
           "royalBlue": "#674eec",
           "salmon": "#ff4169",
@@ -61,6 +63,7 @@ exports[`App snapshot 1`] = `
             "salmon": "0 0 0 3px rgba(255,65,105,.15),0 3px 15px rgba(255,65,105,.2),0 2px 5px rgba(0,0,0,.1)",
             "secondary": "0 0 0 3px rgba(90,97,105,.15),0 3px 15px rgba(90,97,105,.2),0 2px 5px rgba(0,0,0,.1)",
             "success": "0 0 0 3px rgba(23,198,113,.15),0 3px 15px rgba(23,198,113,.2),0 2px 5px rgba(0,0,0,.1)",
+            "switch": "0 3px 8px 1px rgba(0,0,0,.2)",
             "warning": "0 0 0 3px rgba(255,180,0,.15),0 3px 15px rgba(255,180,0,.2),0 2px 5px rgba(0,0,0,.1)",
             "white": "0 0 0 3px rgba(251,251,251,.15),0 3px 15px rgba(251,251,251,.2),0 2px 5px rgba(0,0,0,.1)",
           },

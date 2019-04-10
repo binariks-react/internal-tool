@@ -1431,12 +1431,12 @@ exports[`TestPageContainer snapshot 1`] = `
   box-shadow: 0 0 0 3px rgba(255,65,105,.15),0 3px 15px rgba(255,65,105,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c53 {
+.c79 {
   min-width: 7.5rem;
   width: 100%;
 }
 
-.c54 {
+.c80 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1453,7 +1453,7 @@ exports[`TestPageContainer snapshot 1`] = `
   min-width: 7.5rem;
 }
 
-.c55 {
+.c81 {
   padding: .4375rem .75rem;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
@@ -1470,18 +1470,18 @@ exports[`TestPageContainer snapshot 1`] = `
   transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
 }
 
-.c55:hover {
+.c81:hover {
   border-color: #b3bdcc;
 }
 
-.c55:focus {
+.c81:focus {
   color: #5a6169;
   background-color: #ffffff;
   border-color: #007bff;
   box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
 }
 
-.c58 {
+.c84 {
   padding: .4375rem .75rem;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
@@ -1500,18 +1500,18 @@ exports[`TestPageContainer snapshot 1`] = `
   border-bottom-left-radius: 0;
 }
 
-.c58:hover {
+.c84:hover {
   border-color: #b3bdcc;
 }
 
-.c58:focus {
+.c84:focus {
   color: #5a6169;
   background-color: #ffffff;
   border-color: #007bff;
   box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
 }
 
-.c59 {
+.c85 {
   padding: .4375rem .75rem;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
@@ -1530,18 +1530,18 @@ exports[`TestPageContainer snapshot 1`] = `
   box-shadow: 0 5px 11.5px rgba(23,198,113,.1);
 }
 
-.c59:hover {
+.c85:hover {
   border-color: #b3bdcc;
 }
 
-.c59:focus {
+.c85:focus {
   color: #5a6169;
   background-color: #ffffff;
   border-color: #007bff;
   box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
 }
 
-.c61 {
+.c87 {
   padding: .4375rem .75rem;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
@@ -1560,39 +1560,39 @@ exports[`TestPageContainer snapshot 1`] = `
   box-shadow: 0 5px 11.5px rgba(196,24,60,.1);
 }
 
-.c61:hover {
+.c87:hover {
   border-color: #b3bdcc;
 }
 
-.c61:focus {
+.c87:focus {
   color: #5a6169;
   background-color: #ffffff;
   border-color: #007bff;
   box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
 }
 
-.c60 {
+.c86 {
   display: block;
   margin-top: .25rem;
   font-size: 80%;
   color: #17c671;
 }
 
-.c62 {
+.c88 {
   display: block;
   margin-top: .25rem;
   font-size: 80%;
   color: #c4183c;
 }
 
-.c56 {
+.c82 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c57 {
+.c83 {
   font-size: .8125rem;
   padding: .375rem .75rem;
   font-weight: 300;
@@ -1606,12 +1606,12 @@ exports[`TestPageContainer snapshot 1`] = `
   margin-right: -1px;
 }
 
-.c63 {
+.c89 {
   min-width: 7.5rem;
   width: 100%;
 }
 
-.c64 {
+.c90 {
   width: 100%;
   padding: .4375rem .75rem;
   -webkit-flex: 1 1 auto;
@@ -1629,20 +1629,90 @@ exports[`TestPageContainer snapshot 1`] = `
   transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
 }
 
-.c64:hover {
+.c90:hover {
   border-color: #b3bdcc;
 }
 
-.c64:focus {
+.c90:focus {
   color: #5a6169;
   background-color: #ffffff;
   border-color: #007bff;
   box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
 }
 
-.c52 {
+.c78 {
   margin-bottom: 1rem;
   width: 250px;
+}
+
+.c73 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c77 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c74 {
+  box-sizing: border-box;
+  padding: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  overflow: visible;
+}
+
+.c75 {
+  display: inline-block;
+  box-sizing: border-box;
+  color: #5a6169;
+  width: 1.125rem;
+  border-radius: 50%;
+  height: 1.125rem;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  -webkit-transition: all 250ms cubic-bezier(0.27,0.01,0.38,1.06);
+  transition: all 250ms cubic-bezier(0.27,0.01,0.38,1.06);
+  box-shadow: none;
+}
+
+input:checked + .c75 {
+  border: 5px solid #007bff;
+}
+
+input[type='radio'][checked][disabled] + .c75 {
+  background-color: #5a6169;
+  border: 5px solid #e9ecef;
+}
+
+input:disabled + .c75 {
+  background-color: #e9ecef;
+}
+
+.c76 {
+  margin-left: 5px;
+  color: #5a6169;
+}
+
+input:disabled ~ .c76 {
+  opacity: 0.7;
+  color: #5a6169;
 }
 
 .c45 {
@@ -1712,6 +1782,332 @@ exports[`TestPageContainer snapshot 1`] = `
   background-color: #00b8d8;
   -webkit-transition: width .6s ease;
   transition: width .6s ease;
+}
+
+.c52 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c52:active > div > div {
+  width: 1rem;
+  left: 0.1875rem;
+}
+
+.c52:active > div {
+  box-shadow: none;
+}
+
+.c56 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c56:active > div > div {
+  width: 1rem;
+  left: 1rem;
+}
+
+.c56:active > div {
+  box-shadow: none;
+}
+
+.c59 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c59:active > div > div {
+  width: 0.75rem;
+  left: 0.1875rem;
+}
+
+.c59:active > div {
+  box-shadow: none;
+  background-color: #e9ecef;
+}
+
+.c62 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c62:active > div > div {
+  width: 0.75rem;
+  left: 1.25rem;
+}
+
+.c62:active > div {
+  box-shadow: none;
+  background-color: #e9ecef;
+}
+
+.c53 {
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: .0625rem solid #e1e5eb;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  box-shadow: 0 3px 8px 1px rgba(0,0,0,.2);
+}
+
+.c57 {
+  background-color: #17c671;
+  border-radius: 100px;
+  border: .0625rem solid #17c671;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  box-shadow: 0 3px 8px 1px rgba(0,0,0,.2);
+}
+
+.c60 {
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: .0625rem solid #e1e5eb;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  box-shadow: none;
+}
+
+.c63 {
+  background-color: #e1e5eb;
+  border-radius: 100px;
+  border: .0625rem solid #e1e5eb;
+  width: 2.1875rem;
+  height: 1.125rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  box-shadow: none;
+}
+
+.c54 {
+  content: '';
+  position: absolute;
+  left: 0.1875rem;
+  width: .75rem;
+  height: .75rem;
+  background-color: #e1e5eb;
+  border-radius: 6.25rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.c58 {
+  content: '';
+  position: absolute;
+  left: 1.25rem;
+  width: .75rem;
+  height: .75rem;
+  background-color: #ffffff;
+  border-radius: 6.25rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.c64 {
+  content: '';
+  position: absolute;
+  left: 1.25rem;
+  width: .75rem;
+  height: .75rem;
+  background-color: #becad6;
+  border-radius: 6.25rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.c55 {
+  cursor: pointer;
+  line-height: 15px;
+  color: #5a6169;
+  font-size: 15px;
+}
+
+.c61 {
+  cursor: not-allowed;
+  line-height: 15px;
+  color: #5a6169;
+  font-size: 15px;
+}
+
+.c65 {
+  position: relative;
+  line-height: 1.5rem;
+  min-height: 1.5rem;
+}
+
+.c67 {
+  box-sizing: border-box;
+  padding: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.c66 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c71 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c70 {
+  margin-left: 8px;
+  font-size: 1rem;
+  color: #5a6169;
+  opacity: 1;
+}
+
+.c72 {
+  margin-left: 8px;
+  font-size: 1rem;
+  color: #5a6169;
+  opacity: 0.7;
+}
+
+.c69 {
+  fill: none;
+  stroke: transparent;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  stroke-width: 3px;
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
+  -webkit-transition: transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: transform 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06),-webkit-transform 250ms cubic-bezier(.27,.01,.38,1.06);
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+.c68 {
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 1px solid #e1e5eb;
+  border-radius: 2px;
+  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  box-shadow: none;
+  background-color: white;
+  text-align: center;
+}
+
+input:checked + .c68 {
+  background-color: #5a6169;
+}
+
+input:checked + .c68 svg {
+  stroke: white;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 
 .c0 button + button {
@@ -2180,70 +2576,360 @@ exports[`TestPageContainer snapshot 1`] = `
   <div>
     <div
       class="c52"
-      width="250"
     >
       <div
         class="c53"
       >
         <div
           class="c54"
+        />
+      </div>
+      <label
+        class="c55"
+      >
+        test
+      </label>
+    </div>
+    <div
+      checked=""
+      class="c56"
+    >
+      <div
+        checked=""
+        class="c57"
+      >
+        <div
+          checked=""
+          class="c58"
+        />
+      </div>
+    </div>
+    <div
+      class="c59"
+    >
+      <div
+        class="c60"
+      >
+        <div
+          class="c54"
+        />
+      </div>
+      <label
+        class="c61"
+      >
+        disabled
+      </label>
+    </div>
+    <div
+      checked=""
+      class="c62"
+    >
+      <div
+        checked=""
+        class="c63"
+      >
+        <div
+          checked=""
+          class="c64"
+        />
+      </div>
+      <label
+        checked=""
+        class="c61"
+      >
+        disabled
+      </label>
+    </div>
+  </div>
+  <div>
+    <div
+      class="c65"
+      label="label text"
+    >
+      <label
+        class="c66"
+        label="label text"
+      >
+        <input
+          checked=""
+          class="c67"
+          label="label text"
+          type="checkbox"
+        />
+        <div
+          class="c68"
+          label="label text"
+        >
+          <svg
+            class="c69"
+            viewBox="0 0 24 24"
+          >
+            <polyline
+              points="20 6 9 17 4 12"
+            />
+          </svg>
+        </div>
+        <span
+          class="c70"
+          label="label text"
+        >
+          label text
+        </span>
+      </label>
+    </div>
+    <div
+      class="c65"
+      label="label text"
+    >
+      <label
+        class="c66"
+        label="label text"
+      >
+        <input
+          class="c67"
+          label="label text"
+          type="checkbox"
+        />
+        <div
+          class="c68"
+          label="label text"
+        >
+          <svg
+            class="c69"
+            viewBox="0 0 24 24"
+          >
+            <polyline
+              points="20 6 9 17 4 12"
+            />
+          </svg>
+        </div>
+        <span
+          class="c70"
+          label="label text"
+        >
+          label text
+        </span>
+      </label>
+    </div>
+    <div
+      class="c65"
+      disabled=""
+      label="label text"
+    >
+      <label
+        class="c71"
+        disabled=""
+        label="label text"
+      >
+        <input
+          class="c67"
+          disabled=""
+          label="label text"
+          type="checkbox"
+        />
+        <div
+          class="c68"
+          disabled=""
+          label="label text"
+        >
+          <svg
+            class="c69"
+            viewBox="0 0 24 24"
+          >
+            <polyline
+              points="20 6 9 17 4 12"
+            />
+          </svg>
+        </div>
+        <span
+          class="c72"
+          disabled=""
+          label="label text"
+        >
+          label text
+        </span>
+      </label>
+    </div>
+    <div
+      class="c65"
+      disabled=""
+      label="label text"
+    >
+      <label
+        class="c71"
+        disabled=""
+        label="label text"
+      >
+        <input
+          checked=""
+          class="c67"
+          disabled=""
+          label="label text"
+          type="checkbox"
+        />
+        <div
+          class="c68"
+          disabled=""
+          label="label text"
+        >
+          <svg
+            class="c69"
+            viewBox="0 0 24 24"
+          >
+            <polyline
+              points="20 6 9 17 4 12"
+            />
+          </svg>
+        </div>
+        <span
+          class="c72"
+          disabled=""
+          label="label text"
+        >
+          label text
+        </span>
+      </label>
+    </div>
+  </div>
+  <div>
+    <label
+      class="c73"
+    >
+      <input
+        class="c74"
+        type="radio"
+      />
+      <span
+        class="c75"
+      />
+      <span
+        class="c76"
+      >
+        title
+      </span>
+    </label>
+    <label
+      class="c73"
+    >
+      <input
+        checked=""
+        class="c74"
+        type="radio"
+      />
+      <span
+        class="c75"
+      />
+      <span
+        class="c76"
+      >
+        title
+      </span>
+    </label>
+    <label
+      class="c77"
+      disabled=""
+    >
+      <input
+        class="c74"
+        disabled=""
+        type="radio"
+      />
+      <span
+        class="c75"
+      />
+      <span
+        class="c76"
+      >
+        title
+      </span>
+    </label>
+    <label
+      class="c77"
+      disabled=""
+    >
+      <input
+        checked=""
+        class="c74"
+        disabled=""
+        type="radio"
+      />
+      <span
+        class="c75"
+      />
+      <span
+        class="c76"
+      >
+        title
+      </span>
+    </label>
+  </div>
+  <div>
+    <div
+      class="c78"
+      width="250"
+    >
+      <div
+        class="c79"
+      >
+        <div
+          class="c80"
         >
           <input
-            class="c55"
+            class="c81"
             placeholder="Text"
             type="text"
           />
         </div>
       </div>
       <div
-        class="c53"
+        class="c79"
       >
         <div
-          class="c54"
+          class="c80"
         >
           <input
-            class="c55"
+            class="c81"
             placeholder="Password"
             type="password"
           />
         </div>
       </div>
       <div
-        class="c53"
+        class="c79"
       >
         <div
-          class="c54"
+          class="c80"
         >
           <div
-            class="c56"
+            class="c82"
           >
             <span
-              class="c57"
+              class="c83"
             >
               @
             </span>
           </div>
           <input
-            class="c58"
+            class="c84"
             placeholder="Input w/ icon"
             type="text"
           />
         </div>
       </div>
       <div
-        class="c53"
+        class="c79"
       >
         <div
-          class="c54"
+          class="c80"
         >
           <input
-            class="c59"
+            class="c85"
             placeholder="Input w/ true condition"
             type="text"
           />
         </div>
         <div
-          class="c60"
+          class="c86"
           placeholder="Input w/ true condition"
           type="text"
         >
@@ -2251,19 +2937,19 @@ exports[`TestPageContainer snapshot 1`] = `
         </div>
       </div>
       <div
-        class="c53"
+        class="c79"
       >
         <div
-          class="c54"
+          class="c80"
         >
           <input
-            class="c61"
+            class="c87"
             placeholder="Input w/ false condition"
             type="text"
           />
         </div>
         <div
-          class="c62"
+          class="c88"
           placeholder="Input w/ false condition"
           type="text"
         >
@@ -2271,10 +2957,10 @@ exports[`TestPageContainer snapshot 1`] = `
         </div>
       </div>
       <div
-        class="c63"
+        class="c89"
       >
         <select
-          class="c64"
+          class="c90"
           placeholder="Select option"
         >
           <option
