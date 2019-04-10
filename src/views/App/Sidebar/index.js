@@ -6,13 +6,15 @@ const getColor = (color, props) => (
   props ? props.theme.colors[color] : ({ theme: { colors } }) => colors[color]
 );
 
-const getActiveColor = (color, props) => (
-  props ? props.theme.colors.activeColors[color] : ({ theme: { colors: { activeColors } } }) => activeColors[color]
-);
+const getActiveColor = (color, props) => {
+  if (props) return props.theme.colors.activeColors[color];
+  // return ({ theme: { colors: { activeColors } } }) => activeColors[color];
+};
 
-const getHoverColors = (color, props) => (
-  props ? props.theme.colors.activeColors[color] : ({ theme: { colors: { hoverColors } } }) => hoverColors[color]
-);
+const getHoverColors = color =>
+  // if (props) return props.theme.colors.activeColors[color];
+  ({ theme: { colors: { hoverColors } } }) => hoverColors[color]
+;
 
 const Wrapper = styled.div`
   width: 300px;
@@ -30,7 +32,7 @@ const Header = styled.div`
   color: ${getColor('text')};
 `;
 
-const Panel = styled.div`
+const Panel = styled.div.attrs({ 'data-test': 'panel' })`
   display: flex;
   align-items: center;
   width: 100%;
@@ -54,8 +56,15 @@ const Icon = styled.i`
 `;
 
 
-const Sidebar = ({ titles }) => {
+const Sidebar = ({ titles, onClick, preventDefault, stopPropagation }) => {
   const [selectedKey, setSelectedKey] = useState(titles.length && titles[0].title.replace(/\s/g, ''));
+
+  const handleClick = key => (e) => {
+    if (preventDefault) e.preventDefault();
+    if (stopPropagation) e.stopPropagation();
+    setSelectedKey(key);
+    onClick(e);
+  };
 
   return (
     <Wrapper className="wrapper">
@@ -68,7 +77,7 @@ const Sidebar = ({ titles }) => {
             <Panel
               key={key}
               selected={selectedKey === key}
-              onClick={() => setSelectedKey(key)}
+              onClick={handleClick(key)}
             >
               <Icon className="material-icons">
                 { icon }
@@ -84,6 +93,9 @@ const Sidebar = ({ titles }) => {
 
 Sidebar.defaultProps = {
   titles: [],
+  onClick: () => {},
+  preventDefault: true,
+  stopPropagation: true,
 };
 
 Sidebar.propTypes = {
@@ -91,6 +103,9 @@ Sidebar.propTypes = {
     title: PropTypes.string.isRequired,
     icon: PropTypes.string.isRequired,
   })),
+  onClick: PropTypes.func,
+  preventDefault: PropTypes.bool,
+  stopPropagation: PropTypes.bool,
 };
 
 export default Sidebar;
