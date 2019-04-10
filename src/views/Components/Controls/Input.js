@@ -13,6 +13,7 @@ const selectWrapperConditionStyle = ({ condition, theme: { colors: { success, da
                 border-color: ${danger};
                 box-shadow: 0 5px 11.5px rgba(196,24,60,.1);
                 `;
+  default: return;
   }
 };
 
@@ -20,6 +21,7 @@ const messageWrapperConditionStyle = ({ condition, theme: { colors: { success, d
   switch (condition) {
   case true: return `color: ${success}`;
   case false: return `color: ${danger}`;
+  default: return;
   }
 };
 
