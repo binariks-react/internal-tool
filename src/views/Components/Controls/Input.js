@@ -3,13 +3,13 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const selectWrapperConditionStyle = ({ condition, theme: { colors: { success, danger } } }) => {
-  switch(condition) {
-    case null:  return;
-    case true:  return `
+  switch (condition) {
+  case null: return;
+  case true: return `
                 border-color: ${success};
                 box-shadow: 0 5px 11.5px rgba(23,198,113,.1);
                 `;
-    case false: return `
+  case false: return `
                 border-color: ${danger};
                 box-shadow: 0 5px 11.5px rgba(196,24,60,.1);
                 `;
@@ -17,9 +17,9 @@ const selectWrapperConditionStyle = ({ condition, theme: { colors: { success, da
 };
 
 const messageWrapperConditionStyle = ({ condition, theme: { colors: { success, danger } } }) => {
-  switch(condition) {
-    case true:  return `color: ${success}`;
-    case false: return `color: ${danger}`;
+  switch (condition) {
+  case true: return `color: ${success}`;
+  case false: return `color: ${danger}`;
   }
 };
 
