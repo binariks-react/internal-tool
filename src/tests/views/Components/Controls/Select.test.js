@@ -21,7 +21,16 @@ describe('Select', () => {
     },
   ];
   describe('snapshot', () => {
-    it('select input', () => {
+    it('select with options', () => {
+      const input = render(
+        <ThemeProvider theme={theme}>
+          <Select options={fakeOptions} />
+        </ThemeProvider>
+      );
+      expect(input).toMatchSnapshot();
+    });
+
+    it('select input with options and onChangeOption', () => {
       const input = render(
         <ThemeProvider theme={theme}>
           <Select onChangeOption={(option) => {}} options={fakeOptions} />
@@ -43,5 +52,10 @@ describe('Select', () => {
     select.find('select').simulate('change', { target: fakeOptions[1] });
     expect(onChangeOption).toHaveBeenCalledTimes(1);
     expect(onChangeOption).toHaveBeenCalledWith(fakeOptions[1]);
+  });
+
+  it('onChangeOption - defaultProps', () => {
+    expect(Select.defaultProps.onChangeOption).toBeDefined();
+    expect(Select.defaultProps.onChangeOption()).toBeUndefined();
   });
 });
