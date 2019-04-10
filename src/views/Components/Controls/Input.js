@@ -2,32 +2,32 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const selectWrapperConditionStyle = (condition, successColor, dangerColor) => {
+const selectWrapperConditionStyle = ({ condition, theme: { colors: { success, danger } } }) => {
   if (typeof (condition) === 'boolean') {
     if (condition) {
       return `
-      border-color: ${successColor};
+      border-color: ${success};
       box-shadow: 0 5px 11.5px rgba(23,198,113,.1);
       `;
     }
 
     return `
-      border-color: ${dangerColor};
+      border-color: ${danger};
       box-shadow: 0 5px 11.5px rgba(196,24,60,.1);
       `;
   }
 };
 
-const messageWrapperConditionStyle = (condition, successColor, dangerColor) => {
+const messageWrapperConditionStyle = ({ condition, theme: { colors: { success, danger } } }) => {
   if (typeof (condition) === 'boolean') {
     if (condition) {
       return `
-        color: ${successColor};
+        color: ${success};
       `;
     }
 
     return `
-      color: ${dangerColor};
+      color: ${danger};
       `;
   }
 };
@@ -70,7 +70,7 @@ const InputWrapper = styled.input`
     box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1), 0 0.156rem 0.125rem rgba(0,0,0,.06);
   }
 
-  ${({ condition, theme }) => selectWrapperConditionStyle(condition, theme.colors.success, theme.colors.danger)};
+  ${props => selectWrapperConditionStyle(props)};
 
   ${({ icon }) =>
     icon && `
@@ -85,7 +85,7 @@ const MessageWrapper = styled.div`
   margin-top: .25rem;
   font-size: 80%;
 
-  ${({ condition, theme }) => messageWrapperConditionStyle(condition, theme.colors.success, theme.colors.danger)};
+  ${props => messageWrapperConditionStyle(props)};
 `;
 
 const FlexWrapper = styled.div`
