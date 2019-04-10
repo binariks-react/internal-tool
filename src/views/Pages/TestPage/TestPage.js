@@ -11,10 +11,41 @@ const Wrapper = styled.div`
   button + button {
     margin-left: 20px;
   }
-  div + div {
-    margin-top: 20px;
-  }
+  //div + div {
+  //  margin-top: 20px;
+  //}
 `;
+
+const titles = [
+  {
+    title: 'Blog Dashboard',
+    icon: 'edit',
+  },
+  {
+    title: 'Blog Posts',
+    icon: 'vertical_split',
+  },
+  {
+    title: 'Add New Post',
+    icon: 'note_add',
+  },
+  {
+    title: 'Forms & Components',
+    icon: 'view_module',
+  },
+  {
+    title: 'Tables',
+    icon: 'table_chart',
+  },
+  {
+    title: 'User Profile',
+    icon: 'person',
+  },
+  {
+    title: 'Errors',
+    icon: 'error',
+  },
+];
 
 const TestPage = () => {
   const [check, setCheck] = useState(false);
@@ -23,7 +54,7 @@ const TestPage = () => {
   const [check3, setCheck3] = useState(true);
   return (
     <Wrapper>
-      <Sidebar />
+      <Sidebar titles={titles} />
       <div>
         <Button color="primary">Hello</Button>
         <Button color="secondary">Hello</Button>

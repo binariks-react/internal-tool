@@ -16,6 +16,7 @@ export default {
     java: '#1adba2',
     salmon: '#ff4169',
     hoverColors: {
+      lightGrey: '#e9ecef',
       primary: '#006fe6',
       secondary: '#4e545b',
       success: '#14af64',
@@ -31,6 +32,7 @@ export default {
     activeColors: {
       primary: '#0062cc',
       secondary: '#42484e',
+      lightGrey: '#FBFBFB',
       success: '#129857',
       danger: '#97122e',
       warning: '#cc9000',
