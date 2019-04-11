@@ -1,20 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-
-const getColor = (color, props) => (
-  props ? props.theme.colors[color] : ({ theme: { colors } }) => colors[color]
-);
-
-const getActiveColor = (color, props) => {
-  if (props) return props.theme.colors.activeColors[color];
-  // return ({ theme: { colors: { activeColors } } }) => activeColors[color];
-};
-
-const getHoverColors = color =>
-  // if (props) return props.theme.colors.activeColors[color];
-  ({ theme: { colors: { hoverColors } } }) => hoverColors[color]
-;
+import { getColor, getActiveColor, getHoverColor } from 'views/App/theme';
 
 const Wrapper = styled.div`
   width: 300px;
@@ -29,6 +16,7 @@ const Header = styled.div`
   border-bottom: 1px solid ${getColor('lightGrey')};
   text-align: center;
   line-height: 70px;
+  cursor: pointer;
   color: ${getColor('text')};
 `;
 
@@ -43,11 +31,13 @@ const Panel = styled.div.attrs({ 'data-test': 'panel' })`
   border-bottom: 1px solid ${getColor('lightGrey')};
   padding-left: 30px;
   line-height: 60px;
+  cursor: pointer;
   background-color: ${({ selected, ...props }) => selected ? getActiveColor('lightGrey', props) : getColor('white', props)};
   color: ${({ selected, ...props }) => selected ? getColor('primary', props) : getColor('text', props)};
+  transition: all .3s;
   
   &:hover {
-    background-color: ${getHoverColors('lightGrey')};
+    background-color: ${getHoverColor('lightGrey')};
   }
 `;
 

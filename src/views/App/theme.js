@@ -1,3 +1,23 @@
+export const getColor = (color, props) => (
+  props ? props.theme.colors[color] : ({ theme }) => theme.colors[color]
+);
+
+export const getActiveColor = (color, props) => (
+  props ? props.theme.colors.activeColors[color] : ({ theme }) => theme.colors.activeColors[color]
+);
+
+export const getHoverColor = (color, props) => (
+  props ? props.theme.colors.hoverColors[color] : ({ theme }) => theme.colors.hoverColors[color]
+);
+
+export const getHoverShadowColor = (color, props) => (
+  props ? props.theme.shadows.hover[color] : ({ theme }) => theme.shadows.hover[color]
+);
+
+export const getFocusShadowColor = (color, props) => (
+  props ? props.theme.shadows.focus[color] : ({ theme }) => theme.shadows.focus[color]
+);
+
 export default {
   colors: {
     text: '#5a6169',
