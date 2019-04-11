@@ -32,8 +32,8 @@ const Panel = styled.div.attrs({ 'data-test': 'panel' })`
   padding-left: 30px;
   line-height: 60px;
   cursor: pointer;
-  background-color: ${({ selected, ...props }) => selected ? getActiveColor('lightGrey', props) : getColor('white', props)};
-  color: ${({ selected, ...props }) => selected ? getColor('primary', props) : getColor('text', props)};
+  background-color: ${({ selected }) => selected ? getActiveColor('lightGrey') : getColor('white')};
+  color: ${({ selected }) => selected ? getColor('primary') : getColor('text')};
   transition: all .3s;
   
   &:hover {

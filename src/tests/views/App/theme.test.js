@@ -19,6 +19,14 @@ describe('theme getters', () => {
     it('getColor with wrong color', () => {
       expect(getColor('wrongColor')({ theme })).toBeUndefined();
     });
+
+    it('getColor without theme prop', () => {
+      expect(getColor('primary')).toBeInstanceOf(Function);
+    });
+
+    it('getColor without theme prop', () => {
+      expect(getColor('primary')).toBeInstanceOf(Function);
+    });
   });
 
   describe('getter for hover colors', () => {
@@ -32,6 +40,10 @@ describe('theme getters', () => {
 
     it('getHoverColors with wrong color', () => {
       expect(getColor('wrongColor')({ theme })).toBeUndefined();
+    });
+
+    it('getHoverColors without theme prop', () => {
+      expect(getColor('primary')).toBeInstanceOf(Function);
     });
   });
 
@@ -47,6 +59,10 @@ describe('theme getters', () => {
     it('getActiveColor with wrong color', () => {
       expect(getColor('wrongColor')({ theme })).toBeUndefined();
     });
+
+    it('getActiveColor without theme prop', () => {
+      expect(getColor('primary')).toBeInstanceOf(Function);
+    });
   });
 
   describe('getter for shadow hover colors', () => {
@@ -61,6 +77,10 @@ describe('theme getters', () => {
     it('getHoverShadowColor with wrong color', () => {
       expect(getColor('wrongColor')({ theme })).toBeUndefined();
     });
+
+    it('getHoverShadowColor without theme prop', () => {
+      expect(getColor('primary')).toBeInstanceOf(Function);
+    });
   });
 
   describe('getter for shadow focus colors', () => {
@@ -74,6 +94,10 @@ describe('theme getters', () => {
 
     it('getFocusShadowColor with wrong color', () => {
       expect(getColor('wrongColor')({ theme })).toBeUndefined();
+    });
+
+    it('getFocusShadowColor without theme prop', () => {
+      expect(getColor('primary')).toBeInstanceOf(Function);
     });
   });
 });
