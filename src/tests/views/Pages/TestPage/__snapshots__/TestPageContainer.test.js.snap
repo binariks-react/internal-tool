@@ -1897,7 +1897,7 @@ input:checked + .c73 svg {
 }
 
 .c1 {
-  width: 300px;
+  min-width: 300px;
   display: block;
   height: 100vh;
   border-right: 1px solid #e9ecef;
