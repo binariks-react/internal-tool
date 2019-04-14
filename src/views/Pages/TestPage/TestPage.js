@@ -7,7 +7,6 @@ import FormGroup from 'views/Components/Controls/FormGroup';
 import RadioButton from 'views/Components/Controls/RadioButton';
 import ProgressBar from 'views/Components/Controls/ProgressBar';
 import Switch from 'views/Components/Controls/Switch';
-import Sidebar from 'views/App/Header/sidebar';
 import Header from 'views/App/Header';
 import Checkbox from '../../Components/Controls/Checkbox';
 
@@ -35,17 +34,6 @@ const options = [
   },
 ];
 
-const titles = [
-  {
-    title: 'Main page',
-    icon: 'æ',
-  },
-  {
-    title: 'Secondary page',
-    icon: '♀',
-  },
-];
-
 const TestPage = () => {
   const [check, setCheck] = useState(false);
   const [check1, setCheck1] = useState(true);
@@ -54,14 +42,8 @@ const TestPage = () => {
   return (
     <Wrapper>
       <div style={styles.mainLayoutWrapper}>
-        <Sidebar titles={titles} />
         <section style={{ display: 'flex', flexGrow: 1 }}>
-          <Header
-            newNotifications={12}
-            imgSrc="https://source.unsplash.com/random/50x50"
-            selectOptions={options}
-            selectPlaceholder="Sierra Brooks"
-          />
+          <Header notifications={12} />
         </section>
       </div>
       <div>

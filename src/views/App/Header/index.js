@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import Select from 'views/Components/Controls/Select';
 
-const Wrapper = styled.div`
+const Wrapper = styled.div.attrs({ 'data-test': 'wrapper' })`
   display: flex;
   align-items: center;
   flex-shrink: 1;
@@ -11,25 +11,39 @@ const Wrapper = styled.div`
   flex-basis: auto;
   height: 70px;
   line-height: 70px;
+  padding-left: 20px;
   box-shadow: ${props => props.theme.shadows.hover.dark};
 `;
 
-const Input = styled.input.attrs({ type: 'text' })`
+const Input = styled.input.attrs({ type: 'text', 'data-test': 'input' })`
+  font-family: Roboto;
+  font-size: 1rem;
   flex: 1;
   border: none;
+  margin-left: 5px;
+  height: 98%;
+  outline: none;
 `;
 
-const IconBell = styled.div`
+const NotificationWrapper = styled.div.attrs({ 'data-test': 'notifications' })`
+  display: flex;
+  align-items: center;
+  height: 70px;
   position: relative;
+  cursor: pointer;
   border-left: 1px solid ${props => props.theme.colors.lightGrey};
   padding: 0 25px;
 `;
 
-const Icon = styled.i`
+const SearchIcon = styled.i`
+  color: ${props => props.theme.colors.icon};
+`;
+
+const NotificationIcon = styled.i`
   color: ${props => props.theme.colors.text};
 `;
 
-const NotificationsCount = styled.span`
+const NotificationsCount = styled.span.attrs({ 'data-test': 'notificationCount' })`
   position: absolute;
   width: 17px;
   height: 17px;
@@ -39,12 +53,12 @@ const NotificationsCount = styled.span`
   color: #ffffff;
   text-align: center;
   font-size: 12px;
-  top: 29px;
+  top: 35px;
   left: 40px;
   transition: all .3s;
 `;
 
-const UserSection = styled.div`
+const UserSection = styled.div.attrs({ 'data-test': 'userSection' })`
   display: flex;
   align-items: center;
   margin-right: 10px;
@@ -53,7 +67,7 @@ const UserSection = styled.div`
   border-left: 1px solid ${props => props.theme.colors.lightGrey};
 `;
 
-const Image = styled.img`
+const UserImage = styled.img`
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -61,23 +75,40 @@ const Image = styled.img`
 `;
 
 const Header = (props) => {
-  const { newNotifications, imgSrc, selectOptions, selectPlaceholder } = props;
+  const { notifications } = props;
+  const imgSrc = 'https://source.unsplash.com/random/50x50';
+  const selectPlaceholder = 'Sierra Brooks';
+  const selectOptions = [
+    {
+      value: 1,
+      label: 'First',
+    },
+    {
+      value: 2,
+      label: 'Second',
+    },
+    {
+      value: 3,
+      label: 'Third',
+    },
+  ];
+
   return (
     <Wrapper>
-      <Icon className="material-icons">
+      <SearchIcon className="material-icons">
         search
-      </Icon>
+      </SearchIcon>
       <Input placeholder="Search for something..." />
-      <IconBell>
-        <Icon className="material-icons">
+      <NotificationWrapper>
+        <NotificationIcon className="material-icons">
           notifications
-        </Icon>
+        </NotificationIcon>
         {
-          newNotifications && <NotificationsCount>{newNotifications}</NotificationsCount>
+          notifications && <NotificationsCount>{notifications}</NotificationsCount>
         }
-      </IconBell>
+      </NotificationWrapper>
       <UserSection>
-        <Image src={`${imgSrc}`} />
+        <UserImage src={`${imgSrc}`} />
         <Select
           options={selectOptions}
           placeholder={selectPlaceholder}
@@ -89,19 +120,11 @@ const Header = (props) => {
 };
 
 Header.defaultProps = {
-  newNotifications: null,
-  imgSrc: '',
-  selectPlaceholder: null,
+  notifications: null,
 };
 
 Header.propTypes = {
-  newNotifications: PropTypes.number,
-  imgSrc: PropTypes.string,
-  selectOptions: PropTypes.arrayOf(PropTypes.shape({
-    value: PropTypes.number.isRequired,
-    label: PropTypes.string.isRequired,
-  })).isRequired,
-  selectPlaceholder: PropTypes.string,
+  notifications: PropTypes.number,
 };
 
 export default Header;
