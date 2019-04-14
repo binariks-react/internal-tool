@@ -1,0 +1,524 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should be rendered once and have all elements 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 25px;
+  border-top: 1px solid #e9ecef;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.c2 {
+  font-family: Roboto,sans-serif;
+  list-style: none;
+  cursor: pointer;
+  margin-right: 20px;
+  color: #007bff;
+}
+
+.c2:hover {
+  color: #5a6169;
+}
+
+.c3 {
+  color: #5a6169;
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "activeColors": Object {
+          "danger": "#97122e",
+          "dark": "#0a0c0d",
+          "info": "#008da5",
+          "java": "#15ad80",
+          "primary": "#0062cc",
+          "royalBlue": "#3f20e7",
+          "salmon": "#ff0e41",
+          "secondary": "#42484e",
+          "success": "#129857",
+          "warning": "#cc9000",
+          "white": "#007bff",
+        },
+        "border": "#e1e5eb",
+        "danger": "#c4183c",
+        "dark": "#212529",
+        "darkGrey": "#becad6",
+        "hoverColors": Object {
+          "border": "#b3bdcc",
+          "danger": "#ad1535",
+          "dark": "#16181b",
+          "info": "#00a2bf",
+          "java": "#17c491",
+          "primary": "#006fe6",
+          "royalBlue": "#5337ea",
+          "salmon": "#ff2855",
+          "secondary": "#4e545b",
+          "success": "#14af64",
+          "warning": "#e6a200",
+          "white": "#ffffff",
+        },
+        "icon": "#abb6bf",
+        "info": "#00b8d8",
+        "java": "#1adba2",
+        "lightGrey": "#e9ecef",
+        "primary": "#007bff",
+        "royalBlue": "#674eec",
+        "salmon": "#ff4169",
+        "secondary": "#5a6169",
+        "success": "#17c671",
+        "text": "#5a6169",
+        "warning": "#ffb400",
+        "white": "#ffffff",
+      },
+      "shadows": Object {
+        "focus": Object {
+          "danger": "0 0 0 3px rgba(196,24,60,.15),0 3px 15px rgba(196,24,60,.2),0 2px 5px rgba(0,0,0,.1)",
+          "dark": "0 0 0 3px rgba(33,37,41,.15),0 3px 15px rgba(33,37,41,.2),0 2px 5px rgba(0,0,0,.1)",
+          "info": "0 0 0 3px rgba(0,184,216,.15),0 3px 15px rgba(0,184,216,.2),0 2px 5px rgba(0,0,0,.1)",
+          "java": "0 0 0 3px rgba(26,219,162,.15),0 3px 15px rgba(26,219,162,.2),0 2px 5px rgba(0,0,0,.1)",
+          "primary": "0 0 0 3px rgba(0,123,255,.15),0 3px 15px rgba(0,123,255,.2),0 2px 5px rgba(0,0,0,.1)",
+          "royalBlue": "0 0 0 3px rgba(103,78,236,.15),0 3px 15px rgba(103,78,236,.2),0 2px 5px rgba(0,0,0,.1)",
+          "salmon": "0 0 0 3px rgba(255,65,105,.15),0 3px 15px rgba(255,65,105,.2),0 2px 5px rgba(0,0,0,.1)",
+          "secondary": "0 0 0 3px rgba(90,97,105,.15),0 3px 15px rgba(90,97,105,.2),0 2px 5px rgba(0,0,0,.1)",
+          "success": "0 0 0 3px rgba(23,198,113,.15),0 3px 15px rgba(23,198,113,.2),0 2px 5px rgba(0,0,0,.1)",
+          "switch": "0 3px 8px 1px rgba(0,0,0,.2)",
+          "warning": "0 0 0 3px rgba(255,180,0,.15),0 3px 15px rgba(255,180,0,.2),0 2px 5px rgba(0,0,0,.1)",
+          "white": "0 0 0 3px rgba(251,251,251,.15),0 3px 15px rgba(251,251,251,.2),0 2px 5px rgba(0,0,0,.1)",
+        },
+        "hover": Object {
+          "danger": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(196,24,60,.25)",
+          "dark": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(33,37,41,.25)",
+          "info": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(0,184,216,.25)",
+          "inset": "inset 0 3px 5px rgba(0,0,0,.125)!important",
+          "java": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(26,219,162,.25)",
+          "primary": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(0,123,255,.25)",
+          "royalBlue": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(103,78,236,.25)",
+          "salmon": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(255,65,105,.25)",
+          "secondary": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(90,97,105,.25)",
+          "success": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(23,198,113,.25)",
+          "warning": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(255,180,0,.25)",
+          "white": "0 0.125rem 0.625rem rgba(129,142,163,.2), 0 0.0625rem 0.125rem rgba(129,142,164,.3)",
+        },
+      },
+    }
+  }
+>
+  <Footer>
+    <styled.div>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [
+              Object {
+                "data-test": "wrapper",
+              },
+            ],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: auto;
+  align-self: flex-end;
+  justify-content: space-between;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 25px;
+  border-top: 1px solid ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="c0"
+          data-test="wrapper"
+        >
+          <styled.ul>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [
+                    Object {
+                      "data-test": "pageList",
+                    },
+                  ],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "
+  display: flex;
+  margin: 0;
+  padding: 0;
+",
+                    ],
+                  },
+                  "displayName": "styled.ul",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "ul",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <ul
+                className="c1"
+                data-test="pageList"
+              >
+                <styled.li>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": false,
+                          "lastClassName": "c2",
+                          "rules": Array [
+                            "
+  font-family: Roboto, sans-serif;
+  list-style: none;
+  cursor: pointer;
+  margin-right: 20px;
+  color: ",
+                            [Function],
+                            ";
+  
+  &:hover {
+    color: ",
+                            [Function],
+                            ";
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.li",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "li",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <li
+                      className="c2"
+                    >
+                      <span>
+                        About
+                      </span>
+                    </li>
+                  </StyledComponent>
+                </styled.li>
+                <styled.li>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": false,
+                          "lastClassName": "c2",
+                          "rules": Array [
+                            "
+  font-family: Roboto, sans-serif;
+  list-style: none;
+  cursor: pointer;
+  margin-right: 20px;
+  color: ",
+                            [Function],
+                            ";
+  
+  &:hover {
+    color: ",
+                            [Function],
+                            ";
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.li",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "li",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <li
+                      className="c2"
+                    >
+                      <span>
+                        Services
+                      </span>
+                    </li>
+                  </StyledComponent>
+                </styled.li>
+                <styled.li>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": false,
+                          "lastClassName": "c2",
+                          "rules": Array [
+                            "
+  font-family: Roboto, sans-serif;
+  list-style: none;
+  cursor: pointer;
+  margin-right: 20px;
+  color: ",
+                            [Function],
+                            ";
+  
+  &:hover {
+    color: ",
+                            [Function],
+                            ";
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.li",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "li",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <li
+                      className="c2"
+                    >
+                      <span>
+                        About
+                      </span>
+                    </li>
+                  </StyledComponent>
+                </styled.li>
+                <styled.li>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": false,
+                          "lastClassName": "c2",
+                          "rules": Array [
+                            "
+  font-family: Roboto, sans-serif;
+  list-style: none;
+  cursor: pointer;
+  margin-right: 20px;
+  color: ",
+                            [Function],
+                            ";
+  
+  &:hover {
+    color: ",
+                            [Function],
+                            ";
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.li",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "li",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <li
+                      className="c2"
+                    >
+                      <span>
+                        Products
+                      </span>
+                    </li>
+                  </StyledComponent>
+                </styled.li>
+                <styled.li>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": false,
+                          "lastClassName": "c2",
+                          "rules": Array [
+                            "
+  font-family: Roboto, sans-serif;
+  list-style: none;
+  cursor: pointer;
+  margin-right: 20px;
+  color: ",
+                            [Function],
+                            ";
+  
+  &:hover {
+    color: ",
+                            [Function],
+                            ";
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.li",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "li",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <li
+                      className="c2"
+                    >
+                      <span>
+                        Blog
+                      </span>
+                    </li>
+                  </StyledComponent>
+                </styled.li>
+              </ul>
+            </StyledComponent>
+          </styled.ul>
+          <styled.span>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [
+                    Object {
+                      "data-test": "copyright",
+                    },
+                  ],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "
+  color: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "styled.span",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "span",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <span
+                className="c3"
+                data-test="copyright"
+              >
+                Copyright © 2019 Binariks
+              </span>
+            </StyledComponent>
+          </styled.span>
+        </div>
+      </StyledComponent>
+    </styled.div>
+  </Footer>
+</ThemeProvider>
+`;

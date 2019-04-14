@@ -7,6 +7,7 @@ import FormGroup from 'views/Components/Controls/FormGroup';
 import RadioButton from 'views/Components/Controls/RadioButton';
 import ProgressBar from 'views/Components/Controls/ProgressBar';
 import Switch from 'views/Components/Controls/Switch';
+import Footer from 'views/App/Footer';
 import Checkbox from '../../Components/Controls/Checkbox';
 
 const Wrapper = styled.div`
@@ -41,6 +42,11 @@ const TestPage = () => {
   const [check3, setCheck3] = useState(true);
   return (
     <Wrapper>
+      <div style={styles.mainLayoutWrapper}>
+        <section style={{ display: 'flex', flexGrow: 1 }}>
+          <Footer />
+        </section>
+      </div>
       <div>
         <Button color="primary">Hello</Button>
         <Button color="secondary">Hello</Button>
@@ -131,6 +137,12 @@ const TestPage = () => {
       </div>
     </Wrapper>
   );
+};
+
+const styles = {
+  mainLayoutWrapper: {
+    display: 'flex',
+  },
 };
 
 
