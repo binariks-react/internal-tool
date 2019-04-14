@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { getColor, getActiveColor, getHoverColor } from 'views/App/theme';
 
 const Wrapper = styled.div`
+  width: 300px;
   min-width: 300px;
   display: block;
   height: 100vh;
