@@ -4,11 +4,12 @@ import PropTypes from 'prop-types';
 import { getColor, getActiveColor, getHoverColor } from 'views/App/theme';
 
 const Wrapper = styled.div`
+  position: fixed;
   width: 300px;
   min-width: 300px;
-  display: block;
   height: 100vh;
   border-right: 1px solid ${getColor('lightGrey')};
+  box-shadow: -15px 0 20px ${getColor('secondary')};
 `;
 
 const Header = styled.div`

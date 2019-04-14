@@ -2111,11 +2111,12 @@ input:checked + .c73 svg {
 }
 
 .c1 {
+  position: fixed;
   width: 300px;
   min-width: 300px;
-  display: block;
   height: 100vh;
   border-right: 1px solid #e9ecef;
+  box-shadow: -15px 0 20px #5a6169;
 }
 
 .c2 {
@@ -2184,8 +2185,19 @@ input:checked + .c73 svg {
   margin-right: 10px;
 }
 
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .c0 button + button {
   margin-left: 20px;
+}
+
+.c0 section div + div {
+  margin-top: 20px;
 }
 
 <div
@@ -2292,874 +2304,878 @@ input:checked + .c73 svg {
       </span>
     </div>
   </div>
-  <div>
-    <button
-      class="c6"
-      color="primary"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c7"
-      color="secondary"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c8"
-      color="success"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c9"
-      color="info"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c10"
-      color="danger"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c11"
-      color="warning"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c12"
-      color="dark"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c13"
-      color="white"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c14"
-      color="royalBlue"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c15"
-      color="java"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c16"
-      color="salmon"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-  </div>
-  <div>
-    <button
-      class="c17"
-      color="primary"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c18"
-      color="secondary"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c19"
-      color="success"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c20"
-      color="info"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c21"
-      color="danger"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c22"
-      color="warning"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c23"
-      color="dark"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c24"
-      color="white"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c25"
-      color="royalBlue"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c26"
-      color="java"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c27"
-      color="salmon"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-  </div>
-  <div>
-    <button
-      class="c28"
-      color="primary"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c29"
-      color="secondary"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c30"
-      color="success"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c31"
-      color="info"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c32"
-      color="danger"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c33"
-      color="warning"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c34"
-      color="dark"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c35"
-      color="white"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c36"
-      color="royalBlue"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c37"
-      color="java"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c38"
-      color="salmon"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-  </div>
-  <div>
-    <button
-      class="c39"
-      color="primary"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c40"
-      color="secondary"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c41"
-      color="success"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c42"
-      color="info"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c43"
-      color="danger"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c44"
-      color="warning"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c45"
-      color="dark"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c46"
-      color="white"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c47"
-      color="royalBlue"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c48"
-      color="java"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c49"
-      color="salmon"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-  </div>
-  <div>
-    <div
-      class="c50"
-      color="primary"
-      max="200"
-      min="-200"
-      value="-125"
-    >
+  <section
+    style="margin-left:300px;padding:20px"
+  >
+    <div>
+      <button
+        class="c6"
+        color="primary"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c7"
+        color="secondary"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c8"
+        color="success"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c9"
+        color="info"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c10"
+        color="danger"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c11"
+        color="warning"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c12"
+        color="dark"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c13"
+        color="white"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c14"
+        color="royalBlue"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c15"
+        color="java"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c16"
+        color="salmon"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+    </div>
+    <div>
+      <button
+        class="c17"
+        color="primary"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c18"
+        color="secondary"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c19"
+        color="success"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c20"
+        color="info"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c21"
+        color="danger"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c22"
+        color="warning"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c23"
+        color="dark"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c24"
+        color="white"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c25"
+        color="royalBlue"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c26"
+        color="java"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c27"
+        color="salmon"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+    </div>
+    <div>
+      <button
+        class="c28"
+        color="primary"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c29"
+        color="secondary"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c30"
+        color="success"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c31"
+        color="info"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c32"
+        color="danger"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c33"
+        color="warning"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c34"
+        color="dark"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c35"
+        color="white"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c36"
+        color="royalBlue"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c37"
+        color="java"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c38"
+        color="salmon"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+    </div>
+    <div>
+      <button
+        class="c39"
+        color="primary"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c40"
+        color="secondary"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c41"
+        color="success"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c42"
+        color="info"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c43"
+        color="danger"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c44"
+        color="warning"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c45"
+        color="dark"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c46"
+        color="white"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c47"
+        color="royalBlue"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c48"
+        color="java"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c49"
+        color="salmon"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+    </div>
+    <div>
       <div
-        class="c51"
+        class="c50"
         color="primary"
         max="200"
         min="-200"
         value="-125"
-      />
-    </div>
-    <div
-      class="c50"
-      color="secondary"
-      max="50"
-      min="0"
-      value="25"
-    >
+      >
+        <div
+          class="c51"
+          color="primary"
+          max="200"
+          min="-200"
+          value="-125"
+        />
+      </div>
       <div
-        class="c52"
+        class="c50"
         color="secondary"
         max="50"
         min="0"
         value="25"
-      />
-    </div>
-    <div
-      class="c50"
-      color="success"
-      max="150"
-      min="50"
-      value="125"
-    >
+      >
+        <div
+          class="c52"
+          color="secondary"
+          max="50"
+          min="0"
+          value="25"
+        />
+      </div>
       <div
-        class="c53"
+        class="c50"
         color="success"
         max="150"
         min="50"
         value="125"
-      />
-    </div>
-    <div
-      class="c50"
-      color="danger"
-      max="25"
-      min="5"
-      value="30"
-    >
+      >
+        <div
+          class="c53"
+          color="success"
+          max="150"
+          min="50"
+          value="125"
+        />
+      </div>
       <div
-        class="c54"
+        class="c50"
         color="danger"
         max="25"
         min="5"
         value="30"
-      />
-    </div>
-    <div
-      class="c50"
-      color="warning"
-      max="25"
-      min="5"
-      value="4"
-    >
+      >
+        <div
+          class="c54"
+          color="danger"
+          max="25"
+          min="5"
+          value="30"
+        />
+      </div>
       <div
-        class="c55"
+        class="c50"
         color="warning"
         max="25"
         min="5"
         value="4"
-      />
-    </div>
-    <div
-      class="c50"
-      color="info"
-      max="150"
-      min="250"
-      value="175"
-    >
+      >
+        <div
+          class="c55"
+          color="warning"
+          max="25"
+          min="5"
+          value="4"
+        />
+      </div>
       <div
-        class="c56"
+        class="c50"
         color="info"
         max="150"
         min="250"
         value="175"
-      />
-    </div>
-  </div>
-  <div>
-    <div
-      class="c57"
-    >
-      <div
-        class="c58"
       >
         <div
-          class="c59"
-        />
-      </div>
-      <label
-        class="c60"
-      >
-        test
-      </label>
-    </div>
-    <div
-      checked=""
-      class="c61"
-    >
-      <div
-        checked=""
-        class="c62"
-      >
-        <div
-          checked=""
-          class="c63"
+          class="c56"
+          color="info"
+          max="150"
+          min="250"
+          value="175"
         />
       </div>
     </div>
-    <div
-      class="c64"
-    >
+    <div>
       <div
-        class="c65"
+        class="c57"
       >
         <div
-          class="c59"
-        />
-      </div>
-      <label
-        class="c66"
-      >
-        disabled
-      </label>
-    </div>
-    <div
-      checked=""
-      class="c67"
-    >
-      <div
-        checked=""
-        class="c68"
-      >
-        <div
-          checked=""
-          class="c69"
-        />
-      </div>
-      <label
-        checked=""
-        class="c66"
-      >
-        disabled
-      </label>
-    </div>
-  </div>
-  <div>
-    <div
-      class="c70"
-      label="label text"
-    >
-      <label
-        class="c71"
-        label="label text"
-      >
-        <input
-          checked=""
-          class="c72"
-          label="label text"
-          type="checkbox"
-        />
-        <div
-          class="c73"
-          label="label text"
-        >
-          <svg
-            class="c74"
-            viewBox="0 0 24 24"
-          >
-            <polyline
-              points="20 6 9 17 4 12"
-            />
-          </svg>
-        </div>
-        <span
-          class="c75"
-          label="label text"
-        >
-          label text
-        </span>
-      </label>
-    </div>
-    <div
-      class="c70"
-      label="label text"
-    >
-      <label
-        class="c71"
-        label="label text"
-      >
-        <input
-          class="c72"
-          label="label text"
-          type="checkbox"
-        />
-        <div
-          class="c73"
-          label="label text"
-        >
-          <svg
-            class="c74"
-            viewBox="0 0 24 24"
-          >
-            <polyline
-              points="20 6 9 17 4 12"
-            />
-          </svg>
-        </div>
-        <span
-          class="c75"
-          label="label text"
-        >
-          label text
-        </span>
-      </label>
-    </div>
-    <div
-      class="c70"
-      disabled=""
-      label="label text"
-    >
-      <label
-        class="c76"
-        disabled=""
-        label="label text"
-      >
-        <input
-          class="c72"
-          disabled=""
-          label="label text"
-          type="checkbox"
-        />
-        <div
-          class="c73"
-          disabled=""
-          label="label text"
-        >
-          <svg
-            class="c74"
-            viewBox="0 0 24 24"
-          >
-            <polyline
-              points="20 6 9 17 4 12"
-            />
-          </svg>
-        </div>
-        <span
-          class="c77"
-          disabled=""
-          label="label text"
-        >
-          label text
-        </span>
-      </label>
-    </div>
-    <div
-      class="c70"
-      disabled=""
-      label="label text"
-    >
-      <label
-        class="c76"
-        disabled=""
-        label="label text"
-      >
-        <input
-          checked=""
-          class="c72"
-          disabled=""
-          label="label text"
-          type="checkbox"
-        />
-        <div
-          class="c73"
-          disabled=""
-          label="label text"
-        >
-          <svg
-            class="c74"
-            viewBox="0 0 24 24"
-          >
-            <polyline
-              points="20 6 9 17 4 12"
-            />
-          </svg>
-        </div>
-        <span
-          class="c77"
-          disabled=""
-          label="label text"
-        >
-          label text
-        </span>
-      </label>
-    </div>
-  </div>
-  <div>
-    <label
-      class="c78"
-    >
-      <input
-        class="c79"
-        type="radio"
-      />
-      <span
-        class="c80"
-      />
-      <span
-        class="c81"
-      >
-        title
-      </span>
-    </label>
-    <label
-      class="c78"
-    >
-      <input
-        checked=""
-        class="c79"
-        type="radio"
-      />
-      <span
-        class="c80"
-      />
-      <span
-        class="c81"
-      >
-        title
-      </span>
-    </label>
-    <label
-      class="c82"
-      disabled=""
-    >
-      <input
-        class="c79"
-        disabled=""
-        type="radio"
-      />
-      <span
-        class="c80"
-      />
-      <span
-        class="c81"
-      >
-        title
-      </span>
-    </label>
-    <label
-      class="c82"
-      disabled=""
-    >
-      <input
-        checked=""
-        class="c79"
-        disabled=""
-        type="radio"
-      />
-      <span
-        class="c80"
-      />
-      <span
-        class="c81"
-      >
-        title
-      </span>
-    </label>
-  </div>
-  <div>
-    <div
-      class="c83"
-      width="250"
-    >
-      <div
-        class="c84"
-      >
-        <div
-          class="c85"
-        >
-          <input
-            class="c86"
-            placeholder="Text"
-            type="text"
-          />
-        </div>
-      </div>
-      <div
-        class="c84"
-      >
-        <div
-          class="c85"
-        >
-          <input
-            class="c86"
-            placeholder="Password"
-            type="password"
-          />
-        </div>
-      </div>
-      <div
-        class="c84"
-      >
-        <div
-          class="c85"
+          class="c58"
         >
           <div
-            class="c87"
-          >
-            <span
-              class="c88"
-            >
-              @
-            </span>
-          </div>
-          <input
-            class="c89"
-            placeholder="Input w/ icon"
-            type="text"
+            class="c59"
+          />
+        </div>
+        <label
+          class="c60"
+        >
+          test
+        </label>
+      </div>
+      <div
+        checked=""
+        class="c61"
+      >
+        <div
+          checked=""
+          class="c62"
+        >
+          <div
+            checked=""
+            class="c63"
           />
         </div>
       </div>
       <div
-        class="c84"
+        class="c64"
       >
         <div
-          class="c85"
+          class="c65"
         >
-          <input
-            class="c90"
-            placeholder="Input w/ true condition"
-            type="text"
+          <div
+            class="c59"
           />
         </div>
-        <div
-          class="c91"
-          placeholder="Input w/ true condition"
-          type="text"
+        <label
+          class="c66"
         >
-          Condition is correct
-        </div>
+          disabled
+        </label>
       </div>
       <div
-        class="c84"
+        checked=""
+        class="c67"
       >
         <div
-          class="c85"
+          checked=""
+          class="c68"
         >
-          <input
-            class="c92"
-            placeholder="Input w/ false condition"
-            type="text"
+          <div
+            checked=""
+            class="c69"
           />
         </div>
-        <div
-          class="c93"
-          placeholder="Input w/ false condition"
-          type="text"
+        <label
+          checked=""
+          class="c66"
         >
-          Condition is incorrect
-        </div>
-      </div>
-      <div
-        class="c94"
-      >
-        <select
-          class="c95"
-          placeholder="Select option"
-        >
-          <option
-            disabled=""
-            hidden=""
-            selected=""
-            value="-1"
-          >
-            Select option
-          </option>
-          <option
-            value="1"
-          >
-            First
-          </option>
-          <option
-            value="2"
-          >
-            Second
-          </option>
-          <option
-            value="3"
-          >
-            Third
-          </option>
-        </select>
+          disabled
+        </label>
       </div>
     </div>
-  </div>
+    <div>
+      <div
+        class="c70"
+        label="label text"
+      >
+        <label
+          class="c71"
+          label="label text"
+        >
+          <input
+            checked=""
+            class="c72"
+            label="label text"
+            type="checkbox"
+          />
+          <div
+            class="c73"
+            label="label text"
+          >
+            <svg
+              class="c74"
+              viewBox="0 0 24 24"
+            >
+              <polyline
+                points="20 6 9 17 4 12"
+              />
+            </svg>
+          </div>
+          <span
+            class="c75"
+            label="label text"
+          >
+            label text
+          </span>
+        </label>
+      </div>
+      <div
+        class="c70"
+        label="label text"
+      >
+        <label
+          class="c71"
+          label="label text"
+        >
+          <input
+            class="c72"
+            label="label text"
+            type="checkbox"
+          />
+          <div
+            class="c73"
+            label="label text"
+          >
+            <svg
+              class="c74"
+              viewBox="0 0 24 24"
+            >
+              <polyline
+                points="20 6 9 17 4 12"
+              />
+            </svg>
+          </div>
+          <span
+            class="c75"
+            label="label text"
+          >
+            label text
+          </span>
+        </label>
+      </div>
+      <div
+        class="c70"
+        disabled=""
+        label="label text"
+      >
+        <label
+          class="c76"
+          disabled=""
+          label="label text"
+        >
+          <input
+            class="c72"
+            disabled=""
+            label="label text"
+            type="checkbox"
+          />
+          <div
+            class="c73"
+            disabled=""
+            label="label text"
+          >
+            <svg
+              class="c74"
+              viewBox="0 0 24 24"
+            >
+              <polyline
+                points="20 6 9 17 4 12"
+              />
+            </svg>
+          </div>
+          <span
+            class="c77"
+            disabled=""
+            label="label text"
+          >
+            label text
+          </span>
+        </label>
+      </div>
+      <div
+        class="c70"
+        disabled=""
+        label="label text"
+      >
+        <label
+          class="c76"
+          disabled=""
+          label="label text"
+        >
+          <input
+            checked=""
+            class="c72"
+            disabled=""
+            label="label text"
+            type="checkbox"
+          />
+          <div
+            class="c73"
+            disabled=""
+            label="label text"
+          >
+            <svg
+              class="c74"
+              viewBox="0 0 24 24"
+            >
+              <polyline
+                points="20 6 9 17 4 12"
+              />
+            </svg>
+          </div>
+          <span
+            class="c77"
+            disabled=""
+            label="label text"
+          >
+            label text
+          </span>
+        </label>
+      </div>
+    </div>
+    <div>
+      <label
+        class="c78"
+      >
+        <input
+          class="c79"
+          type="radio"
+        />
+        <span
+          class="c80"
+        />
+        <span
+          class="c81"
+        >
+          title
+        </span>
+      </label>
+      <label
+        class="c78"
+      >
+        <input
+          checked=""
+          class="c79"
+          type="radio"
+        />
+        <span
+          class="c80"
+        />
+        <span
+          class="c81"
+        >
+          title
+        </span>
+      </label>
+      <label
+        class="c82"
+        disabled=""
+      >
+        <input
+          class="c79"
+          disabled=""
+          type="radio"
+        />
+        <span
+          class="c80"
+        />
+        <span
+          class="c81"
+        >
+          title
+        </span>
+      </label>
+      <label
+        class="c82"
+        disabled=""
+      >
+        <input
+          checked=""
+          class="c79"
+          disabled=""
+          type="radio"
+        />
+        <span
+          class="c80"
+        />
+        <span
+          class="c81"
+        >
+          title
+        </span>
+      </label>
+    </div>
+    <div>
+      <div
+        class="c83"
+        width="250"
+      >
+        <div
+          class="c84"
+        >
+          <div
+            class="c85"
+          >
+            <input
+              class="c86"
+              placeholder="Text"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="c84"
+        >
+          <div
+            class="c85"
+          >
+            <input
+              class="c86"
+              placeholder="Password"
+              type="password"
+            />
+          </div>
+        </div>
+        <div
+          class="c84"
+        >
+          <div
+            class="c85"
+          >
+            <div
+              class="c87"
+            >
+              <span
+                class="c88"
+              >
+                @
+              </span>
+            </div>
+            <input
+              class="c89"
+              placeholder="Input w/ icon"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="c84"
+        >
+          <div
+            class="c85"
+          >
+            <input
+              class="c90"
+              placeholder="Input w/ true condition"
+              type="text"
+            />
+          </div>
+          <div
+            class="c91"
+            placeholder="Input w/ true condition"
+            type="text"
+          >
+            Condition is correct
+          </div>
+        </div>
+        <div
+          class="c84"
+        >
+          <div
+            class="c85"
+          >
+            <input
+              class="c92"
+              placeholder="Input w/ false condition"
+              type="text"
+            />
+          </div>
+          <div
+            class="c93"
+            placeholder="Input w/ false condition"
+            type="text"
+          >
+            Condition is incorrect
+          </div>
+        </div>
+        <div
+          class="c94"
+        >
+          <select
+            class="c95"
+            placeholder="Select option"
+          >
+            <option
+              disabled=""
+              hidden=""
+              selected=""
+              value="-1"
+            >
+              Select option
+            </option>
+            <option
+              value="1"
+            >
+              First
+            </option>
+            <option
+              value="2"
+            >
+              Second
+            </option>
+            <option
+              value="3"
+            >
+              Third
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
 `;

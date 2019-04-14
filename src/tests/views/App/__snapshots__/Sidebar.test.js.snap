@@ -2,11 +2,12 @@
 
 exports[`Sidebar with "titles" prop expected to render those panels 1`] = `
 .c0 {
+  position: fixed;
   width: 300px;
   min-width: 300px;
-  display: block;
   height: 100vh;
   border-right: 1px solid #e9ecef;
+  box-shadow: -15px 0 20px #5a6169;
 }
 
 .c1 {
@@ -128,11 +129,12 @@ exports[`Sidebar with "titles" prop expected to render those panels 1`] = `
 
 exports[`Sidebar without props expected not to render any panels 1`] = `
 .c0 {
+  position: fixed;
   width: 300px;
   min-width: 300px;
-  display: block;
   height: 100vh;
   border-right: 1px solid #e9ecef;
+  box-shadow: -15px 0 20px #5a6169;
 }
 
 .c1 {
