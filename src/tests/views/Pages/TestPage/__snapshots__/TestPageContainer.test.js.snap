@@ -1896,6 +1896,16 @@ input:checked + .c68 svg {
   transform: scale(1);
 }
 
+.c78 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #ffffff;
+}
+
 .c0 button + button {
   margin-left: 20px;
 }
@@ -2584,6 +2594,7 @@ input:checked + .c68 svg {
       <input
         class="c74"
         type="radio"
+        value=""
       />
       <span
         class="c75"
@@ -2591,16 +2602,16 @@ input:checked + .c68 svg {
       <span
         class="c76"
       >
-        title
+        Default
       </span>
     </label>
     <label
       class="c73"
     >
       <input
-        checked=""
         class="c74"
         type="radio"
+        value=""
       />
       <span
         class="c75"
@@ -2608,7 +2619,7 @@ input:checked + .c68 svg {
       <span
         class="c76"
       >
-        title
+        Checked
       </span>
     </label>
     <label
@@ -2619,6 +2630,7 @@ input:checked + .c68 svg {
         class="c74"
         disabled=""
         type="radio"
+        value=""
       />
       <span
         class="c75"
@@ -2626,7 +2638,7 @@ input:checked + .c68 svg {
       <span
         class="c76"
       >
-        title
+        Disabled
       </span>
     </label>
     <label
@@ -2634,10 +2646,10 @@ input:checked + .c68 svg {
       disabled=""
     >
       <input
-        checked=""
         class="c74"
         disabled=""
         type="radio"
+        value=""
       />
       <span
         class="c75"
@@ -2645,9 +2657,71 @@ input:checked + .c68 svg {
       <span
         class="c76"
       >
-        title
+        Disabled Checked
       </span>
     </label>
+  </div>
+  <div>
+    <div
+      class="c78"
+      values="value1,value2,value3"
+    >
+      <label
+        checked=""
+        class="c73"
+      >
+        <input
+          checked=""
+          class="c74"
+          type="radio"
+          value="value1"
+        />
+        <span
+          checked=""
+          class="c75"
+        />
+        <span
+          checked=""
+          class="c76"
+        >
+          Title1
+        </span>
+      </label>
+      <label
+        class="c73"
+      >
+        <input
+          class="c74"
+          type="radio"
+          value="value2"
+        />
+        <span
+          class="c75"
+        />
+        <span
+          class="c76"
+        >
+          Title2
+        </span>
+      </label>
+      <label
+        class="c73"
+      >
+        <input
+          class="c74"
+          type="radio"
+          value="value3"
+        />
+        <span
+          class="c75"
+        />
+        <span
+          class="c76"
+        >
+          Title3
+        </span>
+      </label>
+    </div>
   </div>
 </div>
 `;

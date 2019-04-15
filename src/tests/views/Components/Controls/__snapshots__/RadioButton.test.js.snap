@@ -65,15 +65,14 @@ input:disabled ~ .c3 {
   <input
     class="c1"
     type="radio"
+    value=""
   />
   <span
     class="c2"
   />
   <span
     class="c3"
-  >
-    title
-  </span>
+  />
 </label>
 `;
 
@@ -140,9 +139,9 @@ input:disabled ~ .c3 {
   class="c0"
 >
   <input
-    checked=""
     class="c1"
     type="radio"
+    value=""
   />
   <span
     class="c2"
@@ -150,7 +149,7 @@ input:disabled ~ .c3 {
   <span
     class="c3"
   >
-    title
+    radio
   </span>
 </label>
 `;
@@ -222,6 +221,7 @@ input:disabled ~ .c3 {
     class="c1"
     disabled=""
     type="radio"
+    value=""
   />
   <span
     class="c2"
@@ -229,7 +229,7 @@ input:disabled ~ .c3 {
   <span
     class="c3"
   >
-    title
+    radio
   </span>
 </label>
 `;
@@ -298,10 +298,10 @@ input:disabled ~ .c3 {
   disabled=""
 >
   <input
-    checked=""
     class="c1"
     disabled=""
     type="radio"
+    value=""
   />
   <span
     class="c2"
@@ -309,7 +309,7 @@ input:disabled ~ .c3 {
   <span
     class="c3"
   >
-    title
+    radio
   </span>
 </label>
 `;

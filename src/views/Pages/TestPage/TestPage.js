@@ -5,6 +5,7 @@ import RadioButton from 'views/Components/Controls/RadioButton';
 import ProgressBar from 'views/Components/Controls/ProgressBar';
 import Switch from 'views/Components/Controls/Switch';
 import Checkbox from '../../Components/Controls/Checkbox';
+import RadioGroup from '../../Components/Controls/RadioGroup';
 
 const Wrapper = styled.div`
   button + button {
@@ -99,6 +100,9 @@ const TestPage = () => {
         <RadioButton title="Checked" defaultChecked />
         <RadioButton title="Disabled" disabled />
         <RadioButton title="Disabled Checked" disabled defaultChecked />
+      </div>
+      <div>
+        <RadioGroup titles={['Title1', 'Title2', 'Title3']} values={['value1', 'value2', 'value3']} />
       </div>
     </Wrapper>
   );
