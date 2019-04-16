@@ -9,6 +9,7 @@ import ProgressBar from 'views/Components/Controls/ProgressBar';
 import Switch from 'views/Components/Controls/Switch';
 import Header from 'views/App/Header/Header';
 import Checkbox from '../../Components/Controls/Checkbox';
+import RadioGroup from '../../Components/Controls/RadioGroup';
 import Sidebar from '../../App/Sidebar/Sidebar';
 
 const Wrapper = styled.div`
@@ -166,6 +167,7 @@ const TestPage = () => {
               <Select options={options} />
             </FormGroup>
           </div>
+          <RadioGroup titles={['Title1', 'Title2']} values={['value1', 'value2']} />
         </main>
       </section>
     </Wrapper>

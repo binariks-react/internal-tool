@@ -52,29 +52,35 @@ const RadioButtonSpan = styled.span`
   }
 `;
 
-const RadioButton = ({ defaultChecked, disabled, title, ...props }) => (
+const RadioButton = ({ defaultChecked, disabled, title, value, onChange, ...props }) => (
   <RadioButtonWrapper disabled={disabled} {...props}>
     <RadioButtonInput
       type="radio"
-      defaultChecked={defaultChecked}
+      // defaultChecked={defaultChecked}
+      value={value}
       disabled={disabled}
+      onChange={onChange}
       {...props}
     />
     <RadioButtonIcon {...props} />
-    <RadioButtonSpan {...props}>title</RadioButtonSpan>
+    <RadioButtonSpan {...props}>{title}</RadioButtonSpan>
   </RadioButtonWrapper>
 );
 
 const defaultProps = {
+  onChange: () => {},
   defaultChecked: false,
   disabled: false,
   title: '',
+  value: '',
 };
 
 const propTypes = {
+  onChange: PropTypes.func,
   disabled: PropTypes.bool,
   defaultChecked: PropTypes.bool,
   title: PropTypes.string,
+  value: PropTypes.string,
 };
 
 RadioButton.defaultProps = defaultProps;
