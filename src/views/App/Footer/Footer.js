@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { getColor } from 'views/App/theme';
 
 const Wrapper = styled.div.attrs({ 'data-test': 'wrapper' })`
   display: flex;
@@ -9,7 +10,7 @@ const Wrapper = styled.div.attrs({ 'data-test': 'wrapper' })`
   height: 70px;
   line-height: 70px;
   padding: 0 25px;
-  border-top: 1px solid ${props => props.theme.colors.lightGrey};
+  border-top: 1px solid ${getColor('lightGrey')};
 `;
 
 const PagesList = styled.ul.attrs({ 'data-test': 'pageList' })`
@@ -23,15 +24,15 @@ const PageOption = styled.li`
   list-style: none;
   cursor: pointer;
   margin-right: 20px;
-  color: ${props => props.theme.colors.primary};
+  color: ${getColor('primary')};
   
   &:hover {
-    color: ${props => props.theme.colors.text};
+    color: ${getColor('text')};
   }
 `;
 
 const Copyright = styled.span.attrs({ 'data-test': 'copyright' })`
-  color: ${props => props.theme.colors.secondary};
+  color: ${getColor('secondary')};
 `;
 
 const Footer = props => (
