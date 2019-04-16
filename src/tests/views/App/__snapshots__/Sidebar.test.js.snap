@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar with "titles" prop expected to render those panels 1`] = `
+.c0 {
+  width: 300px;
+  min-width: 300px;
+  height: 100vh;
+  border-right: 1px solid #e9ecef;
+  box-shadow: -15px 0 20px #5a6169;
+}
+
+.c1 {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #e9ecef;
+  text-align: center;
+  line-height: 70px;
+  cursor: pointer;
+  color: #5a6169;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-left: 5px solid #007bff;
+  border-bottom: 1px solid #e9ecef;
+  padding-left: 30px;
+  line-height: 60px;
+  cursor: pointer;
+  background-color: #FBFBFB;
+  color: #007bff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.c2:hover {
+  background-color: #e9ecef;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-left: 5px solid transparent;
+  border-bottom: 1px solid #e9ecef;
+  padding-left: 30px;
+  line-height: 60px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #5a6169;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.c4:hover {
+  background-color: #e9ecef;
+}
+
+.c3 {
+  margin-right: 10px;
+}
+
+<nav
+  class="wrapper c0"
+>
+  <div
+    class="c1"
+  >
+    Dashboards
+  </div>
+  <div
+    class="c2"
+    data-test="panel"
+    selected=""
+  >
+    <i
+      class="material-icons c3"
+    >
+      edit
+    </i>
+    <span>
+      Blog Dashboard
+    </span>
+  </div>
+  <div
+    class="c4"
+    data-test="panel"
+  >
+    <i
+      class="material-icons c3"
+    >
+      vertical_split
+    </i>
+    <span>
+      Blog Posts
+    </span>
+  </div>
+  <div
+    class="c4"
+    data-test="panel"
+  >
+    <i
+      class="material-icons c3"
+    >
+      note_add
+    </i>
+    <span>
+      Add New Post
+    </span>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar without props expected not to render any panels 1`] = `
+.c0 {
+  width: 300px;
+  min-width: 300px;
+  height: 100vh;
+  border-right: 1px solid #e9ecef;
+  box-shadow: -15px 0 20px #5a6169;
+}
+
+.c1 {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #e9ecef;
+  text-align: center;
+  line-height: 70px;
+  cursor: pointer;
+  color: #5a6169;
+}
+
+<nav
+  class="wrapper c0"
+>
+  <div
+    class="c1"
+  >
+    Dashboards
+  </div>
+</nav>
+`;
