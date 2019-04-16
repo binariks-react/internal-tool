@@ -3,8 +3,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { getColor, getActiveColor, getHoverColor } from 'views/App/theme';
 
-const Wrapper = styled.div`
-  position: fixed;
+const Wrapper = styled.nav`
   width: 300px;
   min-width: 300px;
   height: 100vh;
