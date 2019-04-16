@@ -21,6 +21,7 @@ export const getFocusShadowColor = (color, props) => (
 export default {
   colors: {
     text: '#5a6169',
+    icon: '#abb6bf',
     lightGrey: '#e9ecef',
     darkGrey: '#becad6',
     border: '#e1e5eb',
@@ -48,6 +49,7 @@ export default {
       royalBlue: '#5337ea',
       java: '#17c491',
       salmon: '#ff2855',
+      border: '#b3bdcc',
     },
     activeColors: {
       primary: '#0062cc',
