@@ -79,13 +79,13 @@ const Checkbox = props => (
 Checkbox.defaultProps = {
   label: '',
   dafaultChecked: false,
-  disable: false,
+  disabled: false,
 };
 
 Checkbox.propTypes = {
   label: PropTypes.string,
   dafaultChecked: PropTypes.bool,
-  disable: PropTypes.bool,
+  disabled: PropTypes.bool,
 };
 
 

@@ -1,0 +1,1566 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should be rendered notifications number when prop passed 1`] = `
+.c8 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c9 {
+  width: 100%;
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+}
+
+.c9:hover {
+  border-color: #b3bdcc;
+}
+
+.c9:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  height: 70px;
+  line-height: 70px;
+  padding-left: 20px;
+  box-shadow: 0 0 15px -10px #5a6169;
+}
+
+.c2 {
+  font-family: Roboto,sans-serif;
+  font-size: 1rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: none;
+  margin-left: 5px;
+  height: 98%;
+  outline: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 70px;
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid #e9ecef;
+  padding: 0 25px;
+}
+
+.c1 {
+  color: #abb6bf;
+}
+
+.c4 {
+  color: #5a6169;
+}
+
+.c5 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  line-height: 17px;
+  background-color: #c4183c;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  top: 35px;
+  left: 40px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 215px;
+  height: 100%;
+  border-left: 1px solid #e9ecef;
+}
+
+.c7 {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin: 0 15px 0 25px;
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "activeColors": Object {
+          "danger": "#97122e",
+          "dark": "#0a0c0d",
+          "info": "#008da5",
+          "java": "#15ad80",
+          "lightGrey": "#FBFBFB",
+          "primary": "#0062cc",
+          "royalBlue": "#3f20e7",
+          "salmon": "#ff0e41",
+          "secondary": "#42484e",
+          "success": "#129857",
+          "warning": "#cc9000",
+          "white": "#007bff",
+        },
+        "border": "#e1e5eb",
+        "danger": "#c4183c",
+        "dark": "#212529",
+        "darkGrey": "#becad6",
+        "hoverColors": Object {
+          "border": "#b3bdcc",
+          "danger": "#ad1535",
+          "dark": "#16181b",
+          "info": "#00a2bf",
+          "java": "#17c491",
+          "lightGrey": "#e9ecef",
+          "primary": "#006fe6",
+          "royalBlue": "#5337ea",
+          "salmon": "#ff2855",
+          "secondary": "#4e545b",
+          "success": "#14af64",
+          "warning": "#e6a200",
+          "white": "#ffffff",
+        },
+        "icon": "#abb6bf",
+        "info": "#00b8d8",
+        "java": "#1adba2",
+        "lightGrey": "#e9ecef",
+        "primary": "#007bff",
+        "royalBlue": "#674eec",
+        "salmon": "#ff4169",
+        "secondary": "#5a6169",
+        "success": "#17c671",
+        "text": "#5a6169",
+        "warning": "#ffb400",
+        "white": "#ffffff",
+      },
+      "shadows": Object {
+        "focus": Object {
+          "danger": "0 0 0 3px rgba(196,24,60,.15),0 3px 15px rgba(196,24,60,.2),0 2px 5px rgba(0,0,0,.1)",
+          "dark": "0 0 0 3px rgba(33,37,41,.15),0 3px 15px rgba(33,37,41,.2),0 2px 5px rgba(0,0,0,.1)",
+          "info": "0 0 0 3px rgba(0,184,216,.15),0 3px 15px rgba(0,184,216,.2),0 2px 5px rgba(0,0,0,.1)",
+          "java": "0 0 0 3px rgba(26,219,162,.15),0 3px 15px rgba(26,219,162,.2),0 2px 5px rgba(0,0,0,.1)",
+          "primary": "0 0 0 3px rgba(0,123,255,.15),0 3px 15px rgba(0,123,255,.2),0 2px 5px rgba(0,0,0,.1)",
+          "royalBlue": "0 0 0 3px rgba(103,78,236,.15),0 3px 15px rgba(103,78,236,.2),0 2px 5px rgba(0,0,0,.1)",
+          "salmon": "0 0 0 3px rgba(255,65,105,.15),0 3px 15px rgba(255,65,105,.2),0 2px 5px rgba(0,0,0,.1)",
+          "secondary": "0 0 0 3px rgba(90,97,105,.15),0 3px 15px rgba(90,97,105,.2),0 2px 5px rgba(0,0,0,.1)",
+          "success": "0 0 0 3px rgba(23,198,113,.15),0 3px 15px rgba(23,198,113,.2),0 2px 5px rgba(0,0,0,.1)",
+          "switch": "0 3px 8px 1px rgba(0,0,0,.2)",
+          "warning": "0 0 0 3px rgba(255,180,0,.15),0 3px 15px rgba(255,180,0,.2),0 2px 5px rgba(0,0,0,.1)",
+          "white": "0 0 0 3px rgba(251,251,251,.15),0 3px 15px rgba(251,251,251,.2),0 2px 5px rgba(0,0,0,.1)",
+        },
+        "hover": Object {
+          "danger": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(196,24,60,.25)",
+          "dark": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(33,37,41,.25)",
+          "info": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(0,184,216,.25)",
+          "inset": "inset 0 3px 5px rgba(0,0,0,.125)!important",
+          "java": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(26,219,162,.25)",
+          "primary": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(0,123,255,.25)",
+          "royalBlue": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(103,78,236,.25)",
+          "salmon": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(255,65,105,.25)",
+          "secondary": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(90,97,105,.25)",
+          "success": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(23,198,113,.25)",
+          "warning": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(255,180,0,.25)",
+          "white": "0 0.125rem 0.625rem rgba(129,142,163,.2), 0 0.0625rem 0.125rem rgba(129,142,164,.3)",
+        },
+      },
+    }
+  }
+>
+  <Header
+    notifications={12}
+  >
+    <styled.header>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [
+              Object {
+                "data-test": "wrapper",
+              },
+            ],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htpNat",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: auto;
+  height: 70px;
+  line-height: 70px;
+  padding-left: 20px;
+  box-shadow: 0 0 15px -10px ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.header",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-htpNat",
+            "target": "header",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <header
+          className="c0"
+          data-test="wrapper"
+        >
+          <styled.i
+            className="material-icons"
+          >
+            <StyledComponent
+              className="material-icons"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-EHOje",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "
+  color: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "styled.i",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-EHOje",
+                  "target": "i",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <i
+                className="material-icons c1"
+              >
+                search
+              </i>
+            </StyledComponent>
+          </styled.i>
+          <styled.input
+            placeholder="Search for something..."
+          >
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [
+                    Object {
+                      "data-test": "input",
+                      "type": "text",
+                    },
+                  ],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "c2",
+                    "rules": Array [
+                      "
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  flex: 1;
+  border: none;
+  margin-left: 5px;
+  height: 98%;
+  outline: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.input",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "input",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              placeholder="Search for something..."
+            >
+              <input
+                className="c2"
+                data-test="input"
+                placeholder="Search for something..."
+                type="text"
+              />
+            </StyledComponent>
+          </styled.input>
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [
+                    Object {
+                      "data-test": "notifications",
+                    },
+                  ],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-ifAKCX",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "
+  display: flex;
+  align-items: center;
+  height: 70px;
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid ",
+                      [Function],
+                      ";
+  padding: 0 25px;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-ifAKCX",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c3"
+                data-test="notifications"
+              >
+                <styled.i
+                  className="material-icons"
+                >
+                  <StyledComponent
+                    className="material-icons"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bZQynM",
+                          "isStatic": false,
+                          "lastClassName": "c4",
+                          "rules": Array [
+                            "
+  color: ",
+                            [Function],
+                            ";
+",
+                          ],
+                        },
+                        "displayName": "styled.i",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bZQynM",
+                        "target": "i",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <i
+                      className="material-icons c4"
+                    >
+                      notifications
+                    </i>
+                  </StyledComponent>
+                </styled.i>
+                <styled.span>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [
+                          Object {
+                            "data-test": "notificationCount",
+                          },
+                        ],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-gzVnrw",
+                          "isStatic": true,
+                          "lastClassName": "c5",
+                          "rules": Array [
+                            "
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  line-height: 17px;
+  background-color: #c4183c;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  top: 35px;
+  left: 40px;
+  transition: all .3s;
+",
+                          ],
+                        },
+                        "displayName": "styled.span",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-gzVnrw",
+                        "target": "span",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <span
+                      className="c5"
+                      data-test="notificationCount"
+                    >
+                      12
+                    </span>
+                  </StyledComponent>
+                </styled.span>
+              </div>
+            </StyledComponent>
+          </styled.div>
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [
+                    Object {
+                      "data-test": "userSection",
+                    },
+                  ],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htoDjs",
+                    "isStatic": false,
+                    "lastClassName": "c6",
+                    "rules": Array [
+                      "
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  width: 215px;
+  height: 100%;
+  border-left: 1px solid ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-htoDjs",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c6"
+                data-test="userSection"
+              >
+                <styled.img
+                  src="https://source.unsplash.com/random/50x50"
+                >
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-dnqmqq",
+                          "isStatic": true,
+                          "lastClassName": "c7",
+                          "rules": Array [
+                            "
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin: 0 15px 0 25px;
+",
+                          ],
+                        },
+                        "displayName": "styled.img",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-dnqmqq",
+                        "target": "img",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    src="https://source.unsplash.com/random/50x50"
+                  >
+                    <img
+                      className="c7"
+                      src="https://source.unsplash.com/random/50x50"
+                    />
+                  </StyledComponent>
+                </styled.img>
+                <Select
+                  onChangeOption={[Function]}
+                  options={
+                    Array [
+                      Object {
+                        "label": "First",
+                        "value": 1,
+                      },
+                      Object {
+                        "label": "Second",
+                        "value": 2,
+                      },
+                      Object {
+                        "label": "Third",
+                        "value": 3,
+                      },
+                    ]
+                  }
+                  placeholder="Sierra Brooks"
+                  style={
+                    Object {
+                      "border": "none",
+                      "height": "100%",
+                      "marginRight": "10px",
+                      "outline": "none",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <styled.div>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bdVaJa",
+                            "isStatic": true,
+                            "lastClassName": "c8",
+                            "rules": Array [
+                              "
+  min-width: 7.5rem;
+  width: 100%;
+",
+                            ],
+                          },
+                          "displayName": "styled.div",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "sc-bdVaJa",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c8"
+                      >
+                        <styled.select
+                          defaultValue={-1}
+                          onChange={[Function]}
+                          options={
+                            Array [
+                              Object {
+                                "label": "First",
+                                "value": 1,
+                              },
+                              Object {
+                                "label": "Second",
+                                "value": 2,
+                              },
+                              Object {
+                                "label": "Third",
+                                "value": 3,
+                              },
+                            ]
+                          }
+                          placeholder="Sierra Brooks"
+                          style={
+                            Object {
+                              "border": "none",
+                              "height": "100%",
+                              "marginRight": "10px",
+                              "outline": "none",
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <StyledComponent
+                            defaultValue={-1}
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bwzfXH",
+                                  "isStatic": false,
+                                  "lastClassName": "c9",
+                                  "rules": Array [
+                                    "
+  width: 100%;
+  padding: .4375rem .75rem;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: ",
+                                    [Function],
+                                    ";
+  background-color: ",
+                                    [Function],
+                                    ";
+  border: 1px solid ",
+                                    [Function],
+                                    ";
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06), border 250ms cubic-bezier(.27,.01,.38,1.06);
+
+  &:hover {
+    border-color: ",
+                                    [Function],
+                                    ";
+  }
+
+  &:focus {
+    color: ",
+                                    [Function],
+                                    ";
+    background-color: ",
+                                    [Function],
+                                    ";
+    border-color: ",
+                                    [Function],
+                                    ";
+    box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1), 0 0.156rem 0.125rem rgba(0,0,0,.06);
+  }
+",
+                                  ],
+                                },
+                                "displayName": "styled.select",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-bwzfXH",
+                                "target": "select",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            onChange={[Function]}
+                            options={
+                              Array [
+                                Object {
+                                  "label": "First",
+                                  "value": 1,
+                                },
+                                Object {
+                                  "label": "Second",
+                                  "value": 2,
+                                },
+                                Object {
+                                  "label": "Third",
+                                  "value": 3,
+                                },
+                              ]
+                            }
+                            placeholder="Sierra Brooks"
+                            style={
+                              Object {
+                                "border": "none",
+                                "height": "100%",
+                                "marginRight": "10px",
+                                "outline": "none",
+                                "width": "100%",
+                              }
+                            }
+                          >
+                            <select
+                              className="c9"
+                              defaultValue={-1}
+                              onChange={[Function]}
+                              placeholder="Sierra Brooks"
+                              style={
+                                Object {
+                                  "border": "none",
+                                  "height": "100%",
+                                  "marginRight": "10px",
+                                  "outline": "none",
+                                  "width": "100%",
+                                }
+                              }
+                            >
+                              <option
+                                disabled={true}
+                                hidden={true}
+                                value={-1}
+                              >
+                                Sierra Brooks
+                              </option>
+                              <option
+                                key="1"
+                                value={1}
+                              >
+                                First
+                              </option>
+                              <option
+                                key="2"
+                                value={2}
+                              >
+                                Second
+                              </option>
+                              <option
+                                key="3"
+                                value={3}
+                              >
+                                Third
+                              </option>
+                            </select>
+                          </StyledComponent>
+                        </styled.select>
+                      </div>
+                    </StyledComponent>
+                  </styled.div>
+                </Select>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </header>
+      </StyledComponent>
+    </styled.header>
+  </Header>
+</ThemeProvider>
+`;
+
+exports[`Header should be rendered once and have all elements 1`] = `
+.c7 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c8 {
+  width: 100%;
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+}
+
+.c8:hover {
+  border-color: #b3bdcc;
+}
+
+.c8:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  height: 70px;
+  line-height: 70px;
+  padding-left: 20px;
+  box-shadow: 0 0 15px -10px #5a6169;
+}
+
+.c2 {
+  font-family: Roboto,sans-serif;
+  font-size: 1rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: none;
+  margin-left: 5px;
+  height: 98%;
+  outline: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 70px;
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid #e9ecef;
+  padding: 0 25px;
+}
+
+.c1 {
+  color: #abb6bf;
+}
+
+.c4 {
+  color: #5a6169;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 215px;
+  height: 100%;
+  border-left: 1px solid #e9ecef;
+}
+
+.c6 {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin: 0 15px 0 25px;
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "activeColors": Object {
+          "danger": "#97122e",
+          "dark": "#0a0c0d",
+          "info": "#008da5",
+          "java": "#15ad80",
+          "lightGrey": "#FBFBFB",
+          "primary": "#0062cc",
+          "royalBlue": "#3f20e7",
+          "salmon": "#ff0e41",
+          "secondary": "#42484e",
+          "success": "#129857",
+          "warning": "#cc9000",
+          "white": "#007bff",
+        },
+        "border": "#e1e5eb",
+        "danger": "#c4183c",
+        "dark": "#212529",
+        "darkGrey": "#becad6",
+        "hoverColors": Object {
+          "border": "#b3bdcc",
+          "danger": "#ad1535",
+          "dark": "#16181b",
+          "info": "#00a2bf",
+          "java": "#17c491",
+          "lightGrey": "#e9ecef",
+          "primary": "#006fe6",
+          "royalBlue": "#5337ea",
+          "salmon": "#ff2855",
+          "secondary": "#4e545b",
+          "success": "#14af64",
+          "warning": "#e6a200",
+          "white": "#ffffff",
+        },
+        "icon": "#abb6bf",
+        "info": "#00b8d8",
+        "java": "#1adba2",
+        "lightGrey": "#e9ecef",
+        "primary": "#007bff",
+        "royalBlue": "#674eec",
+        "salmon": "#ff4169",
+        "secondary": "#5a6169",
+        "success": "#17c671",
+        "text": "#5a6169",
+        "warning": "#ffb400",
+        "white": "#ffffff",
+      },
+      "shadows": Object {
+        "focus": Object {
+          "danger": "0 0 0 3px rgba(196,24,60,.15),0 3px 15px rgba(196,24,60,.2),0 2px 5px rgba(0,0,0,.1)",
+          "dark": "0 0 0 3px rgba(33,37,41,.15),0 3px 15px rgba(33,37,41,.2),0 2px 5px rgba(0,0,0,.1)",
+          "info": "0 0 0 3px rgba(0,184,216,.15),0 3px 15px rgba(0,184,216,.2),0 2px 5px rgba(0,0,0,.1)",
+          "java": "0 0 0 3px rgba(26,219,162,.15),0 3px 15px rgba(26,219,162,.2),0 2px 5px rgba(0,0,0,.1)",
+          "primary": "0 0 0 3px rgba(0,123,255,.15),0 3px 15px rgba(0,123,255,.2),0 2px 5px rgba(0,0,0,.1)",
+          "royalBlue": "0 0 0 3px rgba(103,78,236,.15),0 3px 15px rgba(103,78,236,.2),0 2px 5px rgba(0,0,0,.1)",
+          "salmon": "0 0 0 3px rgba(255,65,105,.15),0 3px 15px rgba(255,65,105,.2),0 2px 5px rgba(0,0,0,.1)",
+          "secondary": "0 0 0 3px rgba(90,97,105,.15),0 3px 15px rgba(90,97,105,.2),0 2px 5px rgba(0,0,0,.1)",
+          "success": "0 0 0 3px rgba(23,198,113,.15),0 3px 15px rgba(23,198,113,.2),0 2px 5px rgba(0,0,0,.1)",
+          "switch": "0 3px 8px 1px rgba(0,0,0,.2)",
+          "warning": "0 0 0 3px rgba(255,180,0,.15),0 3px 15px rgba(255,180,0,.2),0 2px 5px rgba(0,0,0,.1)",
+          "white": "0 0 0 3px rgba(251,251,251,.15),0 3px 15px rgba(251,251,251,.2),0 2px 5px rgba(0,0,0,.1)",
+        },
+        "hover": Object {
+          "danger": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(196,24,60,.25)",
+          "dark": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(33,37,41,.25)",
+          "info": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(0,184,216,.25)",
+          "inset": "inset 0 3px 5px rgba(0,0,0,.125)!important",
+          "java": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(26,219,162,.25)",
+          "primary": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(0,123,255,.25)",
+          "royalBlue": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(103,78,236,.25)",
+          "salmon": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(255,65,105,.25)",
+          "secondary": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(90,97,105,.25)",
+          "success": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(23,198,113,.25)",
+          "warning": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(255,180,0,.25)",
+          "white": "0 0.125rem 0.625rem rgba(129,142,163,.2), 0 0.0625rem 0.125rem rgba(129,142,164,.3)",
+        },
+      },
+    }
+  }
+>
+  <Header
+    notifications={null}
+  >
+    <styled.header>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [
+              Object {
+                "data-test": "wrapper",
+              },
+            ],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htpNat",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: auto;
+  height: 70px;
+  line-height: 70px;
+  padding-left: 20px;
+  box-shadow: 0 0 15px -10px ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.header",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-htpNat",
+            "target": "header",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <header
+          className="c0"
+          data-test="wrapper"
+        >
+          <styled.i
+            className="material-icons"
+          >
+            <StyledComponent
+              className="material-icons"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-EHOje",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "
+  color: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "styled.i",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-EHOje",
+                  "target": "i",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <i
+                className="material-icons c1"
+              >
+                search
+              </i>
+            </StyledComponent>
+          </styled.i>
+          <styled.input
+            placeholder="Search for something..."
+          >
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [
+                    Object {
+                      "data-test": "input",
+                      "type": "text",
+                    },
+                  ],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "c2",
+                    "rules": Array [
+                      "
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  flex: 1;
+  border: none;
+  margin-left: 5px;
+  height: 98%;
+  outline: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.input",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "input",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              placeholder="Search for something..."
+            >
+              <input
+                className="c2"
+                data-test="input"
+                placeholder="Search for something..."
+                type="text"
+              />
+            </StyledComponent>
+          </styled.input>
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [
+                    Object {
+                      "data-test": "notifications",
+                    },
+                  ],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-ifAKCX",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "
+  display: flex;
+  align-items: center;
+  height: 70px;
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid ",
+                      [Function],
+                      ";
+  padding: 0 25px;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-ifAKCX",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c3"
+                data-test="notifications"
+              >
+                <styled.i
+                  className="material-icons"
+                >
+                  <StyledComponent
+                    className="material-icons"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bZQynM",
+                          "isStatic": false,
+                          "lastClassName": "c4",
+                          "rules": Array [
+                            "
+  color: ",
+                            [Function],
+                            ";
+",
+                          ],
+                        },
+                        "displayName": "styled.i",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bZQynM",
+                        "target": "i",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <i
+                      className="material-icons c4"
+                    >
+                      notifications
+                    </i>
+                  </StyledComponent>
+                </styled.i>
+              </div>
+            </StyledComponent>
+          </styled.div>
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [
+                    Object {
+                      "data-test": "userSection",
+                    },
+                  ],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htoDjs",
+                    "isStatic": false,
+                    "lastClassName": "c5",
+                    "rules": Array [
+                      "
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  width: 215px;
+  height: 100%;
+  border-left: 1px solid ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-htoDjs",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c5"
+                data-test="userSection"
+              >
+                <styled.img
+                  src="https://source.unsplash.com/random/50x50"
+                >
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-dnqmqq",
+                          "isStatic": true,
+                          "lastClassName": "c6",
+                          "rules": Array [
+                            "
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin: 0 15px 0 25px;
+",
+                          ],
+                        },
+                        "displayName": "styled.img",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-dnqmqq",
+                        "target": "img",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    src="https://source.unsplash.com/random/50x50"
+                  >
+                    <img
+                      className="c6"
+                      src="https://source.unsplash.com/random/50x50"
+                    />
+                  </StyledComponent>
+                </styled.img>
+                <Select
+                  onChangeOption={[Function]}
+                  options={
+                    Array [
+                      Object {
+                        "label": "First",
+                        "value": 1,
+                      },
+                      Object {
+                        "label": "Second",
+                        "value": 2,
+                      },
+                      Object {
+                        "label": "Third",
+                        "value": 3,
+                      },
+                    ]
+                  }
+                  placeholder="Sierra Brooks"
+                  style={
+                    Object {
+                      "border": "none",
+                      "height": "100%",
+                      "marginRight": "10px",
+                      "outline": "none",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <styled.div>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bdVaJa",
+                            "isStatic": true,
+                            "lastClassName": "c7",
+                            "rules": Array [
+                              "
+  min-width: 7.5rem;
+  width: 100%;
+",
+                            ],
+                          },
+                          "displayName": "styled.div",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "sc-bdVaJa",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c7"
+                      >
+                        <styled.select
+                          defaultValue={-1}
+                          onChange={[Function]}
+                          options={
+                            Array [
+                              Object {
+                                "label": "First",
+                                "value": 1,
+                              },
+                              Object {
+                                "label": "Second",
+                                "value": 2,
+                              },
+                              Object {
+                                "label": "Third",
+                                "value": 3,
+                              },
+                            ]
+                          }
+                          placeholder="Sierra Brooks"
+                          style={
+                            Object {
+                              "border": "none",
+                              "height": "100%",
+                              "marginRight": "10px",
+                              "outline": "none",
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <StyledComponent
+                            defaultValue={-1}
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bwzfXH",
+                                  "isStatic": false,
+                                  "lastClassName": "c8",
+                                  "rules": Array [
+                                    "
+  width: 100%;
+  padding: .4375rem .75rem;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: ",
+                                    [Function],
+                                    ";
+  background-color: ",
+                                    [Function],
+                                    ";
+  border: 1px solid ",
+                                    [Function],
+                                    ";
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06), border 250ms cubic-bezier(.27,.01,.38,1.06);
+
+  &:hover {
+    border-color: ",
+                                    [Function],
+                                    ";
+  }
+
+  &:focus {
+    color: ",
+                                    [Function],
+                                    ";
+    background-color: ",
+                                    [Function],
+                                    ";
+    border-color: ",
+                                    [Function],
+                                    ";
+    box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1), 0 0.156rem 0.125rem rgba(0,0,0,.06);
+  }
+",
+                                  ],
+                                },
+                                "displayName": "styled.select",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-bwzfXH",
+                                "target": "select",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            onChange={[Function]}
+                            options={
+                              Array [
+                                Object {
+                                  "label": "First",
+                                  "value": 1,
+                                },
+                                Object {
+                                  "label": "Second",
+                                  "value": 2,
+                                },
+                                Object {
+                                  "label": "Third",
+                                  "value": 3,
+                                },
+                              ]
+                            }
+                            placeholder="Sierra Brooks"
+                            style={
+                              Object {
+                                "border": "none",
+                                "height": "100%",
+                                "marginRight": "10px",
+                                "outline": "none",
+                                "width": "100%",
+                              }
+                            }
+                          >
+                            <select
+                              className="c8"
+                              defaultValue={-1}
+                              onChange={[Function]}
+                              placeholder="Sierra Brooks"
+                              style={
+                                Object {
+                                  "border": "none",
+                                  "height": "100%",
+                                  "marginRight": "10px",
+                                  "outline": "none",
+                                  "width": "100%",
+                                }
+                              }
+                            >
+                              <option
+                                disabled={true}
+                                hidden={true}
+                                value={-1}
+                              >
+                                Sierra Brooks
+                              </option>
+                              <option
+                                key="1"
+                                value={1}
+                              >
+                                First
+                              </option>
+                              <option
+                                key="2"
+                                value={2}
+                              >
+                                Second
+                              </option>
+                              <option
+                                key="3"
+                                value={3}
+                              >
+                                Third
+                              </option>
+                            </select>
+                          </StyledComponent>
+                        </styled.select>
+                      </div>
+                    </StyledComponent>
+                  </styled.div>
+                </Select>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </header>
+      </StyledComponent>
+    </styled.header>
+  </Header>
+</ThemeProvider>
+`;

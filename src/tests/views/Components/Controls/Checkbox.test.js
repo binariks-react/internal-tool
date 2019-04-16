@@ -18,7 +18,7 @@ describe('Checkbox', () => {
   it('with disabled', () => {
     const checkbox = render(
       <ThemeProvider theme={theme}>
-        <Checkbox disable />
+        <Checkbox disabled />
       </ThemeProvider>
     );
     expect(checkbox).toMatchSnapshot();
