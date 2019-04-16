@@ -57,11 +57,11 @@ exports[`Header should be rendered notifications number when prop passed 1`] = `
   height: 70px;
   line-height: 70px;
   padding-left: 20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(33,37,41,.25);
+  box-shadow: 0 0 15px -10px #5a6169;
 }
 
 .c2 {
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
   font-size: 1rem;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -143,6 +143,7 @@ exports[`Header should be rendered notifications number when prop passed 1`] = `
           "dark": "#0a0c0d",
           "info": "#008da5",
           "java": "#15ad80",
+          "lightGrey": "#FBFBFB",
           "primary": "#0062cc",
           "royalBlue": "#3f20e7",
           "salmon": "#ff0e41",
@@ -161,6 +162,7 @@ exports[`Header should be rendered notifications number when prop passed 1`] = `
           "dark": "#16181b",
           "info": "#00a2bf",
           "java": "#17c491",
+          "lightGrey": "#e9ecef",
           "primary": "#006fe6",
           "royalBlue": "#5337ea",
           "salmon": "#ff2855",
@@ -218,7 +220,7 @@ exports[`Header should be rendered notifications number when prop passed 1`] = `
   <Header
     notifications={12}
   >
-    <styled.div>
+    <styled.header>
       <StyledComponent
         forwardedComponent={
           Object {
@@ -242,17 +244,17 @@ exports[`Header should be rendered notifications number when prop passed 1`] = `
   height: 70px;
   line-height: 70px;
   padding-left: 20px;
-  box-shadow: ",
+  box-shadow: 0 0 15px -10px ",
                 [Function],
                 ";
 ",
               ],
             },
-            "displayName": "styled.div",
+            "displayName": "styled.header",
             "foldedComponentIds": Array [],
             "render": [Function],
             "styledComponentId": "sc-htpNat",
-            "target": "div",
+            "target": "header",
             "toString": [Function],
             "warnTooManyClasses": [Function],
             "withComponent": [Function],
@@ -260,7 +262,7 @@ exports[`Header should be rendered notifications number when prop passed 1`] = `
         }
         forwardedRef={null}
       >
-        <div
+        <header
           className="c0"
           data-test="wrapper"
         >
@@ -323,7 +325,7 @@ exports[`Header should be rendered notifications number when prop passed 1`] = `
                     "lastClassName": "c2",
                     "rules": Array [
                       "
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 1rem;
   flex: 1;
   border: none;
@@ -807,9 +809,9 @@ exports[`Header should be rendered notifications number when prop passed 1`] = `
               </div>
             </StyledComponent>
           </styled.div>
-        </div>
+        </header>
       </StyledComponent>
-    </styled.div>
+    </styled.header>
   </Header>
 </ThemeProvider>
 `;
@@ -871,11 +873,11 @@ exports[`Header should be rendered once and have all elements 1`] = `
   height: 70px;
   line-height: 70px;
   padding-left: 20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(33,37,41,.25);
+  box-shadow: 0 0 15px -10px #5a6169;
 }
 
 .c2 {
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
   font-size: 1rem;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -941,6 +943,7 @@ exports[`Header should be rendered once and have all elements 1`] = `
           "dark": "#0a0c0d",
           "info": "#008da5",
           "java": "#15ad80",
+          "lightGrey": "#FBFBFB",
           "primary": "#0062cc",
           "royalBlue": "#3f20e7",
           "salmon": "#ff0e41",
@@ -959,6 +962,7 @@ exports[`Header should be rendered once and have all elements 1`] = `
           "dark": "#16181b",
           "info": "#00a2bf",
           "java": "#17c491",
+          "lightGrey": "#e9ecef",
           "primary": "#006fe6",
           "royalBlue": "#5337ea",
           "salmon": "#ff2855",
@@ -1016,7 +1020,7 @@ exports[`Header should be rendered once and have all elements 1`] = `
   <Header
     notifications={null}
   >
-    <styled.div>
+    <styled.header>
       <StyledComponent
         forwardedComponent={
           Object {
@@ -1040,17 +1044,17 @@ exports[`Header should be rendered once and have all elements 1`] = `
   height: 70px;
   line-height: 70px;
   padding-left: 20px;
-  box-shadow: ",
+  box-shadow: 0 0 15px -10px ",
                 [Function],
                 ";
 ",
               ],
             },
-            "displayName": "styled.div",
+            "displayName": "styled.header",
             "foldedComponentIds": Array [],
             "render": [Function],
             "styledComponentId": "sc-htpNat",
-            "target": "div",
+            "target": "header",
             "toString": [Function],
             "warnTooManyClasses": [Function],
             "withComponent": [Function],
@@ -1058,7 +1062,7 @@ exports[`Header should be rendered once and have all elements 1`] = `
         }
         forwardedRef={null}
       >
-        <div
+        <header
           className="c0"
           data-test="wrapper"
         >
@@ -1121,7 +1125,7 @@ exports[`Header should be rendered once and have all elements 1`] = `
                     "lastClassName": "c2",
                     "rules": Array [
                       "
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 1rem;
   flex: 1;
   border: none;
@@ -1554,9 +1558,9 @@ exports[`Header should be rendered once and have all elements 1`] = `
               </div>
             </StyledComponent>
           </styled.div>
-        </div>
+        </header>
       </StyledComponent>
-    </styled.div>
+    </styled.header>
   </Header>
 </ThemeProvider>
 `;

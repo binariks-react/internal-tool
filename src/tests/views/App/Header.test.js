@@ -2,7 +2,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { mount } from 'enzyme';
 import theme from 'views/App/theme';
-import Header from 'views/App/Header/index';
+import Header from 'views/App/Header/Header';
 import 'jest-styled-components';
 
 describe('Header', () => {

@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import Select from 'views/Components/Controls/Select';
+import { getColor } from 'views/App/theme';
 
-const Wrapper = styled.div.attrs({ 'data-test': 'wrapper' })`
+const Wrapper = styled.header.attrs({ 'data-test': 'wrapper' })`
   display: flex;
   align-items: center;
   flex-shrink: 1;
@@ -12,11 +13,11 @@ const Wrapper = styled.div.attrs({ 'data-test': 'wrapper' })`
   height: 70px;
   line-height: 70px;
   padding-left: 20px;
-  box-shadow: ${props => props.theme.shadows.hover.dark};
+  box-shadow: 0 0 15px -10px ${getColor('secondary')};
 `;
 
 const Input = styled.input.attrs({ type: 'text', 'data-test': 'input' })`
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 1rem;
   flex: 1;
   border: none;
@@ -31,16 +32,16 @@ const NotificationWrapper = styled.div.attrs({ 'data-test': 'notifications' })`
   height: 70px;
   position: relative;
   cursor: pointer;
-  border-left: 1px solid ${props => props.theme.colors.lightGrey};
+  border-left: 1px solid ${getColor('lightGrey')};
   padding: 0 25px;
 `;
 
 const SearchIcon = styled.i`
-  color: ${props => props.theme.colors.icon};
+  color: ${getColor('icon')};
 `;
 
 const NotificationIcon = styled.i`
-  color: ${props => props.theme.colors.text};
+  color: ${getColor('text')};
 `;
 
 const NotificationsCount = styled.span.attrs({ 'data-test': 'notificationCount' })`
@@ -64,7 +65,7 @@ const UserSection = styled.div.attrs({ 'data-test': 'userSection' })`
   margin-right: 10px;
   width: 215px;
   height: 100%;
-  border-left: 1px solid ${props => props.theme.colors.lightGrey};
+  border-left: 1px solid ${getColor('lightGrey')};
 `;
 
 const UserImage = styled.img`
