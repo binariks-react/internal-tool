@@ -2,7 +2,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { render, mount } from 'enzyme';
 import theme from 'views/App/theme';
-import Sidebar from 'views/App/Sidebar/index';
+import Sidebar from 'views/App/Sidebar/Sidebar';
 import 'jest-styled-components';
 
 describe('Sidebar', () => {

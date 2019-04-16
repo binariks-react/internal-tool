@@ -5,7 +5,7 @@ import RadioButton from 'views/Components/Controls/RadioButton';
 import ProgressBar from 'views/Components/Controls/ProgressBar';
 import Switch from 'views/Components/Controls/Switch';
 import Checkbox from '../../Components/Controls/Checkbox';
-import Sidebar from '../../App/Sidebar';
+import Sidebar from '../../App/Sidebar/Sidebar';
 
 const Wrapper = styled.div`
   button + button {
@@ -139,4 +139,3 @@ const TestPage = () => {
 
 
 export default TestPage;
-

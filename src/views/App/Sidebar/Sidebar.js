@@ -60,7 +60,6 @@ const Sidebar = ({ titles, onClick, preventDefault, stopPropagation }) => {
     <Wrapper className="wrapper">
       <Header>Dashboards</Header>
       {
-        !!titles.length &&
         titles.map(({ title, icon }) => {
           const key = title.replace(/\s/g, '');
           return (
