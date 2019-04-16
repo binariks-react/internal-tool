@@ -7,9 +7,6 @@ import { getColor } from 'views/App/theme';
 const Wrapper = styled.header.attrs({ 'data-test': 'wrapper' })`
   display: flex;
   align-items: center;
-  flex-shrink: 1;
-  flex-grow: 1;
-  flex-basis: auto;
   height: 70px;
   line-height: 70px;
   padding-left: 20px;

@@ -2,7 +2,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { mount } from 'enzyme';
 import theme from 'views/App/theme';
-import Footer from 'views/App/Footer';
+import Footer from 'views/App/Footer/Footer';
 import 'jest-styled-components';
 
 describe('Footer', () => {

@@ -4,9 +4,6 @@ import styled from 'styled-components';
 const Wrapper = styled.div.attrs({ 'data-test': 'wrapper' })`
   display: flex;
   align-items: center;
-  flex-shrink: 1;
-  flex-grow: 1;
-  flex-basis: auto;
   align-self: flex-end;
   justify-content: space-between;
   height: 70px;
