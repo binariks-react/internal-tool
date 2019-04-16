@@ -1,174 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TestPageContainer snapshot 1`] = `
-.c1 {
+.c6 {
   background-color: #007bff;
   border-color: #007bff;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 0.25rem;
-  line-height: 1.125;
-  padding: .5625rem 1rem;
-  font-size: .75rem;
-  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
-  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
-  cursor: pointer;
-  color: #ffffff;
-}
-
-.c1:hover {
-  background-color: #006fe6;
-  border-color: #006fe6;
-  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,123,255,.25);
-  color: #ffffff;
-}
-
-.c1:active {
-  background-color: #006fe6;
-  border-color: #0062cc;
-  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
-  color: #ffffff;
-}
-
-.c1:focus {
-  box-shadow: 0 0 0 3px rgba(0,123,255,.15),0 3px 15px rgba(0,123,255,.2),0 2px 5px rgba(0,0,0,.1);
-}
-
-.c2 {
-  background-color: #5a6169;
-  border-color: #5a6169;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 0.25rem;
-  line-height: 1.125;
-  padding: .5625rem 1rem;
-  font-size: .75rem;
-  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
-  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
-  cursor: pointer;
-  color: #ffffff;
-}
-
-.c2:hover {
-  background-color: #4e545b;
-  border-color: #4e545b;
-  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(90,97,105,.25);
-  color: #ffffff;
-}
-
-.c2:active {
-  background-color: #4e545b;
-  border-color: #42484e;
-  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
-  color: #ffffff;
-}
-
-.c2:focus {
-  box-shadow: 0 0 0 3px rgba(90,97,105,.15),0 3px 15px rgba(90,97,105,.2),0 2px 5px rgba(0,0,0,.1);
-}
-
-.c3 {
-  background-color: #17c671;
-  border-color: #17c671;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 0.25rem;
-  line-height: 1.125;
-  padding: .5625rem 1rem;
-  font-size: .75rem;
-  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
-  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
-  cursor: pointer;
-  color: #ffffff;
-}
-
-.c3:hover {
-  background-color: #14af64;
-  border-color: #14af64;
-  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(23,198,113,.25);
-  color: #ffffff;
-}
-
-.c3:active {
-  background-color: #14af64;
-  border-color: #129857;
-  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
-  color: #ffffff;
-}
-
-.c3:focus {
-  box-shadow: 0 0 0 3px rgba(23,198,113,.15),0 3px 15px rgba(23,198,113,.2),0 2px 5px rgba(0,0,0,.1);
-}
-
-.c4 {
-  background-color: #00b8d8;
-  border-color: #00b8d8;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 0.25rem;
-  line-height: 1.125;
-  padding: .5625rem 1rem;
-  font-size: .75rem;
-  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
-  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
-  cursor: pointer;
-  color: #ffffff;
-}
-
-.c4:hover {
-  background-color: #00a2bf;
-  border-color: #00a2bf;
-  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,184,216,.25);
-  color: #ffffff;
-}
-
-.c4:active {
-  background-color: #00a2bf;
-  border-color: #008da5;
-  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
-  color: #ffffff;
-}
-
-.c4:focus {
-  box-shadow: 0 0 0 3px rgba(0,184,216,.15),0 3px 15px rgba(0,184,216,.2),0 2px 5px rgba(0,0,0,.1);
-}
-
-.c5 {
-  background-color: #c4183c;
-  border-color: #c4183c;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 0.25rem;
-  line-height: 1.125;
-  padding: .5625rem 1rem;
-  font-size: .75rem;
-  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
-  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
-  cursor: pointer;
-  color: #ffffff;
-}
-
-.c5:hover {
-  background-color: #ad1535;
-  border-color: #ad1535;
-  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(196,24,60,.25);
-  color: #ffffff;
-}
-
-.c5:active {
-  background-color: #ad1535;
-  border-color: #97122e;
-  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
-  color: #ffffff;
-}
-
-.c5:focus {
-  box-shadow: 0 0 0 3px rgba(196,24,60,.15),0 3px 15px rgba(196,24,60,.2),0 2px 5px rgba(0,0,0,.1);
-}
-
-.c6 {
-  background-color: #ffb400;
-  border-color: #ffb400;
   border-width: 1px;
   border-style: solid;
   border-radius: 0.25rem;
@@ -182,24 +17,189 @@ exports[`TestPageContainer snapshot 1`] = `
 }
 
 .c6:hover {
+  background-color: #006fe6;
+  border-color: #006fe6;
+  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,123,255,.25);
+  color: #ffffff;
+}
+
+.c6:active {
+  background-color: #006fe6;
+  border-color: #0062cc;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
+  color: #ffffff;
+}
+
+.c6:focus {
+  box-shadow: 0 0 0 3px rgba(0,123,255,.15),0 3px 15px rgba(0,123,255,.2),0 2px 5px rgba(0,0,0,.1);
+}
+
+.c7 {
+  background-color: #5a6169;
+  border-color: #5a6169;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  line-height: 1.125;
+  padding: .5625rem 1rem;
+  font-size: .75rem;
+  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.c7:hover {
+  background-color: #4e545b;
+  border-color: #4e545b;
+  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(90,97,105,.25);
+  color: #ffffff;
+}
+
+.c7:active {
+  background-color: #4e545b;
+  border-color: #42484e;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
+  color: #ffffff;
+}
+
+.c7:focus {
+  box-shadow: 0 0 0 3px rgba(90,97,105,.15),0 3px 15px rgba(90,97,105,.2),0 2px 5px rgba(0,0,0,.1);
+}
+
+.c8 {
+  background-color: #17c671;
+  border-color: #17c671;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  line-height: 1.125;
+  padding: .5625rem 1rem;
+  font-size: .75rem;
+  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.c8:hover {
+  background-color: #14af64;
+  border-color: #14af64;
+  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(23,198,113,.25);
+  color: #ffffff;
+}
+
+.c8:active {
+  background-color: #14af64;
+  border-color: #129857;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
+  color: #ffffff;
+}
+
+.c8:focus {
+  box-shadow: 0 0 0 3px rgba(23,198,113,.15),0 3px 15px rgba(23,198,113,.2),0 2px 5px rgba(0,0,0,.1);
+}
+
+.c9 {
+  background-color: #00b8d8;
+  border-color: #00b8d8;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  line-height: 1.125;
+  padding: .5625rem 1rem;
+  font-size: .75rem;
+  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.c9:hover {
+  background-color: #00a2bf;
+  border-color: #00a2bf;
+  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,184,216,.25);
+  color: #ffffff;
+}
+
+.c9:active {
+  background-color: #00a2bf;
+  border-color: #008da5;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
+  color: #ffffff;
+}
+
+.c9:focus {
+  box-shadow: 0 0 0 3px rgba(0,184,216,.15),0 3px 15px rgba(0,184,216,.2),0 2px 5px rgba(0,0,0,.1);
+}
+
+.c10 {
+  background-color: #c4183c;
+  border-color: #c4183c;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  line-height: 1.125;
+  padding: .5625rem 1rem;
+  font-size: .75rem;
+  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.c10:hover {
+  background-color: #ad1535;
+  border-color: #ad1535;
+  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(196,24,60,.25);
+  color: #ffffff;
+}
+
+.c10:active {
+  background-color: #ad1535;
+  border-color: #97122e;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
+  color: #ffffff;
+}
+
+.c10:focus {
+  box-shadow: 0 0 0 3px rgba(196,24,60,.15),0 3px 15px rgba(196,24,60,.2),0 2px 5px rgba(0,0,0,.1);
+}
+
+.c11 {
+  background-color: #ffb400;
+  border-color: #ffb400;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  line-height: 1.125;
+  padding: .5625rem 1rem;
+  font-size: .75rem;
+  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.c11:hover {
   background-color: #e6a200;
   border-color: #e6a200;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(255,180,0,.25);
   color: #ffffff;
 }
 
-.c6:active {
+.c11:active {
   background-color: #e6a200;
   border-color: #cc9000;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c6:focus {
+.c11:focus {
   box-shadow: 0 0 0 3px rgba(255,180,0,.15),0 3px 15px rgba(255,180,0,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c7 {
+.c12 {
   background-color: #212529;
   border-color: #212529;
   border-width: 1px;
@@ -214,25 +214,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c7:hover {
+.c12:hover {
   background-color: #16181b;
   border-color: #16181b;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(33,37,41,.25);
   color: #ffffff;
 }
 
-.c7:active {
+.c12:active {
   background-color: #16181b;
   border-color: #0a0c0d;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c7:focus {
+.c12:focus {
   box-shadow: 0 0 0 3px rgba(33,37,41,.15),0 3px 15px rgba(33,37,41,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c8 {
+.c13 {
   background-color: #ffffff;
   border-color: #e1e5eb;
   border-width: 1px;
@@ -247,25 +247,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #5a6169;
 }
 
-.c8:hover {
+.c13:hover {
   background-color: #ffffff;
   border-color: #e1e5eb;
   box-shadow: 0 0.125rem 0.625rem rgba(129,142,163,.2),0 0.0625rem 0.125rem rgba(129,142,164,.3);
   color: #5a6169;
 }
 
-.c8:active {
+.c13:active {
   background-color: #007bff;
   border-color: #007bff;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c8:focus {
+.c13:focus {
   box-shadow: 0 0 0 3px rgba(251,251,251,.15),0 3px 15px rgba(251,251,251,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c9 {
+.c14 {
   background-color: #674eec;
   border-color: #674eec;
   border-width: 1px;
@@ -280,25 +280,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c9:hover {
+.c14:hover {
   background-color: #5337ea;
   border-color: #5337ea;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(103,78,236,.25);
   color: #ffffff;
 }
 
-.c9:active {
+.c14:active {
   background-color: #5337ea;
   border-color: #3f20e7;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c9:focus {
+.c14:focus {
   box-shadow: 0 0 0 3px rgba(103,78,236,.15),0 3px 15px rgba(103,78,236,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c10 {
+.c15 {
   background-color: #1adba2;
   border-color: #1adba2;
   border-width: 1px;
@@ -313,25 +313,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c10:hover {
+.c15:hover {
   background-color: #17c491;
   border-color: #17c491;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(26,219,162,.25);
   color: #ffffff;
 }
 
-.c10:active {
+.c15:active {
   background-color: #17c491;
   border-color: #15ad80;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c10:focus {
+.c15:focus {
   box-shadow: 0 0 0 3px rgba(26,219,162,.15),0 3px 15px rgba(26,219,162,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c11 {
+.c16 {
   background-color: #ff4169;
   border-color: #ff4169;
   border-width: 1px;
@@ -346,25 +346,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c11:hover {
+.c16:hover {
   background-color: #ff2855;
   border-color: #ff2855;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(255,65,105,.25);
   color: #ffffff;
 }
 
-.c11:active {
+.c16:active {
   background-color: #ff2855;
   border-color: #ff0e41;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c11:focus {
+.c16:focus {
   box-shadow: 0 0 0 3px rgba(255,65,105,.15),0 3px 15px rgba(255,65,105,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c12 {
+.c17 {
   background-color: #ffffff;
   border-color: #007bff;
   border-width: 1px;
@@ -379,24 +379,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #007bff;
 }
 
-.c12:hover {
+.c17:hover {
   background-color: #006fe6;
   border-color: #006fe6;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,123,255,.25);
   color: #ffffff;
 }
 
-.c12:active {
+.c17:active {
   border-color: #0062cc;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c12:focus {
+.c17:focus {
   box-shadow: 0 0 0 3px rgba(0,123,255,.15),0 3px 15px rgba(0,123,255,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c13 {
+.c18 {
   background-color: #ffffff;
   border-color: #5a6169;
   border-width: 1px;
@@ -411,24 +411,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #5a6169;
 }
 
-.c13:hover {
+.c18:hover {
   background-color: #4e545b;
   border-color: #4e545b;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(90,97,105,.25);
   color: #ffffff;
 }
 
-.c13:active {
+.c18:active {
   border-color: #42484e;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c13:focus {
+.c18:focus {
   box-shadow: 0 0 0 3px rgba(90,97,105,.15),0 3px 15px rgba(90,97,105,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c14 {
+.c19 {
   background-color: #ffffff;
   border-color: #17c671;
   border-width: 1px;
@@ -443,24 +443,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #17c671;
 }
 
-.c14:hover {
+.c19:hover {
   background-color: #14af64;
   border-color: #14af64;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(23,198,113,.25);
   color: #ffffff;
 }
 
-.c14:active {
+.c19:active {
   border-color: #129857;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c14:focus {
+.c19:focus {
   box-shadow: 0 0 0 3px rgba(23,198,113,.15),0 3px 15px rgba(23,198,113,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c15 {
+.c20 {
   background-color: #ffffff;
   border-color: #00b8d8;
   border-width: 1px;
@@ -475,24 +475,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #00b8d8;
 }
 
-.c15:hover {
+.c20:hover {
   background-color: #00a2bf;
   border-color: #00a2bf;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,184,216,.25);
   color: #ffffff;
 }
 
-.c15:active {
+.c20:active {
   border-color: #008da5;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c15:focus {
+.c20:focus {
   box-shadow: 0 0 0 3px rgba(0,184,216,.15),0 3px 15px rgba(0,184,216,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c16 {
+.c21 {
   background-color: #ffffff;
   border-color: #c4183c;
   border-width: 1px;
@@ -507,24 +507,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #c4183c;
 }
 
-.c16:hover {
+.c21:hover {
   background-color: #ad1535;
   border-color: #ad1535;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(196,24,60,.25);
   color: #ffffff;
 }
 
-.c16:active {
+.c21:active {
   border-color: #97122e;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c16:focus {
+.c21:focus {
   box-shadow: 0 0 0 3px rgba(196,24,60,.15),0 3px 15px rgba(196,24,60,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c17 {
+.c22 {
   background-color: #ffffff;
   border-color: #ffb400;
   border-width: 1px;
@@ -539,24 +539,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffb400;
 }
 
-.c17:hover {
+.c22:hover {
   background-color: #e6a200;
   border-color: #e6a200;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(255,180,0,.25);
   color: #ffffff;
 }
 
-.c17:active {
+.c22:active {
   border-color: #cc9000;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c17:focus {
+.c22:focus {
   box-shadow: 0 0 0 3px rgba(255,180,0,.15),0 3px 15px rgba(255,180,0,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c18 {
+.c23 {
   background-color: #ffffff;
   border-color: #212529;
   border-width: 1px;
@@ -571,24 +571,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #212529;
 }
 
-.c18:hover {
+.c23:hover {
   background-color: #16181b;
   border-color: #16181b;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(33,37,41,.25);
   color: #ffffff;
 }
 
-.c18:active {
+.c23:active {
   border-color: #0a0c0d;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c18:focus {
+.c23:focus {
   box-shadow: 0 0 0 3px rgba(33,37,41,.15),0 3px 15px rgba(33,37,41,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c19 {
+.c24 {
   background-color: #ffffff;
   border-color: transparent;
   border-width: 1px;
@@ -603,24 +603,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #5a6169;
 }
 
-.c19:hover {
+.c24:hover {
   background-color: #ffffff;
   border-color: transparent;
   box-shadow: 0 0.125rem 0.625rem rgba(129,142,163,.2),0 0.0625rem 0.125rem rgba(129,142,164,.3);
   color: #5a6169;
 }
 
-.c19:active {
+.c24:active {
   border-color: #007bff;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c19:focus {
+.c24:focus {
   box-shadow: 0 0 0 3px rgba(251,251,251,.15),0 3px 15px rgba(251,251,251,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c20 {
+.c25 {
   background-color: #ffffff;
   border-color: #674eec;
   border-width: 1px;
@@ -635,24 +635,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #674eec;
 }
 
-.c20:hover {
+.c25:hover {
   background-color: #5337ea;
   border-color: #5337ea;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(103,78,236,.25);
   color: #ffffff;
 }
 
-.c20:active {
+.c25:active {
   border-color: #3f20e7;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c20:focus {
+.c25:focus {
   box-shadow: 0 0 0 3px rgba(103,78,236,.15),0 3px 15px rgba(103,78,236,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c21 {
+.c26 {
   background-color: #ffffff;
   border-color: #1adba2;
   border-width: 1px;
@@ -667,24 +667,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #1adba2;
 }
 
-.c21:hover {
+.c26:hover {
   background-color: #17c491;
   border-color: #17c491;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(26,219,162,.25);
   color: #ffffff;
 }
 
-.c21:active {
+.c26:active {
   border-color: #15ad80;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c21:focus {
+.c26:focus {
   box-shadow: 0 0 0 3px rgba(26,219,162,.15),0 3px 15px rgba(26,219,162,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c22 {
+.c27 {
   background-color: #ffffff;
   border-color: #ff4169;
   border-width: 1px;
@@ -699,24 +699,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ff4169;
 }
 
-.c22:hover {
+.c27:hover {
   background-color: #ff2855;
   border-color: #ff2855;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(255,65,105,.25);
   color: #ffffff;
 }
 
-.c22:active {
+.c27:active {
   border-color: #ff0e41;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c22:focus {
+.c27:focus {
   box-shadow: 0 0 0 3px rgba(255,65,105,.15),0 3px 15px rgba(255,65,105,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c23 {
+.c28 {
   background-color: #007bff;
   border-color: #007bff;
   border-width: 1px;
@@ -731,25 +731,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c23:hover {
+.c28:hover {
   background-color: #006fe6;
   border-color: #006fe6;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,123,255,.25);
   color: #ffffff;
 }
 
-.c23:active {
+.c28:active {
   background-color: #006fe6;
   border-color: #0062cc;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c23:focus {
+.c28:focus {
   box-shadow: 0 0 0 3px rgba(0,123,255,.15),0 3px 15px rgba(0,123,255,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c24 {
+.c29 {
   background-color: #5a6169;
   border-color: #5a6169;
   border-width: 1px;
@@ -764,25 +764,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c24:hover {
+.c29:hover {
   background-color: #4e545b;
   border-color: #4e545b;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(90,97,105,.25);
   color: #ffffff;
 }
 
-.c24:active {
+.c29:active {
   background-color: #4e545b;
   border-color: #42484e;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c24:focus {
+.c29:focus {
   box-shadow: 0 0 0 3px rgba(90,97,105,.15),0 3px 15px rgba(90,97,105,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c25 {
+.c30 {
   background-color: #17c671;
   border-color: #17c671;
   border-width: 1px;
@@ -797,25 +797,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c25:hover {
+.c30:hover {
   background-color: #14af64;
   border-color: #14af64;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(23,198,113,.25);
   color: #ffffff;
 }
 
-.c25:active {
+.c30:active {
   background-color: #14af64;
   border-color: #129857;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c25:focus {
+.c30:focus {
   box-shadow: 0 0 0 3px rgba(23,198,113,.15),0 3px 15px rgba(23,198,113,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c26 {
+.c31 {
   background-color: #00b8d8;
   border-color: #00b8d8;
   border-width: 1px;
@@ -830,25 +830,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c26:hover {
+.c31:hover {
   background-color: #00a2bf;
   border-color: #00a2bf;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,184,216,.25);
   color: #ffffff;
 }
 
-.c26:active {
+.c31:active {
   background-color: #00a2bf;
   border-color: #008da5;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c26:focus {
+.c31:focus {
   box-shadow: 0 0 0 3px rgba(0,184,216,.15),0 3px 15px rgba(0,184,216,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c27 {
+.c32 {
   background-color: #c4183c;
   border-color: #c4183c;
   border-width: 1px;
@@ -863,25 +863,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c27:hover {
+.c32:hover {
   background-color: #ad1535;
   border-color: #ad1535;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(196,24,60,.25);
   color: #ffffff;
 }
 
-.c27:active {
+.c32:active {
   background-color: #ad1535;
   border-color: #97122e;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c27:focus {
+.c32:focus {
   box-shadow: 0 0 0 3px rgba(196,24,60,.15),0 3px 15px rgba(196,24,60,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c28 {
+.c33 {
   background-color: #ffb400;
   border-color: #ffb400;
   border-width: 1px;
@@ -896,25 +896,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c28:hover {
+.c33:hover {
   background-color: #e6a200;
   border-color: #e6a200;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(255,180,0,.25);
   color: #ffffff;
 }
 
-.c28:active {
+.c33:active {
   background-color: #e6a200;
   border-color: #cc9000;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c28:focus {
+.c33:focus {
   box-shadow: 0 0 0 3px rgba(255,180,0,.15),0 3px 15px rgba(255,180,0,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c29 {
+.c34 {
   background-color: #212529;
   border-color: #212529;
   border-width: 1px;
@@ -929,25 +929,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c29:hover {
+.c34:hover {
   background-color: #16181b;
   border-color: #16181b;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(33,37,41,.25);
   color: #ffffff;
 }
 
-.c29:active {
+.c34:active {
   background-color: #16181b;
   border-color: #0a0c0d;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c29:focus {
+.c34:focus {
   box-shadow: 0 0 0 3px rgba(33,37,41,.15),0 3px 15px rgba(33,37,41,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c30 {
+.c35 {
   background-color: #ffffff;
   border-color: #e1e5eb;
   border-width: 1px;
@@ -962,25 +962,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #5a6169;
 }
 
-.c30:hover {
+.c35:hover {
   background-color: #ffffff;
   border-color: #e1e5eb;
   box-shadow: 0 0.125rem 0.625rem rgba(129,142,163,.2),0 0.0625rem 0.125rem rgba(129,142,164,.3);
   color: #5a6169;
 }
 
-.c30:active {
+.c35:active {
   background-color: #007bff;
   border-color: #007bff;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c30:focus {
+.c35:focus {
   box-shadow: 0 0 0 3px rgba(251,251,251,.15),0 3px 15px rgba(251,251,251,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c31 {
+.c36 {
   background-color: #674eec;
   border-color: #674eec;
   border-width: 1px;
@@ -995,25 +995,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c31:hover {
+.c36:hover {
   background-color: #5337ea;
   border-color: #5337ea;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(103,78,236,.25);
   color: #ffffff;
 }
 
-.c31:active {
+.c36:active {
   background-color: #5337ea;
   border-color: #3f20e7;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c31:focus {
+.c36:focus {
   box-shadow: 0 0 0 3px rgba(103,78,236,.15),0 3px 15px rgba(103,78,236,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c32 {
+.c37 {
   background-color: #1adba2;
   border-color: #1adba2;
   border-width: 1px;
@@ -1028,25 +1028,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c32:hover {
+.c37:hover {
   background-color: #17c491;
   border-color: #17c491;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(26,219,162,.25);
   color: #ffffff;
 }
 
-.c32:active {
+.c37:active {
   background-color: #17c491;
   border-color: #15ad80;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c32:focus {
+.c37:focus {
   box-shadow: 0 0 0 3px rgba(26,219,162,.15),0 3px 15px rgba(26,219,162,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c33 {
+.c38 {
   background-color: #ff4169;
   border-color: #ff4169;
   border-width: 1px;
@@ -1061,25 +1061,25 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffffff;
 }
 
-.c33:hover {
+.c38:hover {
   background-color: #ff2855;
   border-color: #ff2855;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(255,65,105,.25);
   color: #ffffff;
 }
 
-.c33:active {
+.c38:active {
   background-color: #ff2855;
   border-color: #ff0e41;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c33:focus {
+.c38:focus {
   box-shadow: 0 0 0 3px rgba(255,65,105,.15),0 3px 15px rgba(255,65,105,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c34 {
+.c39 {
   background-color: #ffffff;
   border-color: #007bff;
   border-width: 1px;
@@ -1094,24 +1094,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #007bff;
 }
 
-.c34:hover {
+.c39:hover {
   background-color: #006fe6;
   border-color: #006fe6;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,123,255,.25);
   color: #ffffff;
 }
 
-.c34:active {
+.c39:active {
   border-color: #0062cc;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c34:focus {
+.c39:focus {
   box-shadow: 0 0 0 3px rgba(0,123,255,.15),0 3px 15px rgba(0,123,255,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c35 {
+.c40 {
   background-color: #ffffff;
   border-color: #5a6169;
   border-width: 1px;
@@ -1126,24 +1126,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #5a6169;
 }
 
-.c35:hover {
+.c40:hover {
   background-color: #4e545b;
   border-color: #4e545b;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(90,97,105,.25);
   color: #ffffff;
 }
 
-.c35:active {
+.c40:active {
   border-color: #42484e;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c35:focus {
+.c40:focus {
   box-shadow: 0 0 0 3px rgba(90,97,105,.15),0 3px 15px rgba(90,97,105,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c36 {
+.c41 {
   background-color: #ffffff;
   border-color: #17c671;
   border-width: 1px;
@@ -1158,24 +1158,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #17c671;
 }
 
-.c36:hover {
+.c41:hover {
   background-color: #14af64;
   border-color: #14af64;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(23,198,113,.25);
   color: #ffffff;
 }
 
-.c36:active {
+.c41:active {
   border-color: #129857;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c36:focus {
+.c41:focus {
   box-shadow: 0 0 0 3px rgba(23,198,113,.15),0 3px 15px rgba(23,198,113,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c37 {
+.c42 {
   background-color: #ffffff;
   border-color: #00b8d8;
   border-width: 1px;
@@ -1190,24 +1190,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #00b8d8;
 }
 
-.c37:hover {
+.c42:hover {
   background-color: #00a2bf;
   border-color: #00a2bf;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,184,216,.25);
   color: #ffffff;
 }
 
-.c37:active {
+.c42:active {
   border-color: #008da5;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c37:focus {
+.c42:focus {
   box-shadow: 0 0 0 3px rgba(0,184,216,.15),0 3px 15px rgba(0,184,216,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c38 {
+.c43 {
   background-color: #ffffff;
   border-color: #c4183c;
   border-width: 1px;
@@ -1222,24 +1222,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #c4183c;
 }
 
-.c38:hover {
+.c43:hover {
   background-color: #ad1535;
   border-color: #ad1535;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(196,24,60,.25);
   color: #ffffff;
 }
 
-.c38:active {
+.c43:active {
   border-color: #97122e;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c38:focus {
+.c43:focus {
   box-shadow: 0 0 0 3px rgba(196,24,60,.15),0 3px 15px rgba(196,24,60,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c39 {
+.c44 {
   background-color: #ffffff;
   border-color: #ffb400;
   border-width: 1px;
@@ -1254,24 +1254,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ffb400;
 }
 
-.c39:hover {
+.c44:hover {
   background-color: #e6a200;
   border-color: #e6a200;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(255,180,0,.25);
   color: #ffffff;
 }
 
-.c39:active {
+.c44:active {
   border-color: #cc9000;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c39:focus {
+.c44:focus {
   box-shadow: 0 0 0 3px rgba(255,180,0,.15),0 3px 15px rgba(255,180,0,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c40 {
+.c45 {
   background-color: #ffffff;
   border-color: #212529;
   border-width: 1px;
@@ -1286,24 +1286,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #212529;
 }
 
-.c40:hover {
+.c45:hover {
   background-color: #16181b;
   border-color: #16181b;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(33,37,41,.25);
   color: #ffffff;
 }
 
-.c40:active {
+.c45:active {
   border-color: #0a0c0d;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c40:focus {
+.c45:focus {
   box-shadow: 0 0 0 3px rgba(33,37,41,.15),0 3px 15px rgba(33,37,41,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c41 {
+.c46 {
   background-color: #ffffff;
   border-color: transparent;
   border-width: 1px;
@@ -1318,24 +1318,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #5a6169;
 }
 
-.c41:hover {
+.c46:hover {
   background-color: #ffffff;
   border-color: transparent;
   box-shadow: 0 0.125rem 0.625rem rgba(129,142,163,.2),0 0.0625rem 0.125rem rgba(129,142,164,.3);
   color: #5a6169;
 }
 
-.c41:active {
+.c46:active {
   border-color: #007bff;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c41:focus {
+.c46:focus {
   box-shadow: 0 0 0 3px rgba(251,251,251,.15),0 3px 15px rgba(251,251,251,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c42 {
+.c47 {
   background-color: #ffffff;
   border-color: #674eec;
   border-width: 1px;
@@ -1350,24 +1350,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #674eec;
 }
 
-.c42:hover {
+.c47:hover {
   background-color: #5337ea;
   border-color: #5337ea;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(103,78,236,.25);
   color: #ffffff;
 }
 
-.c42:active {
+.c47:active {
   border-color: #3f20e7;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c42:focus {
+.c47:focus {
   box-shadow: 0 0 0 3px rgba(103,78,236,.15),0 3px 15px rgba(103,78,236,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c43 {
+.c48 {
   background-color: #ffffff;
   border-color: #1adba2;
   border-width: 1px;
@@ -1382,24 +1382,24 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #1adba2;
 }
 
-.c43:hover {
+.c48:hover {
   background-color: #17c491;
   border-color: #17c491;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(26,219,162,.25);
   color: #ffffff;
 }
 
-.c43:active {
+.c48:active {
   border-color: #15ad80;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c43:focus {
+.c48:focus {
   box-shadow: 0 0 0 3px rgba(26,219,162,.15),0 3px 15px rgba(26,219,162,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c44 {
+.c49 {
   background-color: #ffffff;
   border-color: #ff4169;
   border-width: 1px;
@@ -1414,29 +1414,29 @@ exports[`TestPageContainer snapshot 1`] = `
   color: #ff4169;
 }
 
-.c44:hover {
+.c49:hover {
   background-color: #ff2855;
   border-color: #ff2855;
   box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(255,65,105,.25);
   color: #ffffff;
 }
 
-.c44:active {
+.c49:active {
   border-color: #ff0e41;
   box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   color: #ffffff;
 }
 
-.c44:focus {
+.c49:focus {
   box-shadow: 0 0 0 3px rgba(255,65,105,.15),0 3px 15px rgba(255,65,105,.2),0 2px 5px rgba(0,0,0,.1);
 }
 
-.c79 {
+.c84 {
   min-width: 7.5rem;
   width: 100%;
 }
 
-.c80 {
+.c85 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1453,7 +1453,7 @@ exports[`TestPageContainer snapshot 1`] = `
   min-width: 7.5rem;
 }
 
-.c81 {
+.c86 {
   padding: .4375rem .75rem;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
@@ -1470,18 +1470,18 @@ exports[`TestPageContainer snapshot 1`] = `
   transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
 }
 
-.c81:hover {
+.c86:hover {
   border-color: #b3bdcc;
 }
 
-.c81:focus {
+.c86:focus {
   color: #5a6169;
   background-color: #ffffff;
   border-color: #007bff;
   box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
 }
 
-.c84 {
+.c89 {
   padding: .4375rem .75rem;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
@@ -1500,18 +1500,18 @@ exports[`TestPageContainer snapshot 1`] = `
   border-bottom-left-radius: 0;
 }
 
-.c84:hover {
+.c89:hover {
   border-color: #b3bdcc;
 }
 
-.c84:focus {
+.c89:focus {
   color: #5a6169;
   background-color: #ffffff;
   border-color: #007bff;
   box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
 }
 
-.c85 {
+.c90 {
   padding: .4375rem .75rem;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
@@ -1530,18 +1530,18 @@ exports[`TestPageContainer snapshot 1`] = `
   box-shadow: 0 5px 11.5px rgba(23,198,113,.1);
 }
 
-.c85:hover {
+.c90:hover {
   border-color: #b3bdcc;
 }
 
-.c85:focus {
+.c90:focus {
   color: #5a6169;
   background-color: #ffffff;
   border-color: #007bff;
   box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
 }
 
-.c87 {
+.c92 {
   padding: .4375rem .75rem;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
@@ -1560,39 +1560,39 @@ exports[`TestPageContainer snapshot 1`] = `
   box-shadow: 0 5px 11.5px rgba(196,24,60,.1);
 }
 
-.c87:hover {
+.c92:hover {
   border-color: #b3bdcc;
 }
 
-.c87:focus {
+.c92:focus {
   color: #5a6169;
   background-color: #ffffff;
   border-color: #007bff;
   box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
 }
 
-.c86 {
+.c91 {
   display: block;
   margin-top: .25rem;
   font-size: 80%;
   color: #17c671;
 }
 
-.c88 {
+.c93 {
   display: block;
   margin-top: .25rem;
   font-size: 80%;
   color: #c4183c;
 }
 
-.c82 {
+.c87 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c83 {
+.c88 {
   font-size: .8125rem;
   padding: .375rem .75rem;
   font-weight: 300;
@@ -1606,12 +1606,12 @@ exports[`TestPageContainer snapshot 1`] = `
   margin-right: -1px;
 }
 
-.c89 {
+.c94 {
   min-width: 7.5rem;
   width: 100%;
 }
 
-.c90 {
+.c95 {
   width: 100%;
   padding: .4375rem .75rem;
   -webkit-flex: 1 1 auto;
@@ -1629,23 +1629,23 @@ exports[`TestPageContainer snapshot 1`] = `
   transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
 }
 
-.c90:hover {
+.c95:hover {
   border-color: #b3bdcc;
 }
 
-.c90:focus {
+.c95:focus {
   color: #5a6169;
   background-color: #ffffff;
   border-color: #007bff;
   box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
 }
 
-.c78 {
+.c83 {
   margin-bottom: 1rem;
   width: 250px;
 }
 
-.c73 {
+.c78 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1657,7 +1657,7 @@ exports[`TestPageContainer snapshot 1`] = `
   cursor: pointer;
 }
 
-.c77 {
+.c82 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1669,7 +1669,7 @@ exports[`TestPageContainer snapshot 1`] = `
   cursor: not-allowed;
 }
 
-.c74 {
+.c79 {
   box-sizing: border-box;
   padding: 0;
   position: absolute;
@@ -1678,7 +1678,7 @@ exports[`TestPageContainer snapshot 1`] = `
   overflow: visible;
 }
 
-.c75 {
+.c80 {
   display: inline-block;
   box-sizing: border-box;
   color: #5a6169;
@@ -1692,30 +1692,30 @@ exports[`TestPageContainer snapshot 1`] = `
   box-shadow: none;
 }
 
-input:checked + .c75 {
+input:checked + .c80 {
   border: 5px solid #007bff;
 }
 
-input[type='radio'][checked][disabled] + .c75 {
+input[type='radio'][checked][disabled] + .c80 {
   background-color: #5a6169;
   border: 5px solid #e9ecef;
 }
 
-input:disabled + .c75 {
+input:disabled + .c80 {
   background-color: #e9ecef;
 }
 
-.c76 {
+.c81 {
   margin-left: 5px;
   color: #5a6169;
 }
 
-input:disabled ~ .c76 {
+input:disabled ~ .c81 {
   opacity: 0.7;
   color: #5a6169;
 }
 
-.c45 {
+.c50 {
   height: 5px;
   width: 100%;
   border-radius: 1.25rem;
@@ -1724,7 +1724,7 @@ input:disabled ~ .c76 {
   overflow: hidden;
 }
 
-.c46 {
+.c51 {
   height: 100%;
   width: 18.75%;
   line-height: .625rem;
@@ -1734,7 +1734,7 @@ input:disabled ~ .c76 {
   transition: width .6s ease;
 }
 
-.c47 {
+.c52 {
   height: 100%;
   width: 50%;
   line-height: .625rem;
@@ -1744,7 +1744,7 @@ input:disabled ~ .c76 {
   transition: width .6s ease;
 }
 
-.c48 {
+.c53 {
   height: 100%;
   width: 75%;
   line-height: .625rem;
@@ -1754,7 +1754,7 @@ input:disabled ~ .c76 {
   transition: width .6s ease;
 }
 
-.c49 {
+.c54 {
   height: 100%;
   width: 125%;
   line-height: .625rem;
@@ -1764,7 +1764,7 @@ input:disabled ~ .c76 {
   transition: width .6s ease;
 }
 
-.c50 {
+.c55 {
   height: 100%;
   width: 0%;
   line-height: .625rem;
@@ -1774,7 +1774,7 @@ input:disabled ~ .c76 {
   transition: width .6s ease;
 }
 
-.c51 {
+.c56 {
   height: 100%;
   width: 100%;
   line-height: .625rem;
@@ -1784,7 +1784,7 @@ input:disabled ~ .c76 {
   transition: width .6s ease;
 }
 
-.c52 {
+.c57 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1799,16 +1799,16 @@ input:disabled ~ .c76 {
   cursor: pointer;
 }
 
-.c52:active > div > div {
+.c57:active > div > div {
   width: 1rem;
   left: 0.1875rem;
 }
 
-.c52:active > div {
+.c57:active > div {
   box-shadow: none;
 }
 
-.c56 {
+.c61 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1823,16 +1823,16 @@ input:disabled ~ .c76 {
   cursor: pointer;
 }
 
-.c56:active > div > div {
+.c61:active > div > div {
   width: 1rem;
   left: 1rem;
 }
 
-.c56:active > div {
+.c61:active > div {
   box-shadow: none;
 }
 
-.c59 {
+.c64 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1847,17 +1847,17 @@ input:disabled ~ .c76 {
   cursor: not-allowed;
 }
 
-.c59:active > div > div {
+.c64:active > div > div {
   width: 0.75rem;
   left: 0.1875rem;
 }
 
-.c59:active > div {
+.c64:active > div {
   box-shadow: none;
   background-color: #e9ecef;
 }
 
-.c62 {
+.c67 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1872,17 +1872,17 @@ input:disabled ~ .c76 {
   cursor: not-allowed;
 }
 
-.c62:active > div > div {
+.c67:active > div > div {
   width: 0.75rem;
   left: 1.25rem;
 }
 
-.c62:active > div {
+.c67:active > div {
   box-shadow: none;
   background-color: #e9ecef;
 }
 
-.c53 {
+.c58 {
   background-color: #ffffff;
   border-radius: 100px;
   border: .0625rem solid #e1e5eb;
@@ -1904,7 +1904,7 @@ input:disabled ~ .c76 {
   box-shadow: 0 3px 8px 1px rgba(0,0,0,.2);
 }
 
-.c57 {
+.c62 {
   background-color: #17c671;
   border-radius: 100px;
   border: .0625rem solid #17c671;
@@ -1926,7 +1926,7 @@ input:disabled ~ .c76 {
   box-shadow: 0 3px 8px 1px rgba(0,0,0,.2);
 }
 
-.c60 {
+.c65 {
   background-color: #ffffff;
   border-radius: 100px;
   border: .0625rem solid #e1e5eb;
@@ -1948,7 +1948,7 @@ input:disabled ~ .c76 {
   box-shadow: none;
 }
 
-.c63 {
+.c68 {
   background-color: #e1e5eb;
   border-radius: 100px;
   border: .0625rem solid #e1e5eb;
@@ -1970,7 +1970,7 @@ input:disabled ~ .c76 {
   box-shadow: none;
 }
 
-.c54 {
+.c59 {
   content: '';
   position: absolute;
   left: 0.1875rem;
@@ -1982,7 +1982,7 @@ input:disabled ~ .c76 {
   transition: 0.2s ease-in-out;
 }
 
-.c58 {
+.c63 {
   content: '';
   position: absolute;
   left: 1.25rem;
@@ -1994,7 +1994,7 @@ input:disabled ~ .c76 {
   transition: 0.2s ease-in-out;
 }
 
-.c64 {
+.c69 {
   content: '';
   position: absolute;
   left: 1.25rem;
@@ -2006,44 +2006,32 @@ input:disabled ~ .c76 {
   transition: 0.2s ease-in-out;
 }
 
-.c55 {
+.c60 {
   cursor: pointer;
   line-height: 15px;
   color: #5a6169;
   font-size: 15px;
 }
 
-.c61 {
+.c66 {
   cursor: not-allowed;
   line-height: 15px;
   color: #5a6169;
   font-size: 15px;
 }
 
-.c65 {
+.c70 {
   position: relative;
   line-height: 1.5rem;
   min-height: 1.5rem;
 }
 
-.c67 {
+.c72 {
   box-sizing: border-box;
   padding: 0;
   position: absolute;
   z-index: -1;
   opacity: 0;
-}
-
-.c66 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: pointer;
 }
 
 .c71 {
@@ -2055,24 +2043,36 @@ input:disabled ~ .c76 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.c76 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   cursor: not-allowed;
 }
 
-.c70 {
+.c75 {
   margin-left: 8px;
   font-size: 1rem;
   color: #5a6169;
   opacity: 1;
 }
 
-.c72 {
+.c77 {
   margin-left: 8px;
   font-size: 1rem;
   color: #5a6169;
   opacity: 0.7;
 }
 
-.c69 {
+.c74 {
   fill: none;
   stroke: transparent;
   -webkit-transform: scale(0);
@@ -2086,7 +2086,7 @@ input:disabled ~ .c76 {
   transition-delay: .1s;
 }
 
-.c68 {
+.c73 {
   display: inline-block;
   width: 1.125rem;
   height: 1.125rem;
@@ -2099,896 +2099,1083 @@ input:disabled ~ .c76 {
   text-align: center;
 }
 
-input:checked + .c68 {
+input:checked + .c73 {
   background-color: #5a6169;
 }
 
-input:checked + .c68 svg {
+input:checked + .c73 svg {
   stroke: white;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
+.c1 {
+  position: fixed;
+  width: 300px;
+  min-width: 300px;
+  height: 100vh;
+  border-right: 1px solid #e9ecef;
+  box-shadow: -15px 0 20px #5a6169;
+}
+
+.c2 {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #e9ecef;
+  text-align: center;
+  line-height: 70px;
+  cursor: pointer;
+  color: #5a6169;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-left: 5px solid #007bff;
+  border-bottom: 1px solid #e9ecef;
+  padding-left: 30px;
+  line-height: 60px;
+  cursor: pointer;
+  background-color: #FBFBFB;
+  color: #007bff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.c3:hover {
+  background-color: #e9ecef;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-left: 5px solid transparent;
+  border-bottom: 1px solid #e9ecef;
+  padding-left: 30px;
+  line-height: 60px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #5a6169;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.c5:hover {
+  background-color: #e9ecef;
+}
+
+.c4 {
+  margin-right: 10px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .c0 button + button {
   margin-left: 20px;
 }
 
-.c0 div + div {
+.c0 section div + div {
   margin-top: 20px;
 }
 
 <div
   class="c0"
 >
-  <div>
-    <button
-      class="c1"
-      color="primary"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c2"
-      color="secondary"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c3"
-      color="success"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c4"
-      color="info"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c5"
-      color="danger"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c6"
-      color="warning"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c7"
-      color="dark"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c8"
-      color="white"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c9"
-      color="royalBlue"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c10"
-      color="java"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c11"
-      color="salmon"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-  </div>
-  <div>
-    <button
-      class="c12"
-      color="primary"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c13"
-      color="secondary"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c14"
-      color="success"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c15"
-      color="info"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c16"
-      color="danger"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c17"
-      color="warning"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c18"
-      color="dark"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c19"
-      color="white"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c20"
-      color="royalBlue"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c21"
-      color="java"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c22"
-      color="salmon"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-  </div>
-  <div>
-    <button
-      class="c23"
-      color="primary"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c24"
-      color="secondary"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c25"
-      color="success"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c26"
-      color="info"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c27"
-      color="danger"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c28"
-      color="warning"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c29"
-      color="dark"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c30"
-      color="white"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c31"
-      color="royalBlue"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c32"
-      color="java"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c33"
-      color="salmon"
-      fill="fill"
-      type="button"
-    >
-      Hello
-    </button>
-  </div>
-  <div>
-    <button
-      class="c34"
-      color="primary"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c35"
-      color="secondary"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c36"
-      color="success"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c37"
-      color="info"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c38"
-      color="danger"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c39"
-      color="warning"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c40"
-      color="dark"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c41"
-      color="white"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c42"
-      color="royalBlue"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c43"
-      color="java"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-    <button
-      class="c44"
-      color="salmon"
-      fill="outline"
-      type="button"
-    >
-      Hello
-    </button>
-  </div>
-  <div>
+  <div
+    class="wrapper c1"
+  >
     <div
-      class="c45"
-      color="primary"
-      max="200"
-      min="-200"
-      value="-125"
+      class="c2"
     >
-      <div
+      Dashboards
+    </div>
+    <div
+      class="c3"
+      data-test="panel"
+      selected=""
+    >
+      <i
+        class="material-icons c4"
+      >
+        edit
+      </i>
+      <span>
+        Blog Dashboard
+      </span>
+    </div>
+    <div
+      class="c5"
+      data-test="panel"
+    >
+      <i
+        class="material-icons c4"
+      >
+        vertical_split
+      </i>
+      <span>
+        Blog Posts
+      </span>
+    </div>
+    <div
+      class="c5"
+      data-test="panel"
+    >
+      <i
+        class="material-icons c4"
+      >
+        note_add
+      </i>
+      <span>
+        Add New Post
+      </span>
+    </div>
+    <div
+      class="c5"
+      data-test="panel"
+    >
+      <i
+        class="material-icons c4"
+      >
+        view_module
+      </i>
+      <span>
+        Forms & Components
+      </span>
+    </div>
+    <div
+      class="c5"
+      data-test="panel"
+    >
+      <i
+        class="material-icons c4"
+      >
+        table_chart
+      </i>
+      <span>
+        Tables
+      </span>
+    </div>
+    <div
+      class="c5"
+      data-test="panel"
+    >
+      <i
+        class="material-icons c4"
+      >
+        person
+      </i>
+      <span>
+        User Profile
+      </span>
+    </div>
+    <div
+      class="c5"
+      data-test="panel"
+    >
+      <i
+        class="material-icons c4"
+      >
+        error
+      </i>
+      <span>
+        Errors
+      </span>
+    </div>
+  </div>
+  <section
+    style="margin-left:300px;padding:20px"
+  >
+    <div>
+      <button
+        class="c6"
+        color="primary"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c7"
+        color="secondary"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c8"
+        color="success"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c9"
+        color="info"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c10"
+        color="danger"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c11"
+        color="warning"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c12"
+        color="dark"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c13"
+        color="white"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c14"
+        color="royalBlue"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c15"
+        color="java"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c16"
+        color="salmon"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+    </div>
+    <div>
+      <button
+        class="c17"
+        color="primary"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c18"
+        color="secondary"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c19"
+        color="success"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c20"
+        color="info"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c21"
+        color="danger"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c22"
+        color="warning"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c23"
+        color="dark"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c24"
+        color="white"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c25"
+        color="royalBlue"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c26"
+        color="java"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c27"
+        color="salmon"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+    </div>
+    <div>
+      <button
+        class="c28"
+        color="primary"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c29"
+        color="secondary"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c30"
+        color="success"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c31"
+        color="info"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c32"
+        color="danger"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c33"
+        color="warning"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c34"
+        color="dark"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c35"
+        color="white"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c36"
+        color="royalBlue"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c37"
+        color="java"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c38"
+        color="salmon"
+        fill="fill"
+        type="button"
+      >
+        Hello
+      </button>
+    </div>
+    <div>
+      <button
+        class="c39"
+        color="primary"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c40"
+        color="secondary"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c41"
+        color="success"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c42"
+        color="info"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c43"
+        color="danger"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c44"
+        color="warning"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c45"
+        color="dark"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
         class="c46"
+        color="white"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c47"
+        color="royalBlue"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c48"
+        color="java"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+      <button
+        class="c49"
+        color="salmon"
+        fill="outline"
+        type="button"
+      >
+        Hello
+      </button>
+    </div>
+    <div>
+      <div
+        class="c50"
         color="primary"
         max="200"
         min="-200"
         value="-125"
-      />
-    </div>
-    <div
-      class="c45"
-      color="secondary"
-      max="50"
-      min="0"
-      value="25"
-    >
+      >
+        <div
+          class="c51"
+          color="primary"
+          max="200"
+          min="-200"
+          value="-125"
+        />
+      </div>
       <div
-        class="c47"
+        class="c50"
         color="secondary"
         max="50"
         min="0"
         value="25"
-      />
-    </div>
-    <div
-      class="c45"
-      color="success"
-      max="150"
-      min="50"
-      value="125"
-    >
+      >
+        <div
+          class="c52"
+          color="secondary"
+          max="50"
+          min="0"
+          value="25"
+        />
+      </div>
       <div
-        class="c48"
+        class="c50"
         color="success"
         max="150"
         min="50"
         value="125"
-      />
-    </div>
-    <div
-      class="c45"
-      color="danger"
-      max="25"
-      min="5"
-      value="30"
-    >
+      >
+        <div
+          class="c53"
+          color="success"
+          max="150"
+          min="50"
+          value="125"
+        />
+      </div>
       <div
-        class="c49"
+        class="c50"
         color="danger"
         max="25"
         min="5"
         value="30"
-      />
-    </div>
-    <div
-      class="c45"
-      color="warning"
-      max="25"
-      min="5"
-      value="4"
-    >
+      >
+        <div
+          class="c54"
+          color="danger"
+          max="25"
+          min="5"
+          value="30"
+        />
+      </div>
       <div
         class="c50"
         color="warning"
         max="25"
         min="5"
         value="4"
-      />
-    </div>
-    <div
-      class="c45"
-      color="info"
-      max="150"
-      min="250"
-      value="175"
-    >
+      >
+        <div
+          class="c55"
+          color="warning"
+          max="25"
+          min="5"
+          value="4"
+        />
+      </div>
       <div
-        class="c51"
+        class="c50"
         color="info"
         max="150"
         min="250"
         value="175"
-      />
-    </div>
-  </div>
-  <div>
-    <div
-      class="c52"
-    >
-      <div
-        class="c53"
       >
         <div
-          class="c54"
+          class="c56"
+          color="info"
+          max="150"
+          min="250"
+          value="175"
         />
       </div>
-      <label
-        class="c55"
-      >
-        test
-      </label>
     </div>
-    <div
-      checked=""
-      class="c56"
-    >
+    <div>
       <div
-        checked=""
         class="c57"
       >
         <div
-          checked=""
           class="c58"
-        />
-      </div>
-    </div>
-    <div
-      class="c59"
-    >
-      <div
-        class="c60"
-      >
-        <div
-          class="c54"
-        />
-      </div>
-      <label
-        class="c61"
-      >
-        disabled
-      </label>
-    </div>
-    <div
-      checked=""
-      class="c62"
-    >
-      <div
-        checked=""
-        class="c63"
-      >
-        <div
-          checked=""
-          class="c64"
-        />
-      </div>
-      <label
-        checked=""
-        class="c61"
-      >
-        disabled
-      </label>
-    </div>
-  </div>
-  <div>
-    <div
-      class="c65"
-      label="label text"
-    >
-      <label
-        class="c66"
-        label="label text"
-      >
-        <input
-          checked=""
-          class="c67"
-          label="label text"
-          type="checkbox"
-        />
-        <div
-          class="c68"
-          label="label text"
-        >
-          <svg
-            class="c69"
-            viewBox="0 0 24 24"
-          >
-            <polyline
-              points="20 6 9 17 4 12"
-            />
-          </svg>
-        </div>
-        <span
-          class="c70"
-          label="label text"
-        >
-          label text
-        </span>
-      </label>
-    </div>
-    <div
-      class="c65"
-      label="label text"
-    >
-      <label
-        class="c66"
-        label="label text"
-      >
-        <input
-          class="c67"
-          label="label text"
-          type="checkbox"
-        />
-        <div
-          class="c68"
-          label="label text"
-        >
-          <svg
-            class="c69"
-            viewBox="0 0 24 24"
-          >
-            <polyline
-              points="20 6 9 17 4 12"
-            />
-          </svg>
-        </div>
-        <span
-          class="c70"
-          label="label text"
-        >
-          label text
-        </span>
-      </label>
-    </div>
-    <div
-      class="c65"
-      disabled=""
-      label="label text"
-    >
-      <label
-        class="c71"
-        disabled=""
-        label="label text"
-      >
-        <input
-          class="c67"
-          disabled=""
-          label="label text"
-          type="checkbox"
-        />
-        <div
-          class="c68"
-          disabled=""
-          label="label text"
-        >
-          <svg
-            class="c69"
-            viewBox="0 0 24 24"
-          >
-            <polyline
-              points="20 6 9 17 4 12"
-            />
-          </svg>
-        </div>
-        <span
-          class="c72"
-          disabled=""
-          label="label text"
-        >
-          label text
-        </span>
-      </label>
-    </div>
-    <div
-      class="c65"
-      disabled=""
-      label="label text"
-    >
-      <label
-        class="c71"
-        disabled=""
-        label="label text"
-      >
-        <input
-          checked=""
-          class="c67"
-          disabled=""
-          label="label text"
-          type="checkbox"
-        />
-        <div
-          class="c68"
-          disabled=""
-          label="label text"
-        >
-          <svg
-            class="c69"
-            viewBox="0 0 24 24"
-          >
-            <polyline
-              points="20 6 9 17 4 12"
-            />
-          </svg>
-        </div>
-        <span
-          class="c72"
-          disabled=""
-          label="label text"
-        >
-          label text
-        </span>
-      </label>
-    </div>
-  </div>
-  <div>
-    <label
-      class="c73"
-    >
-      <input
-        class="c74"
-        type="radio"
-      />
-      <span
-        class="c75"
-      />
-      <span
-        class="c76"
-      >
-        title
-      </span>
-    </label>
-    <label
-      class="c73"
-    >
-      <input
-        checked=""
-        class="c74"
-        type="radio"
-      />
-      <span
-        class="c75"
-      />
-      <span
-        class="c76"
-      >
-        title
-      </span>
-    </label>
-    <label
-      class="c77"
-      disabled=""
-    >
-      <input
-        class="c74"
-        disabled=""
-        type="radio"
-      />
-      <span
-        class="c75"
-      />
-      <span
-        class="c76"
-      >
-        title
-      </span>
-    </label>
-    <label
-      class="c77"
-      disabled=""
-    >
-      <input
-        checked=""
-        class="c74"
-        disabled=""
-        type="radio"
-      />
-      <span
-        class="c75"
-      />
-      <span
-        class="c76"
-      >
-        title
-      </span>
-    </label>
-  </div>
-  <div>
-    <div
-      class="c78"
-      width="250"
-    >
-      <div
-        class="c79"
-      >
-        <div
-          class="c80"
-        >
-          <input
-            class="c81"
-            placeholder="Text"
-            type="text"
-          />
-        </div>
-      </div>
-      <div
-        class="c79"
-      >
-        <div
-          class="c80"
-        >
-          <input
-            class="c81"
-            placeholder="Password"
-            type="password"
-          />
-        </div>
-      </div>
-      <div
-        class="c79"
-      >
-        <div
-          class="c80"
         >
           <div
-            class="c82"
-          >
-            <span
-              class="c83"
-            >
-              @
-            </span>
-          </div>
-          <input
-            class="c84"
-            placeholder="Input w/ icon"
-            type="text"
+            class="c59"
+          />
+        </div>
+        <label
+          class="c60"
+        >
+          test
+        </label>
+      </div>
+      <div
+        checked=""
+        class="c61"
+      >
+        <div
+          checked=""
+          class="c62"
+        >
+          <div
+            checked=""
+            class="c63"
           />
         </div>
       </div>
       <div
-        class="c79"
+        class="c64"
       >
         <div
-          class="c80"
+          class="c65"
         >
-          <input
-            class="c85"
-            placeholder="Input w/ true condition"
-            type="text"
+          <div
+            class="c59"
           />
         </div>
-        <div
-          class="c86"
-          placeholder="Input w/ true condition"
-          type="text"
+        <label
+          class="c66"
         >
-          Condition is correct
-        </div>
+          disabled
+        </label>
       </div>
       <div
-        class="c79"
+        checked=""
+        class="c67"
       >
         <div
-          class="c80"
+          checked=""
+          class="c68"
         >
-          <input
-            class="c87"
-            placeholder="Input w/ false condition"
-            type="text"
+          <div
+            checked=""
+            class="c69"
           />
         </div>
-        <div
-          class="c88"
-          placeholder="Input w/ false condition"
-          type="text"
+        <label
+          checked=""
+          class="c66"
         >
-          Condition is incorrect
-        </div>
-      </div>
-      <div
-        class="c89"
-      >
-        <select
-          class="c90"
-          placeholder="Select option"
-        >
-          <option
-            disabled=""
-            hidden=""
-            selected=""
-            value="-1"
-          >
-            Select option
-          </option>
-          <option
-            value="1"
-          >
-            First
-          </option>
-          <option
-            value="2"
-          >
-            Second
-          </option>
-          <option
-            value="3"
-          >
-            Third
-          </option>
-        </select>
+          disabled
+        </label>
       </div>
     </div>
-  </div>
+    <div>
+      <div
+        class="c70"
+        label="label text"
+      >
+        <label
+          class="c71"
+          label="label text"
+        >
+          <input
+            checked=""
+            class="c72"
+            label="label text"
+            type="checkbox"
+          />
+          <div
+            class="c73"
+            label="label text"
+          >
+            <svg
+              class="c74"
+              viewBox="0 0 24 24"
+            >
+              <polyline
+                points="20 6 9 17 4 12"
+              />
+            </svg>
+          </div>
+          <span
+            class="c75"
+            label="label text"
+          >
+            label text
+          </span>
+        </label>
+      </div>
+      <div
+        class="c70"
+        label="label text"
+      >
+        <label
+          class="c71"
+          label="label text"
+        >
+          <input
+            class="c72"
+            label="label text"
+            type="checkbox"
+          />
+          <div
+            class="c73"
+            label="label text"
+          >
+            <svg
+              class="c74"
+              viewBox="0 0 24 24"
+            >
+              <polyline
+                points="20 6 9 17 4 12"
+              />
+            </svg>
+          </div>
+          <span
+            class="c75"
+            label="label text"
+          >
+            label text
+          </span>
+        </label>
+      </div>
+      <div
+        class="c70"
+        disabled=""
+        label="label text"
+      >
+        <label
+          class="c76"
+          disabled=""
+          label="label text"
+        >
+          <input
+            class="c72"
+            disabled=""
+            label="label text"
+            type="checkbox"
+          />
+          <div
+            class="c73"
+            disabled=""
+            label="label text"
+          >
+            <svg
+              class="c74"
+              viewBox="0 0 24 24"
+            >
+              <polyline
+                points="20 6 9 17 4 12"
+              />
+            </svg>
+          </div>
+          <span
+            class="c77"
+            disabled=""
+            label="label text"
+          >
+            label text
+          </span>
+        </label>
+      </div>
+      <div
+        class="c70"
+        disabled=""
+        label="label text"
+      >
+        <label
+          class="c76"
+          disabled=""
+          label="label text"
+        >
+          <input
+            checked=""
+            class="c72"
+            disabled=""
+            label="label text"
+            type="checkbox"
+          />
+          <div
+            class="c73"
+            disabled=""
+            label="label text"
+          >
+            <svg
+              class="c74"
+              viewBox="0 0 24 24"
+            >
+              <polyline
+                points="20 6 9 17 4 12"
+              />
+            </svg>
+          </div>
+          <span
+            class="c77"
+            disabled=""
+            label="label text"
+          >
+            label text
+          </span>
+        </label>
+      </div>
+    </div>
+    <div>
+      <label
+        class="c78"
+      >
+        <input
+          class="c79"
+          type="radio"
+        />
+        <span
+          class="c80"
+        />
+        <span
+          class="c81"
+        >
+          title
+        </span>
+      </label>
+      <label
+        class="c78"
+      >
+        <input
+          checked=""
+          class="c79"
+          type="radio"
+        />
+        <span
+          class="c80"
+        />
+        <span
+          class="c81"
+        >
+          title
+        </span>
+      </label>
+      <label
+        class="c82"
+        disabled=""
+      >
+        <input
+          class="c79"
+          disabled=""
+          type="radio"
+        />
+        <span
+          class="c80"
+        />
+        <span
+          class="c81"
+        >
+          title
+        </span>
+      </label>
+      <label
+        class="c82"
+        disabled=""
+      >
+        <input
+          checked=""
+          class="c79"
+          disabled=""
+          type="radio"
+        />
+        <span
+          class="c80"
+        />
+        <span
+          class="c81"
+        >
+          title
+        </span>
+      </label>
+    </div>
+    <div>
+      <div
+        class="c83"
+        width="250"
+      >
+        <div
+          class="c84"
+        >
+          <div
+            class="c85"
+          >
+            <input
+              class="c86"
+              placeholder="Text"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="c84"
+        >
+          <div
+            class="c85"
+          >
+            <input
+              class="c86"
+              placeholder="Password"
+              type="password"
+            />
+          </div>
+        </div>
+        <div
+          class="c84"
+        >
+          <div
+            class="c85"
+          >
+            <div
+              class="c87"
+            >
+              <span
+                class="c88"
+              >
+                @
+              </span>
+            </div>
+            <input
+              class="c89"
+              placeholder="Input w/ icon"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="c84"
+        >
+          <div
+            class="c85"
+          >
+            <input
+              class="c90"
+              placeholder="Input w/ true condition"
+              type="text"
+            />
+          </div>
+          <div
+            class="c91"
+            placeholder="Input w/ true condition"
+            type="text"
+          >
+            Condition is correct
+          </div>
+        </div>
+        <div
+          class="c84"
+        >
+          <div
+            class="c85"
+          >
+            <input
+              class="c92"
+              placeholder="Input w/ false condition"
+              type="text"
+            />
+          </div>
+          <div
+            class="c93"
+            placeholder="Input w/ false condition"
+            type="text"
+          >
+            Condition is incorrect
+          </div>
+        </div>
+        <div
+          class="c94"
+        >
+          <select
+            class="c95"
+            placeholder="Select option"
+          >
+            <option
+              disabled=""
+              hidden=""
+              selected=""
+              value="-1"
+            >
+              Select option
+            </option>
+            <option
+              value="1"
+            >
+              First
+            </option>
+            <option
+              value="2"
+            >
+              Second
+            </option>
+            <option
+              value="3"
+            >
+              Third
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
 `;
