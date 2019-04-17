@@ -73,6 +73,7 @@ const TestPage = () => {
   const [check1, setCheck1] = useState(true);
   const [check2, setCheck2] = useState(false);
   const [check3, setCheck3] = useState(true);
+  const [activeItem, setActiveItem] = useState(0);
   return (
     <Wrapper>
       <Sidebar titles={titles} />
@@ -167,7 +168,10 @@ const TestPage = () => {
               <Select options={options} />
             </FormGroup>
           </div>
-          <RadioGroup titles={['Title1', 'Title2']} values={['value1', 'value2']} />
+          <RadioGroup
+            activeItem={activeItem} setActiveItem={setActiveItem} onChange={item => item} titles={['Title1', 'Title2']}
+            values={['value1', 'value2']}
+          />
         </main>
       </section>
     </Wrapper>

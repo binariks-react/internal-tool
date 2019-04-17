@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import RadioButton from './RadioButton';
@@ -9,43 +9,36 @@ const RadioGroupWrapper = styled.div`
   background-color: ${props => props.theme.colors.white};
 `;
 
-const onChangeRadio = (e, i, activeItem, setActiveItem, getActiveItem) => {
+const onChangeRadio = (e, i, activeItem, setActiveItem, onChange) => {
   setActiveItem(i);
-  getActiveItem(e.target.value);
+  onChange(e.target.value);
 };
 
-const getRadioButton = (values, titles, activeItem, setActiveItem, getActiveItem) => (
-  titles.map((item, i) => (
-    <RadioButton
-      key={item}
-      title={item}
-      value={values[i]}
-      checked={i === activeItem}
-      onChange={e => onChangeRadio(e, i, activeItem, setActiveItem, getActiveItem)}
-    />
-  ))
+const RadioGroup = ({ onChange, values, titles, activeItem, setActiveItem, ...props }) => (
+  <RadioGroupWrapper>
+    {titles.map((item, i) => (
+      <RadioButton
+        key={item}
+        title={item}
+        value={values[i]}
+        checked={0 === activeItem}
+        onChange={e => onChangeRadio(e, 0, activeItem, setActiveItem, onChange)}
+      />
+    ))}
+  </RadioGroupWrapper>
 );
-
-const RadioGroup = ({ getActiveItem, values, titles, ...props }) => {
-  const [activeItem, setActiveItem] = useState(0);
-  return (
-    <RadioGroupWrapper
-      values={values}
-      titles={titles}
-      {...props}
-    >
-      {getRadioButton(values, titles, activeItem, setActiveItem, getActiveItem)}
-    </RadioGroupWrapper>
-  );
-};
 
 
 const defaultProps = {
-  getActiveItem: () => {},
+  onChange: () => {},
+  activeItem: 0,
+  setActiveItem: () => {},
 };
 
 const propTypes = {
-  getActiveItem: PropTypes.func,
+  activeItem: PropTypes.number,
+  setActiveItem: PropTypes.func,
+  onChange: PropTypes.func,
   values: PropTypes.array.isRequired,
   titles: PropTypes.array.isRequired,
 };

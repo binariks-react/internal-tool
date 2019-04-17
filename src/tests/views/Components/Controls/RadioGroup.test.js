@@ -6,10 +6,10 @@ import RadioGroup from 'views/Components/Controls/RadioGroup';
 import 'jest-styled-components';
 
 describe('RadioButton', () => {
-  const getActiveItem = jest.fn();
+  const onChange = jest.fn();
 
   beforeEach(() => {
-    getActiveItem.mockClear();
+    onChange.mockClear();
   });
 
   it('default with empth props', () => {
@@ -23,7 +23,7 @@ describe('RadioButton', () => {
   it('default with empth props', () => {
     const radio = render(
       <ThemeProvider theme={theme}>
-        <RadioGroup getActiveItem={() => {}} values={['value1', 'value2']} titles={['Title1', 'Title2']} />
+        <RadioGroup onChange={() => {}} values={['value1', 'value2']} titles={['Title1', 'Title2']} />
       </ThemeProvider>
     );
     expect(radio).toMatchSnapshot();
@@ -31,11 +31,11 @@ describe('RadioButton', () => {
   it('onChange clicked', () => {
     const radio = mount(
       <ThemeProvider theme={theme}>
-        <RadioGroup getActiveItem={getActiveItem} values={['value1', 'value2']} titles={['Title1', 'Title2']} />
+        <RadioGroup onChange={onChange} values={['value1', 'value2']} titles={['Title1', 'Title2']} />
       </ThemeProvider>
     );
     radio.find('input').at(0).simulate('change');
-    expect(getActiveItem).toHaveBeenCalledTimes(1);
+    expect(onChange).toHaveBeenCalledTimes(1);
   });
   it('onChange clicked', () => {
     const radio = mount(
@@ -44,6 +44,5 @@ describe('RadioButton', () => {
       </ThemeProvider>
     );
     radio.find('input').at(0).simulate('change');
-    // expect(getActiveItem).toHaveBeenCalledTimes(1);
   });
 });

@@ -13,7 +13,6 @@ exports[`RadioButton default with empth props 1`] = `
 
 <div
   class="c0"
-  values=""
 />
 `;
 
@@ -88,7 +87,6 @@ input:disabled ~ .c4 {
 
 <div
   class="c0"
-  values="value1,value2"
 >
   <label
     checked=""
@@ -101,20 +99,20 @@ input:disabled ~ .c4 {
       value="value1"
     />
     <span
-      checked=""
       class="c3"
     />
     <span
-      checked=""
       class="c4"
     >
       Title1
     </span>
   </label>
   <label
+    checked=""
     class="c1"
   >
     <input
+      checked=""
       class="c2"
       type="radio"
       value="value2"
