@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorPage check error Code 1`] = `
+.c4 {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  line-height: 1.125;
+  padding: .5625rem 1rem;
+  font-size: .75rem;
+  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.c4:hover {
+  background-color: #006fe6;
+  border-color: #006fe6;
+  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,123,255,.25);
+  color: #ffffff;
+}
+
+.c4:active {
+  background-color: #006fe6;
+  border-color: #0062cc;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
+  color: #ffffff;
+}
+
+.c4:focus {
+  box-shadow: 0 0 0 3px rgba(0,123,255,.15),0 3px 15px rgba(0,123,255,.2),0 2px 5px rgba(0,0,0,.1);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.c1 {
+  height: 88px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 75px;
+  line-height: normal;
+  -webkit-letter-spacing: -11.5385px;
+  -moz-letter-spacing: -11.5385px;
+  -ms-letter-spacing: -11.5385px;
+  letter-spacing: -11.5385px;
+  color: #becad6;
+}
+
+.c2 {
+  height: 59px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: normal;
+  -webkit-letter-spacing: -5px;
+  -moz-letter-spacing: -5px;
+  -ms-letter-spacing: -5px;
+  letter-spacing: -5px;
+  color: #3d5170;
+}
+
+.c3 {
+  height: 23.5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  -webkit-letter-spacing: -1px;
+  -moz-letter-spacing: -1px;
+  -ms-letter-spacing: -1px;
+  letter-spacing: -1px;
+  color: #5a6169;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    404
+  </div>
+  <div
+    class="c2"
+  >
+    PAGE NOT FOUND
+  </div>
+  <div
+    class="c3"
+  >
+    please check your route
+  </div>
+  <button
+    class="c4"
+    color="primary"
+    fill="fill"
+    type="button"
+  >
+    Go Back
+  </button>
+</div>
+`;
+
+exports[`ErrorPage default 1`] = `
+.c4 {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  line-height: 1.125;
+  padding: .5625rem 1rem;
+  font-size: .75rem;
+  -webkit-transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.c4:hover {
+  background-color: #006fe6;
+  border-color: #006fe6;
+  box-shadow: 0 5px 15px rgba(0,0,0,.05),0 4px 10px rgba(0,123,255,.25);
+  color: #ffffff;
+}
+
+.c4:active {
+  background-color: #006fe6;
+  border-color: #0062cc;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
+  color: #ffffff;
+}
+
+.c4:focus {
+  box-shadow: 0 0 0 3px rgba(0,123,255,.15),0 3px 15px rgba(0,123,255,.2),0 2px 5px rgba(0,0,0,.1);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.c1 {
+  height: 88px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 75px;
+  line-height: normal;
+  -webkit-letter-spacing: -11.5385px;
+  -moz-letter-spacing: -11.5385px;
+  -ms-letter-spacing: -11.5385px;
+  letter-spacing: -11.5385px;
+  color: #becad6;
+}
+
+.c2 {
+  height: 59px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: normal;
+  -webkit-letter-spacing: -5px;
+  -moz-letter-spacing: -5px;
+  -ms-letter-spacing: -5px;
+  letter-spacing: -5px;
+  color: #3d5170;
+}
+
+.c3 {
+  height: 23.5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  -webkit-letter-spacing: -1px;
+  -moz-letter-spacing: -1px;
+  -ms-letter-spacing: -1px;
+  letter-spacing: -1px;
+  color: #5a6169;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    500
+  </div>
+  <div
+    class="c2"
+  >
+    Something went wrong
+  </div>
+  <div
+    class="c3"
+  >
+    There was a problem on our end. Please try again later
+  </div>
+  <button
+    class="c4"
+    color="primary"
+    fill="fill"
+    type="button"
+  >
+    Go Back
+  </button>
+</div>
+`;

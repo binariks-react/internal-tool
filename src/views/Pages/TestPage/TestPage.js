@@ -10,6 +10,8 @@ import Switch from 'views/Components/Controls/Switch';
 import Header from 'views/App/Header/Header';
 import Checkbox from '../../Components/Controls/Checkbox';
 import Sidebar from '../../App/Sidebar/Sidebar';
+// import ErrorPage from '..//ErrorPageContainer';
+
 
 const Wrapper = styled.div`
   display: flex;
