@@ -132,7 +132,8 @@ const PostsWrapper = (props) => {
           setPostIndex(postIndex-1);
           e.preventDefault();
           e.stopPropagation();
-        }}>
+        }}
+        >
           <div></div>
           <span>></span>
         </ToleftBtn>}
