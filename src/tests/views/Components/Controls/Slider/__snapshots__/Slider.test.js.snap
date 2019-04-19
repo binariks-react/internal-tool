@@ -1,0 +1,857 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Slider /> With one controller with showing value 1`] = `
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 5px;
+  background: #eceeef;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(90,97,105,0.1);
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  right: 45px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #007bff;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #e7e9ea;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  width: 21px;
+  height: 21px;
+  -webkit-transform: translate(-15%,-8px);
+  -ms-transform: translate(-15%,-8px);
+  transform: translate(-15%,-8px);
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c4:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.c4:focus {
+  outline: none;
+  box-shadow: 0 0 7px rgba(0,123,255,.65),0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c5 {
+  position: absolute;
+  top: -150%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 0;
+  line-height: 15px;
+  color: #5a6169;
+  background-color: #fff;
+  font-weight: 300;
+  -webkit-letter-spacing: 0.03em;
+  -moz-letter-spacing: 0.03em;
+  -ms-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
+  border-radius: 5px;
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.c0 {
+  position: relative;
+  margin: 55px 0 35px;
+  width: 100px;
+}
+
+<div
+  class="c0"
+  data-test="single-slider"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    />
+  </div>
+  <div
+    class="c3"
+    data-test="controller-wrapper"
+  >
+    <div
+      class="c4"
+      data-test="controller-button"
+      tabindex="0"
+    >
+      <div
+        class="c5"
+        data-test="controller-text"
+      >
+        50.00
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Slider /> With two controllers with showing value 1`] = `
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 5px;
+  background: #eceeef;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(90,97,105,0.1);
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 45px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #007bff;
+}
+
+.c6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #e7e9ea;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  width: 21px;
+  height: 21px;
+  -webkit-transform: translate(-15%,-8px);
+  -ms-transform: translate(-15%,-8px);
+  transform: translate(-15%,-8px);
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c4:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.c4:focus {
+  outline: none;
+  box-shadow: 0 0 7px rgba(0,123,255,.65),0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c5 {
+  position: absolute;
+  top: -150%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 0;
+  line-height: 15px;
+  color: #5a6169;
+  background-color: #fff;
+  font-weight: 300;
+  -webkit-letter-spacing: 0.03em;
+  -moz-letter-spacing: 0.03em;
+  -ms-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
+  border-radius: 5px;
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.c0 {
+  position: relative;
+  margin: 55px 0 35px;
+  width: 100px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    />
+  </div>
+  <div
+    class="c3"
+    data-test="controller-wrapper"
+  >
+    <div
+      class="c4"
+      data-test="controller-button"
+      tabindex="0"
+    >
+      <div
+        class="c5"
+        data-test="controller-text"
+      >
+        10.00
+      </div>
+    </div>
+  </div>
+  <div
+    class="c6"
+    data-test="controller-wrapper"
+  >
+    <div
+      class="c4"
+      data-test="controller-button"
+      tabindex="0"
+    >
+      <div
+        class="c5"
+        data-test="controller-text"
+      >
+        50.00
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Slider /> With two controllers without showing value 1`] = `
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 5px;
+  background: #eceeef;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(90,97,105,0.1);
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 45px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #007bff;
+}
+
+.c5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #e7e9ea;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  width: 21px;
+  height: 21px;
+  -webkit-transform: translate(-15%,-8px);
+  -ms-transform: translate(-15%,-8px);
+  transform: translate(-15%,-8px);
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c4:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.c4:focus {
+  outline: none;
+  box-shadow: 0 0 7px rgba(0,123,255,.65),0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c0 {
+  position: relative;
+  margin: 35px 0;
+  width: 100px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    />
+  </div>
+  <div
+    class="c3"
+    data-test="controller-wrapper"
+  >
+    <div
+      class="c4"
+      data-test="controller-button"
+      tabindex="0"
+    />
+  </div>
+  <div
+    class="c5"
+    data-test="controller-wrapper"
+  >
+    <div
+      class="c4"
+      data-test="controller-button"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Slider /> left controller more or equal than 0 and right controller less than 1`] = `
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 5px;
+  background: #eceeef;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(90,97,105,0.1);
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  right: 45px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #007bff;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #e7e9ea;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  width: 21px;
+  height: 21px;
+  -webkit-transform: translate(-15%,-8px);
+  -ms-transform: translate(-15%,-8px);
+  transform: translate(-15%,-8px);
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c4:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.c4:focus {
+  outline: none;
+  box-shadow: 0 0 7px rgba(0,123,255,.65),0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c5 {
+  position: absolute;
+  top: -150%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 0;
+  line-height: 15px;
+  color: #5a6169;
+  background-color: #fff;
+  font-weight: 300;
+  -webkit-letter-spacing: 0.03em;
+  -moz-letter-spacing: 0.03em;
+  -ms-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
+  border-radius: 5px;
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.c0 {
+  position: relative;
+  margin: 55px 0 35px;
+  width: 100px;
+}
+
+<div
+  class="c0"
+  data-test="single-slider"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    />
+  </div>
+  <div
+    class="c3"
+    data-test="controller-wrapper"
+  >
+    <div
+      class="c4"
+      data-test="controller-button"
+      tabindex="0"
+    >
+      <div
+        class="c5"
+        data-test="controller-text"
+      >
+        50.00
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Slider /> position more than 0, and max range value 1`] = `
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 5px;
+  background: #eceeef;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(90,97,105,0.1);
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  right: 95px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #007bff;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #e7e9ea;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  width: 21px;
+  height: 21px;
+  -webkit-transform: translate(-15%,-8px);
+  -ms-transform: translate(-15%,-8px);
+  transform: translate(-15%,-8px);
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c4:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.c4:focus {
+  outline: none;
+  box-shadow: 0 0 7px rgba(0,123,255,.65),0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c5 {
+  position: absolute;
+  top: -150%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 0;
+  line-height: 15px;
+  color: #5a6169;
+  background-color: #fff;
+  font-weight: 300;
+  -webkit-letter-spacing: 0.03em;
+  -moz-letter-spacing: 0.03em;
+  -ms-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
+  border-radius: 5px;
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.c0 {
+  position: relative;
+  margin: 55px 0 35px;
+  width: 100px;
+}
+
+<div
+  class="c0"
+  data-test="single-slider"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    />
+  </div>
+  <div
+    class="c3"
+    data-test="controller-wrapper"
+  >
+    <div
+      class="c4"
+      data-test="controller-button"
+      tabindex="0"
+    >
+      <div
+        class="c5"
+        data-test="controller-text"
+      >
+        0.00
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Slider /> right controller less than slider size 1`] = `
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 5px;
+  background: #eceeef;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(90,97,105,0.1);
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  right: 45px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #007bff;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #e7e9ea;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  width: 21px;
+  height: 21px;
+  -webkit-transform: translate(-15%,-8px);
+  -ms-transform: translate(-15%,-8px);
+  transform: translate(-15%,-8px);
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c4:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.c4:focus {
+  outline: none;
+  box-shadow: 0 0 7px rgba(0,123,255,.65),0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c5 {
+  position: absolute;
+  top: -150%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 0;
+  line-height: 15px;
+  color: #5a6169;
+  background-color: #fff;
+  font-weight: 300;
+  -webkit-letter-spacing: 0.03em;
+  -moz-letter-spacing: 0.03em;
+  -ms-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
+  border-radius: 5px;
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.c0 {
+  position: relative;
+  margin: 55px 0 35px;
+  width: 100px;
+}
+
+<div
+  class="c0"
+  data-test="single-slider"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    />
+  </div>
+  <div
+    class="c3"
+    data-test="controller-wrapper"
+  >
+    <div
+      class="c4"
+      data-test="controller-button"
+      tabindex="0"
+    >
+      <div
+        class="c5"
+        data-test="controller-text"
+      >
+        50.00
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Slider /> show error message if did not pass slider type 1`] = `
+<div
+  class=""
+>
+  You didn't pass normal type of range
+</div>
+`;
+
+exports[`<Slider /> snapshot with one controller without showing value 1`] = `
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 5px;
+  background: #eceeef;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(90,97,105,0.1);
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  right: 45px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #007bff;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #e7e9ea;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  width: 21px;
+  height: 21px;
+  -webkit-transform: translate(-15%,-8px);
+  -ms-transform: translate(-15%,-8px);
+  transform: translate(-15%,-8px);
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c4:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.c4:focus {
+  outline: none;
+  box-shadow: 0 0 7px rgba(0,123,255,.65),0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c0 {
+  position: relative;
+  margin: 35px 0;
+  width: 100px;
+}
+
+<div
+  class="c0"
+  data-test="single-slider"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    />
+  </div>
+  <div
+    class="c3"
+    data-test="controller-wrapper"
+  >
+    <div
+      class="c4"
+      data-test="controller-button"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;

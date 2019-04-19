@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Controller /> Snapshot Controller 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.c1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #e7e9ea;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  width: 21px;
+  height: 21px;
+  -webkit-transform: translate(-15%,-8px);
+  -ms-transform: translate(-15%,-8px);
+  transform: translate(-15%,-8px);
+  box-shadow: 0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+.c1:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.c1:focus {
+  outline: none;
+  box-shadow: 0 0 7px rgba(0,123,255,.65),0 3px 15px rgba(90,97,105,.1),0 2px 3px rgba(90,97,105,.2);
+}
+
+<div
+  class="c0"
+  data-test="controller-wrapper"
+>
+  <div
+    class="c1"
+    data-test="controller-button"
+    tabindex="0"
+  />
+</div>
+`;

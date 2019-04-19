@@ -8,12 +8,20 @@ import RadioButton from 'views/Components/Controls/RadioButton';
 import ProgressBar from 'views/Components/Controls/ProgressBar';
 import Switch from 'views/Components/Controls/Switch';
 import Checkbox from '../../Components/Controls/Checkbox';
+import Slider from '../../Components/Controls/Slider/Slider';
+import { SLIDER_TYPE } from '../../Components/Controls/Slider/type';
 
 const Content = styled.div`
   margin: 20px;
 
   div + div {
     margin-top: 20px;
+  }
+`;
+
+const ContentSlider = styled.div`
+  div + div {
+    margin-top: 0px;
   }
 `;
 
@@ -127,6 +135,35 @@ const TestPage = () => {
           <Select options={options} />
         </FormGroup>
       </div>
+
+      <ContentSlider>
+        <Slider
+          sliderWidth={300}
+          rangeValue={2000}
+          type={SLIDER_TYPE.SINGLE}
+          controllerValue={8000}
+          rangeColour="success"
+          getRange={range => range}
+        />
+        <Slider
+          sliderWidth={300}
+          rangeValue={2000}
+          type={SLIDER_TYPE.SINGLE}
+          controllerValue={70}
+          showValue
+          getRange={range => range}
+        />
+        <Slider
+          sliderWidth={300}
+          rangeValue={100}
+          type={SLIDER_TYPE.DOUBLE}
+          leftControllerValue={-100}
+          rightControllerValue={200}
+          minDistanceBetweenControllers={10}
+          showValue
+          getRange={range => range}
+        />
+      </ContentSlider>
     </Content>
   );
 };
