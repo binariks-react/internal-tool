@@ -237,14 +237,14 @@ exports[`Checkbox with disabled 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  cursor: pointer;
+  cursor: not-allowed;
 }
 
 .c5 {
   margin-left: 8px;
   font-size: 1rem;
   color: #5a6169;
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .c4 {
@@ -287,19 +287,23 @@ input:checked + .c3 svg {
 
 <div
   class="c0"
+  disabled=""
   label=""
 >
   <label
     class="c1"
+    disabled=""
     label=""
   >
     <input
       class="c2"
+      disabled=""
       label=""
       type="checkbox"
     />
     <div
       class="c3"
+      disabled=""
       label=""
     >
       <svg
@@ -313,6 +317,7 @@ input:checked + .c3 svg {
     </div>
     <span
       class="c5"
+      disabled=""
       label=""
     />
   </label>

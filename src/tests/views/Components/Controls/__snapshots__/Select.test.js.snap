@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select snapshot select input with options and onChangeOption 1`] = `
+.c0 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c1 {
+  width: 100%;
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+}
+
+.c1:hover {
+  border-color: #b3bdcc;
+}
+
+.c1:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+<div
+  class="c0"
+>
+  <select
+    class="c1"
+    placeholder="Select option"
+  >
+    <option
+      disabled=""
+      hidden=""
+      selected=""
+      value="-1"
+    >
+      Select option
+    </option>
+    <option
+      value="1"
+    >
+      First
+    </option>
+    <option
+      value="2"
+    >
+      Second
+    </option>
+    <option
+      value="3"
+    >
+      Third
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Select snapshot select with options 1`] = `
+.c0 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c1 {
+  width: 100%;
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+}
+
+.c1:hover {
+  border-color: #b3bdcc;
+}
+
+.c1:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+<div
+  class="c0"
+>
+  <select
+    class="c1"
+    placeholder="Select option"
+  >
+    <option
+      disabled=""
+      hidden=""
+      selected=""
+      value="-1"
+    >
+      Select option
+    </option>
+    <option
+      value="1"
+    >
+      First
+    </option>
+    <option
+      value="2"
+    >
+      Second
+    </option>
+    <option
+      value="3"
+    >
+      Third
+    </option>
+  </select>
+</div>
+`;

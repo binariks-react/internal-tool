@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input snapshot form group with input 1`] = `
+.c0 {
+  margin-bottom: 1rem;
+  width: 250px;
+}
+
+.c1 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c2 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  min-width: 7.5rem;
+}
+
+.c3 {
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+}
+
+.c3:hover {
+  border-color: #b3bdcc;
+}
+
+.c3:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+<div
+  class="c0"
+  width="250"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <input
+        class="c3"
+        placeholder="Text"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -13,6 +13,7 @@ exports[`App snapshot 1`] = `
             "dark": "#0a0c0d",
             "info": "#008da5",
             "java": "#15ad80",
+            "lightGrey": "#FBFBFB",
             "primary": "#0062cc",
             "royalBlue": "#3f20e7",
             "salmon": "#ff0e41",
@@ -26,10 +27,12 @@ exports[`App snapshot 1`] = `
           "dark": "#212529",
           "darkGrey": "#becad6",
           "hoverColors": Object {
+            "border": "#b3bdcc",
             "danger": "#ad1535",
             "dark": "#16181b",
             "info": "#00a2bf",
             "java": "#17c491",
+            "lightGrey": "#e9ecef",
             "primary": "#006fe6",
             "royalBlue": "#5337ea",
             "salmon": "#ff2855",
@@ -38,6 +41,7 @@ exports[`App snapshot 1`] = `
             "warning": "#e6a200",
             "white": "#ffffff",
           },
+          "icon": "#abb6bf",
           "info": "#00b8d8",
           "java": "#1adba2",
           "lightGrey": "#e9ecef",
@@ -83,7 +87,52 @@ exports[`App snapshot 1`] = `
       }
     }
   >
-    <Routes />
+    <styled.div>
+      <Sidebar
+        onClick={[Function]}
+        preventDefault={true}
+        stopPropagation={true}
+        titles={
+          Array [
+            Object {
+              "icon": "edit",
+              "title": "Blog Dashboard",
+            },
+            Object {
+              "icon": "vertical_split",
+              "title": "Blog Posts",
+            },
+            Object {
+              "icon": "note_add",
+              "title": "Add New Post",
+            },
+            Object {
+              "icon": "view_module",
+              "title": "Forms & Components",
+            },
+            Object {
+              "icon": "table_chart",
+              "title": "Tables",
+            },
+            Object {
+              "icon": "person",
+              "title": "User Profile",
+            },
+            Object {
+              "icon": "error",
+              "title": "Errors",
+            },
+          ]
+        }
+      />
+      <styled.main>
+        <Header
+          notifications={12}
+        />
+        <Routes />
+        <Footer />
+      </styled.main>
+    </styled.div>
   </ThemeProvider>
 </div>
 `;
