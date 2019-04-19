@@ -1,7 +1,28 @@
+export const getColor = (color, props) => (
+  props ? props.theme.colors[color] : ({ theme }) => theme.colors[color]
+);
+
+export const getActiveColor = (color, props) => (
+  props ? props.theme.colors.activeColors[color] : ({ theme }) => theme.colors.activeColors[color]
+);
+
+export const getHoverColor = (color, props) => (
+  props ? props.theme.colors.hoverColors[color] : ({ theme }) => theme.colors.hoverColors[color]
+);
+
+export const getHoverShadowColor = (color, props) => (
+  props ? props.theme.shadows.hover[color] : ({ theme }) => theme.shadows.hover[color]
+);
+
+export const getFocusShadowColor = (color, props) => (
+  props ? props.theme.shadows.focus[color] : ({ theme }) => theme.shadows.focus[color]
+);
+
 export default {
   colors: {
     background: '#F2F2F2',
     text: '#5a6169',
+    icon: '#abb6bf',
     lightGrey: '#e9ecef',
     darkGrey: '#becad6',
     border: '#e1e5eb',
@@ -17,6 +38,7 @@ export default {
     java: '#1adba2',
     salmon: '#ff4169',
     hoverColors: {
+      lightGrey: '#e9ecef',
       primary: '#006fe6',
       secondary: '#4e545b',
       success: '#14af64',
@@ -28,10 +50,12 @@ export default {
       royalBlue: '#5337ea',
       java: '#17c491',
       salmon: '#ff2855',
+      border: '#b3bdcc',
     },
     activeColors: {
       primary: '#0062cc',
       secondary: '#42484e',
+      lightGrey: '#FBFBFB',
       success: '#129857',
       danger: '#97122e',
       warning: '#cc9000',

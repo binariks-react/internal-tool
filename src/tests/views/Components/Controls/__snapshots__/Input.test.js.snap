@@ -1,0 +1,395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input snapshot password input with placeholder 1`] = `
+.c0 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  min-width: 7.5rem;
+}
+
+.c2 {
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+}
+
+.c2:hover {
+  border-color: #b3bdcc;
+}
+
+.c2:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <input
+      class="c2"
+      placeholder="Password"
+      type="password"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input snapshot text input with placeholder 1`] = `
+.c0 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  min-width: 7.5rem;
+}
+
+.c2 {
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+}
+
+.c2:hover {
+  border-color: #b3bdcc;
+}
+
+.c2:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <input
+      class="c2"
+      placeholder="Text"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input snapshot text input with placeholder and falsy condition 1`] = `
+.c0 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  min-width: 7.5rem;
+}
+
+.c2 {
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  border-color: #c4183c;
+  box-shadow: 0 5px 11.5px rgba(196,24,60,.1);
+}
+
+.c2:hover {
+  border-color: #b3bdcc;
+}
+
+.c2:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+.c3 {
+  display: block;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #c4183c;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <input
+      class="c2"
+      placeholder="Input w/ false condition"
+      type="text"
+    />
+  </div>
+  <div
+    class="c3"
+    placeholder="Input w/ false condition"
+    type="text"
+  >
+    Condition is incorrect
+  </div>
+</div>
+`;
+
+exports[`Input snapshot text input with placeholder and icon 1`] = `
+.c0 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  min-width: 7.5rem;
+}
+
+.c4 {
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.c4:hover {
+  border-color: #b3bdcc;
+}
+
+.c4:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  font-size: .8125rem;
+  padding: .375rem .75rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #abb6bf;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  border-radius: .25rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -1px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        @
+      </span>
+    </div>
+    <input
+      class="c4"
+      placeholder="Input w/ icon"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input snapshot text input with placeholder and truthy condition 1`] = `
+.c0 {
+  min-width: 7.5rem;
+  width: 100%;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  min-width: 7.5rem;
+}
+
+.c2 {
+  padding: .4375rem .75rem;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: .8125rem;
+  line-height: 1.5;
+  color: #5a6169;
+  background-color: #ffffff;
+  border: 1px solid #e1e5eb;
+  font-weight: 300;
+  border-radius: .25rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+  border-color: #17c671;
+  box-shadow: 0 5px 11.5px rgba(23,198,113,.1);
+}
+
+.c2:hover {
+  border-color: #b3bdcc;
+}
+
+.c2:focus {
+  color: #5a6169;
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0.313rem 0.719rem rgba(0,123,255,.1),0 0.156rem 0.125rem rgba(0,0,0,.06);
+}
+
+.c3 {
+  display: block;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #17c671;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <input
+      class="c2"
+      placeholder="Input w/ true condition"
+      type="text"
+    />
+  </div>
+  <div
+    class="c3"
+    placeholder="Input w/ true condition"
+    type="text"
+  >
+    Condition is correct
+  </div>
+</div>
+`;
