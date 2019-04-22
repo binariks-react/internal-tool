@@ -31,7 +31,7 @@ const ErrorTitleDiv = styled.div`
   font-size: 50px;
   line-height: normal;
   letter-spacing: -5px;
-  color: #3d5170;
+  color: ${props => props.theme.colors.darkBlue};
 `;
 
 const ErrorMessageDiv = styled.div`
@@ -46,12 +46,14 @@ const ErrorMessageDiv = styled.div`
 `;
 
 const ErrorPage = ({ errorCode, errorTitle, errorMessage, goBack }) => (
+
   <Wrapper>
     <ErrorCodeDiv>{errorCode}</ErrorCodeDiv>
     <ErrorTitleDiv>{errorTitle}</ErrorTitleDiv>
     <ErrorMessageDiv>{errorMessage}</ErrorMessageDiv>
     <Button onClick={goBack} color="primary">Go Back</Button>
   </Wrapper>
+
 );
 
 const defaultProps = {

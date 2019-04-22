@@ -34,6 +34,7 @@ export default {
     dark: '#212529',
     white: '#ffffff',
     royalBlue: '#674eec',
+    darkBlue: '#3d5170',
     java: '#1adba2',
     salmon: '#ff4169',
     hoverColors: {
