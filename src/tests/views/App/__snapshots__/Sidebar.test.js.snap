@@ -45,7 +45,7 @@ exports[`Sidebar with "titles" prop expected to render those panels 1`] = `
   background-color: #e9ecef;
 }
 
-.c4 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -67,12 +67,18 @@ exports[`Sidebar with "titles" prop expected to render those panels 1`] = `
   transition: all .3s;
 }
 
-.c4:hover {
+.c5:hover {
   background-color: #e9ecef;
 }
 
 .c3 {
   margin-right: 10px;
+}
+
+.c4 {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <nav
@@ -94,11 +100,16 @@ exports[`Sidebar with "titles" prop expected to render those panels 1`] = `
       edit
     </i>
     <span>
-      Blog Dashboard
+      <a
+        class="c4"
+        href="/"
+      >
+        Blog Dashboard
+      </a>
     </span>
   </div>
   <div
-    class="c4"
+    class="c5"
     data-test="panel"
   >
     <i
@@ -107,11 +118,16 @@ exports[`Sidebar with "titles" prop expected to render those panels 1`] = `
       vertical_split
     </i>
     <span>
-      Blog Posts
+      <a
+        class="c4"
+        href="/"
+      >
+        Blog Posts
+      </a>
     </span>
   </div>
   <div
-    class="c4"
+    class="c5"
     data-test="panel"
   >
     <i
@@ -120,7 +136,12 @@ exports[`Sidebar with "titles" prop expected to render those panels 1`] = `
       note_add
     </i>
     <span>
-      Add New Post
+      <a
+        class="c4"
+        href="/"
+      >
+        Add New Post
+      </a>
     </span>
   </div>
 </nav>

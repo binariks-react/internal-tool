@@ -121,6 +121,7 @@ exports[`App snapshot 1`] = `
             },
             Object {
               "icon": "error",
+              "route": "/error",
               "title": "Errors",
             },
           ]

@@ -3,7 +3,9 @@ import { ThemeProvider } from 'styled-components';
 import { render, mount } from 'enzyme';
 import theme from 'views/App/theme';
 import Sidebar from 'views/App/Sidebar/Sidebar';
+import { BrowserRouter as Router } from 'react-router-dom';
 import 'jest-styled-components';
+
 
 describe('Sidebar', () => {
   const preventDefault = jest.fn();
@@ -33,9 +35,11 @@ describe('Sidebar', () => {
 
   it('without props expected not to render any panels', () => {
     const sidebar = render(
-      <ThemeProvider theme={theme}>
-        <Sidebar />
-      </ThemeProvider>
+      <Router>
+        <ThemeProvider theme={theme}>
+          <Sidebar />
+        </ThemeProvider>
+      </Router>
     );
 
     const panels = sidebar.find('[data-test="panel"]');
@@ -46,9 +50,11 @@ describe('Sidebar', () => {
   describe('with "titles" prop', () => {
     it('expected to render those panels', () => {
       const sidebar = render(
-        <ThemeProvider theme={theme}>
-          <Sidebar titles={titles} />
-        </ThemeProvider>
+        <Router>
+          <ThemeProvider theme={theme}>
+            <Sidebar titles={titles} />
+          </ThemeProvider>
+        </Router>
       );
 
       const panels = sidebar.find('[data-test="panel"]');
@@ -58,9 +64,11 @@ describe('Sidebar', () => {
 
     it('expected first panel to be selected (have "selected" prop)', () => {
       const sidebar = mount(
-        <ThemeProvider theme={theme}>
-          <Sidebar titles={titles} />
-        </ThemeProvider>
+        <Router>
+          <ThemeProvider theme={theme}>
+            <Sidebar titles={titles} />
+          </ThemeProvider>
+        </Router>
       );
 
       const panel = sidebar.find('[data-test="panel"]').first();
@@ -70,9 +78,11 @@ describe('Sidebar', () => {
 
     it('onClick prop', () => {
       const sidebar = mount(
-        <ThemeProvider theme={theme}>
-          <Sidebar titles={titles} onClick={onClick} />
-        </ThemeProvider>
+        <Router>
+          <ThemeProvider theme={theme}>
+            <Sidebar titles={titles} onClick={onClick} />
+          </ThemeProvider>
+        </Router>
       );
 
       const panel = sidebar.find('[data-test="panel"]').at(1);
@@ -90,9 +100,11 @@ describe('Sidebar', () => {
 
     it('onClick preventDefault = false', () => {
       const sidebar = mount(
-        <ThemeProvider theme={theme}>
-          <Sidebar titles={titles} onClick={onClick} preventDefault={false} />
-        </ThemeProvider>
+        <Router>
+          <ThemeProvider theme={theme}>
+            <Sidebar titles={titles} onClick={onClick} preventDefault={false} />
+          </ThemeProvider>
+        </Router>
       );
 
       const panel = sidebar.find('[data-test="panel"]').at(1);
@@ -105,9 +117,11 @@ describe('Sidebar', () => {
 
     it('onClick stopPropagation = false', () => {
       const sidebar = mount(
-        <ThemeProvider theme={theme}>
-          <Sidebar titles={titles} onClick={onClick} stopPropagation={false} />
-        </ThemeProvider>
+        <Router>
+          <ThemeProvider theme={theme}>
+            <Sidebar titles={titles} onClick={onClick} stopPropagation={false} />
+          </ThemeProvider>
+        </Router>
       );
 
       const panel = sidebar.find('[data-test="panel"]').at(1);
@@ -120,9 +134,11 @@ describe('Sidebar', () => {
 
     it('while clicked on another panel, expected "selected" prop change from false to true', () => {
       const sidebar = mount(
-        <ThemeProvider theme={theme}>
-          <Sidebar titles={titles} onClick={onClick} />
-        </ThemeProvider>
+        <Router history={history}>
+          <ThemeProvider theme={theme}>
+            <Sidebar titles={titles} onClick={onClick} />
+          </ThemeProvider>
+        </Router>
       );
 
       const selectPanel = index => sidebar.find('[data-test="panel"]').at(index);

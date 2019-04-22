@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { getColor, getActiveColor, getHoverColor } from 'views/App/theme';
+import { Link } from 'react-router-dom';
 
 const Wrapper = styled.nav`
   width: 300px;
@@ -36,7 +37,7 @@ const Panel = styled.div.attrs({ 'data-test': 'panel' })`
   background-color: ${({ selected }) => selected ? getActiveColor('lightGrey') : getColor('white')};
   color: ${({ selected }) => selected ? getColor('primary') : getColor('text')};
   transition: all .3s;
-  
+
   &:hover {
     background-color: ${getHoverColor('lightGrey')};
   }
@@ -45,6 +46,18 @@ const Panel = styled.div.attrs({ 'data-test': 'panel' })`
 const Icon = styled.i`
   margin-right: 10px;
 `;
+
+const StyledLink = styled(Link)`
+  color: inherit;
+  text-decoration: none;
+`;
+
+// const StyledLink = styled(Link)`
+//   color: palevioletred;
+//   display: block;
+//   margin: 0.5em 0;
+//   font-family: Helvetica, Arial, sans-serif;
+// `;
 
 
 const Sidebar = ({ titles, onClick, preventDefault, stopPropagation }) => {
@@ -61,7 +74,7 @@ const Sidebar = ({ titles, onClick, preventDefault, stopPropagation }) => {
     <Wrapper className="wrapper">
       <Header>Dashboards</Header>
       {
-        titles.map(({ title, icon }) => {
+        titles.map(({ title, icon, route }) => {
           const key = title.replace(/\s/g, '');
           return (
             <Panel
@@ -72,7 +85,7 @@ const Sidebar = ({ titles, onClick, preventDefault, stopPropagation }) => {
               <Icon className="material-icons">
                 { icon }
               </Icon>
-              <span>{title}</span>
+              <span><StyledLink to={route || '/'}>{title}</StyledLink></span>
             </Panel>
           );
         })
