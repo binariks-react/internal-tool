@@ -46,14 +46,12 @@ const ErrorMessageDiv = styled.div`
 `;
 
 const ErrorPage = ({ errorCode, errorTitle, errorMessage, goBack }) => (
-
   <Wrapper>
     <ErrorCodeDiv>{errorCode}</ErrorCodeDiv>
     <ErrorTitleDiv>{errorTitle}</ErrorTitleDiv>
     <ErrorMessageDiv>{errorMessage}</ErrorMessageDiv>
     <Button onClick={goBack} color="primary">Go Back</Button>
   </Wrapper>
-
 );
 
 const defaultProps = {
