@@ -145,6 +145,7 @@ exports[`Header should be rendered notifications number when prop passed 1`] = `
         "border": "#e1e5eb",
         "danger": "#c4183c",
         "dark": "#212529",
+        "darkBlue": "#3d5170",
         "darkGrey": "#becad6",
         "hoverColors": Object {
           "border": "#b3bdcc",
@@ -932,6 +933,7 @@ exports[`Header should be rendered once and have all elements 1`] = `
         "border": "#e1e5eb",
         "danger": "#c4183c",
         "dark": "#212529",
+        "darkBlue": "#3d5170",
         "darkGrey": "#becad6",
         "hoverColors": Object {
           "border": "#b3bdcc",

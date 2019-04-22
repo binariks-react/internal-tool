@@ -8,5 +8,11 @@ exports[`Routes snapshot 1`] = `
     key="/"
     path="/"
   />
+  <Route
+    component={[Function]}
+    exact={true}
+    key="/error"
+    path="/error"
+  />
 </Switch>
 `;

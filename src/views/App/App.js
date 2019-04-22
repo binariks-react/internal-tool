@@ -8,7 +8,7 @@ import Routes from './Routes/Routes';
 
 const Wrapper = styled.div`
   display: flex;
-  
+
   button + button {
     margin-left: 20px;
   }
@@ -49,6 +49,7 @@ const titles = [
   {
     title: 'Errors',
     icon: 'error',
+    route: '/error',
   },
 ];
 
