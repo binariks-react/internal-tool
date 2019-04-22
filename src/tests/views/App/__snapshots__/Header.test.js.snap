@@ -44,16 +44,6 @@ exports[`Header should be rendered notifications number when prop passed 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-flex-shrink: 1;
-  -ms-flex-negative: 1;
-  flex-shrink: 1;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
   height: 70px;
   line-height: 70px;
   padding-left: 20px;
@@ -239,9 +229,6 @@ exports[`Header should be rendered notifications number when prop passed 1`] = `
                 "
   display: flex;
   align-items: center;
-  flex-shrink: 1;
-  flex-grow: 1;
-  flex-basis: auto;
   height: 70px;
   line-height: 70px;
   padding-left: 20px;
@@ -861,16 +848,6 @@ exports[`Header should be rendered once and have all elements 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-flex-shrink: 1;
-  -ms-flex-negative: 1;
-  flex-shrink: 1;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
   height: 70px;
   line-height: 70px;
   padding-left: 20px;
@@ -1040,9 +1017,6 @@ exports[`Header should be rendered once and have all elements 1`] = `
                 "
   display: flex;
   align-items: center;
-  flex-shrink: 1;
-  flex-grow: 1;
-  flex-basis: auto;
   height: 70px;
   line-height: 70px;
   padding-left: 20px;

@@ -88,7 +88,52 @@ exports[`App snapshot 1`] = `
       }
     }
   >
-    <Routes />
+    <styled.div>
+      <Sidebar
+        onClick={[Function]}
+        preventDefault={true}
+        stopPropagation={true}
+        titles={
+          Array [
+            Object {
+              "icon": "edit",
+              "title": "Blog Dashboard",
+            },
+            Object {
+              "icon": "vertical_split",
+              "title": "Blog Posts",
+            },
+            Object {
+              "icon": "note_add",
+              "title": "Add New Post",
+            },
+            Object {
+              "icon": "view_module",
+              "title": "Forms & Components",
+            },
+            Object {
+              "icon": "table_chart",
+              "title": "Tables",
+            },
+            Object {
+              "icon": "person",
+              "title": "User Profile",
+            },
+            Object {
+              "icon": "error",
+              "title": "Errors",
+            },
+          ]
+        }
+      />
+      <styled.main>
+        <Header
+          notifications={12}
+        />
+        <Routes />
+        <Footer />
+      </styled.main>
+    </styled.div>
   </ThemeProvider>
 </div>
 `;
