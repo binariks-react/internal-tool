@@ -13,13 +13,12 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  //min-height: ${props => props.posts && props.posts.length && props.posts.length > 2 ? 370 : 202}px;
-  height: 100%;
+  height: calc(100% + 90px);
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding: 45px 20px 45px 20px;
-  margin: -40px -20px;
+  padding: 45px 20px 45px 0px;
+  margin: -40px -15x;
   overflow-x: hidden;
   justify-content: ${props => props.posts && props.posts.length === 1 ? 'center' : 'flex-start'};
 `;
@@ -103,7 +102,7 @@ const PostsWrapper = (props) => {
   }, [postIndex]);
   return (
     <Container {...props}>
-      <Wrapper {...props} ref={wrapper}>
+      <Wrapper posts={props.posts} ref={wrapper}>
         {!!props.posts.length && props.posts.length > 2 && props.posts.map((i, index) => (
           <PostBox
             index={index}
