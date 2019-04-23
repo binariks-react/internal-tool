@@ -66,6 +66,7 @@ exports[`Footer should be rendered once and have all elements 1`] = `
           "warning": "#cc9000",
           "white": "#007bff",
         },
+        "background": "#F2F2F2",
         "border": "#e1e5eb",
         "danger": "#c4183c",
         "dark": "#212529",
@@ -99,6 +100,7 @@ exports[`Footer should be rendered once and have all elements 1`] = `
         "white": "#ffffff",
       },
       "shadows": Object {
+        "avatarShadow": "0px 1px 5px rgba(90, 97, 105, 0.5)",
         "focus": Object {
           "danger": "0 0 0 3px rgba(196,24,60,.15),0 3px 15px rgba(196,24,60,.2),0 2px 5px rgba(0,0,0,.1)",
           "dark": "0 0 0 3px rgba(33,37,41,.15),0 3px 15px rgba(33,37,41,.2),0 2px 5px rgba(0,0,0,.1)",
@@ -127,6 +129,8 @@ exports[`Footer should be rendered once and have all elements 1`] = `
           "warning": "0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(255,180,0,.25)",
           "white": "0 0.125rem 0.625rem rgba(129,142,163,.2), 0 0.0625rem 0.125rem rgba(129,142,164,.3)",
         },
+        "postFooter": "inset 0px 1px 0px #E1E5EB;",
+        "postShadow": "0px 7px 70px rgba(90, 97, 105, 0.1), 0px 10px 10px rgba(90, 97, 105, 0.06), 0px 4px 8px rgba(90, 97, 105, 0.12), 0px 2px 0px rgba(90, 97, 105, 0.11)",
       },
     }
   }

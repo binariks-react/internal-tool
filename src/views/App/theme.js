@@ -20,6 +20,7 @@ export const getFocusShadowColor = (color, props) => (
 
 export default {
   colors: {
+    background: '#F2F2F2',
     text: '#5a6169',
     icon: '#abb6bf',
     lightGrey: '#e9ecef',
@@ -67,6 +68,9 @@ export default {
     },
   },
   shadows: {
+    postShadow: '0px 7px 70px rgba(90, 97, 105, 0.1), 0px 10px 10px rgba(90, 97, 105, 0.06), 0px 4px 8px rgba(90, 97, 105, 0.12), 0px 2px 0px rgba(90, 97, 105, 0.11)',
+    avatarShadow: '0px 1px 5px rgba(90, 97, 105, 0.5)',
+    postFooter: 'inset 0px 1px 0px #E1E5EB;',
     hover: {
       primary: '0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(0,123,255,.25)',
       secondary: '0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(90,97,105,.25)',
